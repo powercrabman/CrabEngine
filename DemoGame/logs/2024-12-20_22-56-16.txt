@@ -1,0 +1,24 @@
+[2024-12-20 22:56:16] [info] Log initialize done.
+[2024-12-20 22:56:16] [info] Engine initialize done.
+[2024-12-20 22:56:16] [info] image file load done "sampleTexture"
+[2024-12-20 22:56:18] [debug] Hello world!
+[2024-12-20 22:56:18] [debug] Hello world!
+[2024-12-20 22:56:18] [debug] Hello world!
+[2024-12-20 22:56:22] [debug] Hello world!
+[2024-12-20 22:56:22] [debug] Hello world!
+[2024-12-20 22:56:22] [debug] Hello world!
+[2024-12-20 22:56:24] [debug] Hello world!
+[2024-12-20 22:56:24] [debug] Hello world!
+[2024-12-20 22:56:24] [debug] Hello world!
+[2024-12-20 22:56:26] [debug] Hello world!
+[2024-12-20 22:56:26] [debug] Hello world!
+[2024-12-20 22:56:26] [debug] Hello world!
+[2024-12-20 22:56:27] [debug] Hello world!
+[2024-12-20 22:56:27] [debug] Hello world!
+[2024-12-20 22:56:27] [debug] Hello world!
+[2024-12-20 22:56:28] [debug] Hello world!
+[2024-12-20 22:56:28] [debug] Hello world!
+[2024-12-20 22:56:28] [debug] Hello world!
+[2024-12-20 22:56:32] [debug] Hello world!
+[2024-12-20 22:56:32] [debug] Hello world!
+[2024-12-20 22:56:32] [debug] Hello world!

@@ -1,0 +1,4 @@
+[2024-12-20 11:43:55] [info] Log initialize done.
+[2024-12-20 11:43:55] [info] Engine initialize done.
+[2024-12-20 11:44:11] [debug] Enter Key Pressed
+[2024-12-20 11:44:17] [debug] Enter Key Pressed

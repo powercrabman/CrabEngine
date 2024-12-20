@@ -1,0 +1,7 @@
+[2024-12-20 12:21:17] [info] Log initialize done.
+[2024-12-20 12:21:18] [info] Engine initialize done.
+[2024-12-20 12:21:18] [info] image file load done "sampleTexture"
+[2024-12-20 12:21:18] [error] C:\Users\Ahnjiwoo\Desktop\Projects\DemoGame\Shader@0x00007FF70E60ECE0(20,13-19): error X3000: syntax error: unexpected token 'texture'
+
+[2024-12-20 12:21:18] [error] Shader Compile fail!
+[2024-12-20 12:21:20] [error] vertex shader creation fail

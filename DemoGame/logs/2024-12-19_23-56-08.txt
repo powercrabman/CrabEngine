@@ -1,0 +1,7 @@
+[2024-12-19 23:56:08] [info] Log initialize done.
+[2024-12-19 23:56:09] [info] Engine initialize done.
+[2024-12-19 23:56:09] [error] C:\Users\Ahnjiwoo\Desktop\Projects\DemoGame\Shader@0x00007FF7835E1EF0(16,24): error X3000: syntax error: unexpected token '}'
+C:\Users\Ahnjiwoo\Desktop\Projects\DemoGame\Shader@0x00007FF7835E1EF0(19,5-18): error X3079: 'VSmain': void functions cannot return a value
+
+[2024-12-19 23:56:09] [error] Shader Compile fail!
+[2024-12-19 23:56:19] [error] vertex shader creation fail

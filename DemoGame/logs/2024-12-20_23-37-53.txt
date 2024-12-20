@@ -1,0 +1,3 @@
+[2024-12-20 23:37:53] [info] Log initialize done.
+[2024-12-20 23:37:54] [info] Engine initialize done.
+[2024-12-20 23:37:54] [info] image file load done "sampleTexture"

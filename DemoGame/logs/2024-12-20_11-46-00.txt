@@ -1,0 +1,12 @@
+[2024-12-20 11:46:00] [info] Log initialize done.
+[2024-12-20 11:46:00] [info] Engine initialize done.
+[2024-12-20 11:46:04] [debug] Enter Key Pressed
+[2024-12-20 11:46:04] [debug] fps is %.3f
+[2024-12-20 11:46:04] [debug] Enter Key Pressed
+[2024-12-20 11:46:04] [debug] fps is %.3f
+[2024-12-20 11:46:05] [debug] Enter Key Pressed
+[2024-12-20 11:46:05] [debug] fps is %.3f
+[2024-12-20 11:46:05] [debug] Enter Key Pressed
+[2024-12-20 11:46:05] [debug] fps is %.3f
+[2024-12-20 11:46:05] [debug] Enter Key Pressed
+[2024-12-20 11:46:05] [debug] fps is %.3f
