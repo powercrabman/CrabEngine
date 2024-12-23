@@ -42,7 +42,7 @@ namespace crab
 
 		virtual void				SetCameraData(const CBCamera& in_data) = 0;
 
-		virtual void				SetRenderTarget(const Ref<IRenderTarget>& in_renderTarget) = 0;
+		virtual void				BindRenderTarget(const Ref<IRenderTarget>& in_renderTarget) = 0;
 		virtual Ref<IRenderTarget>	GetRenderTarget() const = 0;
 	};
 }

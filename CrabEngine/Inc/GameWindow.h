@@ -11,13 +11,14 @@ namespace crab
 		GameWindow() = default;
 		~GameWindow();
 
-		/* position À» ¸í½ÃÀûÀ¸·Î ¼³Á¤ÇÏÁö ¾ÊÀ» °æ¿ì À©µµ¿ì Áß¾Ó Á¤·Ä*/
+		/* position ì„ ëª…ì‹œì ìœ¼ë¡œ ì„¤ì •í•˜ì§€ ì•Šì„ ê²½ìš° ìœˆë„ìš° ì¤‘ì•™ ì •ë ¬*/
 		bool Init(
-			const std::string_view in_title = "cmEngine",
-			const int in_positionX = 0,
-			const int in_positionY = 0,
-			const int in_width = 800,
-			const int in_height = 600
+			const std::string_view	in_title,
+			const int				in_positionX,
+			const int				in_positionY,
+			const int				in_width,
+			const int				in_height,
+			const bool				in_useCustomTitlebar
 		);
 
 		void ResizeWindow(const int in_width, const int in_height)
@@ -51,6 +52,8 @@ namespace crab
 
 		SDL_Window* GetSDLWindow() const { return m_window; }
 		void*		GetNativeWindow() const;
+
+		constexpr inline static float s_menubarHeight = 50.f;
 
 	private:
 		SDL_Window* m_window = nullptr;

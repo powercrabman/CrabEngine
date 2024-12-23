@@ -8,11 +8,54 @@ namespace crab
 	void DX11RenderTarget::_create_(const RenderTargetProp& in_prop)
 	{
 		auto device = static_cast<DX11RenderAPI*>(Renderer::GetRenderAPI())->GetDevice();
-		auto tex = static_pointer_cast<DX11Texture>(in_prop.baseTexture)->GetDX11Texture();
 
-		DX_ASSERT(device->CreateRenderTargetView(tex.Get(), nullptr, &m_rtv), "Create rendertargetview fail.");
-		DX_ASSERT(device->CreateDepthStencilView(tex.Get(), nullptr, &m_dsv), "Create depthstencilview fail.");
-		DX_ASSERT(device->CreateShaderResourceView(tex.Get(), nullptr, &m_srv), "Create shaderresourceview fail.");
+		::ComPtr<ID3D11Texture2D> texture;
+
+		// RTV
+		D3D11_TEXTURE2D_DESC texDesc = {};
+		texDesc.Width = in_prop.width;
+		texDesc.Height = in_prop.height;
+		texDesc.MipLevels = 1;
+		texDesc.ArraySize = 1;
+		texDesc.Format = DXGI_FORMAT_R8G8B8A8_UNORM;
+		texDesc.SampleDesc.Count = 1;
+		texDesc.SampleDesc.Quality = 0;
+		texDesc.Usage = D3D11_USAGE_DEFAULT;
+		texDesc.BindFlags = D3D11_BIND_RENDER_TARGET | D3D11_BIND_SHADER_RESOURCE;
+		texDesc.CPUAccessFlags = 0;
+		texDesc.MiscFlags = 0;
+		DX_ASSERT(device->CreateTexture2D(&texDesc, nullptr, &texture), "Create Texture failed.");
+
+		D3D11_RENDER_TARGET_VIEW_DESC rtvDesc = {};
+		rtvDesc.Format = DXGI_FORMAT_R8G8B8A8_UNORM;
+		rtvDesc.ViewDimension = D3D11_RTV_DIMENSION_TEXTURE2D;
+		rtvDesc.Texture2D.MipSlice = 0;
+		DX_ASSERT(device->CreateRenderTargetView(texture.Get(), &rtvDesc, &m_rtv), "Create Render Target View failed.");
+
+		// DSV
+		D3D11_TEXTURE2D_DESC depthStencilDesc = {};
+		depthStencilDesc.Width                = in_prop.width;
+		depthStencilDesc.Height               = in_prop.height;
+		depthStencilDesc.MipLevels            = 1;
+		depthStencilDesc.ArraySize            = 1;
+		depthStencilDesc.Format               = DXGI_FORMAT_D24_UNORM_S8_UINT;
+		depthStencilDesc.SampleDesc.Quality   = 0;
+		depthStencilDesc.SampleDesc.Count     = 1;
+		depthStencilDesc.Usage                = D3D11_USAGE_DEFAULT;
+		depthStencilDesc.BindFlags            = D3D11_BIND_DEPTH_STENCIL;
+
+		::ComPtr<ID3D11Texture2D> depthStencil;
+		DX_ASSERT(device->CreateTexture2D(&depthStencilDesc, nullptr, depthStencil.GetAddressOf()), "Failed to create Depth Stencil");
+		DX_ASSERT(device->CreateDepthStencilView(depthStencil.Get(), nullptr, m_dsv.GetAddressOf()), "Failed to create Depth Stencil");
+
+		// SRV
+		D3D11_SHADER_RESOURCE_VIEW_DESC srvDesc = {};
+		srvDesc.Format = DXGI_FORMAT_R8G8B8A8_UNORM;
+		srvDesc.ViewDimension = D3D11_SRV_DIMENSION_TEXTURE2D;
+		srvDesc.Texture2D.MostDetailedMip = 0;
+		srvDesc.Texture2D.MipLevels = 1;
+		DX_ASSERT(device->CreateShaderResourceView(texture.Get(), &srvDesc, &m_srv), "Create Shader Resource View failed.");
+
 
 		SetViewport(
 			in_prop.positionX,
@@ -27,13 +70,18 @@ namespace crab
 	void DX11RenderTarget::SetViewport(float in_positionX, float in_positionY, float in_width, float in_height, float in_depthMin, float in_depthMax)
 	{
 		m_viewport = D3D11_VIEWPORT{
-			.TopLeftX = in_positionX,
-			.TopLeftY = in_positionY,
-			.Width = in_width,
-			.Height = in_height,
-			.MinDepth = in_depthMin,
-			.MaxDepth = in_depthMax
+			in_positionX,
+			in_positionY,
+			in_width,
+			in_height,
+			in_depthMin,
+			in_depthMax
 		};
+	}
+
+	void* DX11RenderTarget::GetTexture() const
+	{
+		return m_srv.Get();
 	}
 
 	Ref<DX11RenderTarget> DX11RenderTarget::CreateBySwapChain()
@@ -89,8 +137,31 @@ namespace crab
 		return rtv;
 	}
 
-	void DX11RenderTarget::OnResize(const int in_width, const int in_height)
+	ComPtr<ID3D11RenderTargetView> DX11RenderTarget::GetRenderTargetView() const
 	{
-		// TODO
+		return m_rtv;
 	}
+
+	ComPtr<ID3D11DepthStencilView> DX11RenderTarget::GetDepthStencilView() const
+	{
+		return m_dsv;
+	}
+
+	D3D11_VIEWPORT DX11RenderTarget::GetViewport() const
+	{
+		return m_viewport;
+	}
+
+	void DX11RenderTarget::Clear(const Vec4& in_clearColor, bool in_clearDepth, bool in_clearStencil)
+	{
+		auto context = static_cast<DX11RenderAPI*>(Renderer::GetRenderAPI())->GetContext();
+
+		context->ClearRenderTargetView(m_rtv.Get(), &in_clearColor.x);
+
+		UINT flag = 0;
+		flag |= in_clearDepth ? D3D11_CLEAR_DEPTH : 0;
+		flag |= in_clearStencil ? D3D11_CLEAR_STENCIL : 0;
+		context->ClearDepthStencilView(m_dsv.Get(), flag, 1.f, 0);
+	}
+
 }

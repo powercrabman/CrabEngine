@@ -1,5 +1,6 @@
 #include "CrabEnginePch.h"
 #include "Log.h"
+#include <sstream>
 
 namespace crab
 {
@@ -17,7 +18,7 @@ namespace crab
 		std::tm local_time{};
 		localtime_s(&local_time, &current_time);
 
-		std::ostringstream oss;
+		std::ostringstream oss = {};
 		oss << "logs/" << std::put_time(&local_time, "%Y-%m-%d_%H-%M-%S") << ".txt";
 
 		// 파일 싱크
@@ -40,12 +41,7 @@ namespace crab
 		spdlog::register_logger(m_logger);
 
 		// 로그 레벨 설정
-#ifdef _DEBUG
-		SetLogLevel(eLogLevel::Debug);
-#else
 		SetLogLevel(eLogLevel::Trace);
-#endif
-
 		Log::Info("Log initialize done.");
 
 	}

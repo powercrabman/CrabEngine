@@ -56,7 +56,7 @@ public:
 
 	bool				empty() const { return m_front == m_rear; }
 	bool				full() const { return (m_rear + 1) % SIZE == m_front; }
-	consteval uint32	capacity() const { return SIZE; }
+	constexpr uint32	capacity() const { return SIZE; }
 
 	uint32 size() const
 	{

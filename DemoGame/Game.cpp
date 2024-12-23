@@ -9,12 +9,13 @@ public:
 	crab::ApplicationProp SetupApplication(const int in_argc, char* const* in_argv) override
 	{
 		crab::ApplicationProp prop = {};
-		prop.applcationName = "DemoGame";
-		prop.renderingAPI = crab::eRenderAPI::DirectX11;
-		prop.windowWidth = 1280;
-		prop.windowHeight = 720;
-		prop.windowPositionX = 100;
-		prop.windowPositionY = 50;
+		prop.applcationName        = "DemoGame";
+		prop.renderingAPI          = crab::eRenderAPI::DirectX11;
+		prop.windowWidth           = 1920;
+		prop.windowHeight          = 1080;
+		prop.windowPositionX       = 100;
+		prop.windowPositionY       = 50;
+		prop.enableEditor          = true;
 
 		return prop;
 	}

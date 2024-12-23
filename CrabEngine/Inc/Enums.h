@@ -65,4 +65,12 @@ namespace crab
 		TransformSlot = 0,
 		CameraSlot    = 1
 	};
+
+	enum class eRunType
+	{
+		Runtime,
+		Edit,
+		SimulatePlay,
+		SimulateStop,
+	};
 }

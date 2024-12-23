@@ -35,7 +35,7 @@ namespace crab
 
 		void				SetCameraData(const CBCamera& in_data) override { m_cameraData = in_data; }
 
-		void				SetRenderTarget(const Ref<IRenderTarget>& in_renderTarget) override;
+		void				BindRenderTarget(const Ref<IRenderTarget>& in_renderTarget) override;
 		Ref<IRenderTarget>	GetRenderTarget() const override;
 
 

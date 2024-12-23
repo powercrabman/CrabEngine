@@ -5,14 +5,18 @@
 
 namespace crab
 {
+	class Editor;
+
 	class CrabEngine : public Singleton<CrabEngine>
 	{
 		friend class Application;
 		friend class Singleton<CrabEngine>;
 
 	public:
-		GameWindow& GetWindow() { return m_gameWindow; }
-		void		DispatchEvent(IEvent& in_event);
+		void				DispatchEvent(IEvent& in_event);
+
+		GameWindow&			GetWindow() { return m_gameWindow; }
+		std::string_view	GetApplicationName() const { return m_appName; };
 
 	private:
 		CrabEngine();
@@ -27,7 +31,14 @@ namespace crab
 		void		_handle_window_event_(const SDL_Event& in_event);
 		void		_on_event_(IEvent& in_event);
 
-		GameWindow	m_gameWindow;
-		bool m_isRunning = false;
+		void		_editor_rendering_loop_(float in_deltaTime);
+		void		_runtime_rendering_loop_(float in_deltaTime) const;
+
+		GameWindow		m_gameWindow;
+		Scope<Editor>	m_editor;
+
+		bool			m_isRunning = false;
+		Vec4			m_clearColor = Color::BLACK;
+		std::string		m_appName = {};
 	};
 }

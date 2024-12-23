@@ -3,21 +3,24 @@
 namespace crab
 {
 #define EVENT_IMPLEMENT(EventType) \
-	const char* ToString() override {return #EventType;}\
 	eEventType	GetType() override {return eEventType::EventType;}\
-	inline static eEventType StaticType = eEventType::EventType
+	inline static eEventType StaticType = eEventType::EventType;\
+	inline static const char* EventString = #EventType
 
 	enum class eEventType
 	{
 		AppShutdownEvent,
 		AppCloseEvent,
 		WindowResizeEvent,
+		MouseClickEvent,
+		SetRunTypeEvent,
+		NextFrameInSimulateEvent
 	};
 
 	class IEvent
 	{
 	public:
-		virtual const char* ToString() = 0;
+		virtual std::string ToString() = 0;
 		virtual eEventType	GetType() = 0;
 
 		bool m_isHandled = false;
@@ -27,6 +30,10 @@ namespace crab
 	{
 	public:
 		EVENT_IMPLEMENT(WindowResizeEvent);
+		std::string ToString() override
+		{
+			return fmt::format("{} : ({}, {})", EventString, m_width, m_height);
+		}
 
 		uint32 m_width;
 		uint32 m_height;
@@ -35,13 +42,86 @@ namespace crab
 	class AppShutdownEvent : public IEvent
 	{
 	public:
+		std::string ToString() { return EventString; }
+
 		EVENT_IMPLEMENT(AppShutdownEvent);
 	};
 
 	class AppCloseEvent : public IEvent
 	{
 	public:
+		std::string ToString() { return EventString; }
+
 		EVENT_IMPLEMENT(AppCloseEvent);
+	};
+
+	enum class eMouse
+	{
+		Left = 1,
+		Middle,
+		Right
+	};
+
+	constexpr const char* ToString(eMouse in_e)
+	{
+		switch (in_e)
+		{
+		case crab::eMouse::Left:   return "Left";
+		case crab::eMouse::Middle: return "Middle";
+		case crab::eMouse::Right:  return "Right";
+		default: assert(false); return "";
+		}
+	}
+
+	class MouseClickEvent : public IEvent
+	{
+	public:
+		std::string ToString()
+		{
+			return fmt::format("{} : {} Click -> ({}, {})", EventString, crab::ToString(m_mouseMode), m_x, m_y);
+		}
+
+		EVENT_IMPLEMENT(MouseClickEvent);
+
+		eMouse m_mouseMode = {};
+		uint32 m_x;
+		uint32 m_y;
+	};
+
+	constexpr const char* ToString(eRunType in_mode)
+	{
+		switch (in_mode)
+		{
+		case crab::eRunType::Runtime:	   return "Runtime";
+		case crab::eRunType::Edit:		   return "Edit";
+		case crab::eRunType::SimulatePlay: return "Simulate Play";
+		case crab::eRunType::SimulateStop: return "Simulate Stop";
+		default: assert(false); return "";
+		}
+	}
+
+	class SetRunTypeEvent : public IEvent
+	{
+	public:
+		std::string ToString()
+		{
+			return fmt::format("{} : {}", EventString, crab::ToString(m_runType));
+		}
+
+		EVENT_IMPLEMENT(SetRunTypeEvent);
+
+		eRunType m_runType;
+	};
+
+	class NextFrameInSimulateEvent : public IEvent
+	{
+	public:
+		std::string ToString()
+		{
+			return EventString;
+		}
+
+		EVENT_IMPLEMENT(NextFrameInSimulateEvent);
 	};
 }
 

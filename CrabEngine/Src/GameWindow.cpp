@@ -12,21 +12,25 @@ namespace crab
 	}
 
 	bool GameWindow::Init(
-		const std::string_view in_title /*= "cmEngine"*/,
-		const int in_positionX /*= 0*/,
-		const int in_positionY /*= 0*/,
-		const int in_width /*= 800*/,
-		const int in_height /*= 600 */
+		const std::string_view	in_title,
+		const int				in_positionX,
+		const int				in_positionY,
+		const int				in_width,
+		const int				in_height,
+		const bool				in_useCustomTitlebar
 	)
 	{
+		// 입력에 따른 처리
 		const int positionX = (in_positionX == 0) ? SDL_WINDOWPOS_CENTERED : in_positionX;
 		const int positionY = (in_positionY == 0) ? SDL_WINDOWPOS_CENTERED : in_positionY;
+
+		Uint32 flag = SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE;
 
 		m_window = SDL_CreateWindow(
 			in_title.data(),
 			positionX, positionY,
 			in_width, in_height,
-			SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE
+			flag
 		);
 
 		if (!m_window)

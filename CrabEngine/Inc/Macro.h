@@ -14,3 +14,6 @@
 #define BIND_FN_CALLBACK_ARG3(object, method)    std::bind(&method, object, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3)
 
 #define BIT(x) (1 << x)
+
+#define ASSET_MANAGER	AssetManager::Get()
+#define CRAB_ENGINE		CrabEngine::Get()

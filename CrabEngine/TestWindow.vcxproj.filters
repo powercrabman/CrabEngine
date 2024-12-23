@@ -52,17 +52,8 @@
     <Filter Include="05. Input &amp; Timer">
       <UniqueIdentifier>{0fad73b1-430d-4b4d-9761-6fa9bdddf63d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="08. Entity">
-      <UniqueIdentifier>{7d026aaf-06bd-4e78-bde5-9790d011ffba}</UniqueIdentifier>
-    </Filter>
     <Filter Include="07. Scene">
       <UniqueIdentifier>{bd572461-c547-4104-8546-7555eb46071a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="09. Component">
-      <UniqueIdentifier>{6c998b1b-8cc8-4c0c-918d-6ee384dd5422}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="10. System">
-      <UniqueIdentifier>{2fe5047a-9909-4704-802a-74423f26a5e3}</UniqueIdentifier>
     </Filter>
     <Filter Include="06. Renderer\Resource\ConstantBuffer">
       <UniqueIdentifier>{fd798c42-fa15-4f4b-bfbc-b71957d9bc16}</UniqueIdentifier>
@@ -82,14 +73,38 @@
     <Filter Include="06. Renderer\Resource\Geometry\VertexBuffer">
       <UniqueIdentifier>{77462967-302c-46c5-9512-1474b10341f1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="11. ImGui">
-      <UniqueIdentifier>{d1bf7b16-be65-459b-a24b-3cb47f87b929}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="11. ImGui\Platform">
-      <UniqueIdentifier>{519da3bc-d770-4cfa-b498-491bc7d07109}</UniqueIdentifier>
-    </Filter>
     <Filter Include="06. Renderer\Resource\RenderState">
       <UniqueIdentifier>{2b64209c-8943-4da1-80d5-96f689882e2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09. Entity">
+      <UniqueIdentifier>{7d026aaf-06bd-4e78-bde5-9790d011ffba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10. Component">
+      <UniqueIdentifier>{6c998b1b-8cc8-4c0c-918d-6ee384dd5422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11. System">
+      <UniqueIdentifier>{2fe5047a-9909-4704-802a-74423f26a5e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12. ImGui">
+      <UniqueIdentifier>{d1bf7b16-be65-459b-a24b-3cb47f87b929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12. ImGui\Platform">
+      <UniqueIdentifier>{519da3bc-d770-4cfa-b498-491bc7d07109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. Asset">
+      <UniqueIdentifier>{254efa75-d4f9-4658-af9e-e8de18be041b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="13. Editor">
+      <UniqueIdentifier>{9345b35e-26d2-4cfd-92ac-fee6388a0329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12. ImGui\Helper">
+      <UniqueIdentifier>{e7ed75f9-475e-467d-a0a2-4d2e57562644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="13. Editor\Panel">
+      <UniqueIdentifier>{d43fd012-6541-4e38-8fff-7fbd0179b81e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. JsonSerializer">
+      <UniqueIdentifier>{daa74f08-b393-479f-9d95-2b3f5c35216d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -196,7 +211,7 @@
       <Filter>07. Scene</Filter>
     </ClInclude>
     <ClInclude Include="Entity.h">
-      <Filter>08. Entity</Filter>
+      <Filter>09. Entity</Filter>
     </ClInclude>
     <ClInclude Include="EventDispatcher.h">
       <Filter>04. Event</Filter>
@@ -223,16 +238,16 @@
       <Filter>06. Renderer</Filter>
     </ClInclude>
     <ClInclude Include="ImGuiInclude.h">
-      <Filter>11. ImGui</Filter>
+      <Filter>12. ImGui</Filter>
     </ClInclude>
     <ClInclude Include="ImGuiRenderer.h">
-      <Filter>11. ImGui</Filter>
+      <Filter>12. ImGui</Filter>
     </ClInclude>
     <ClInclude Include="IImGuiAPI.h">
-      <Filter>11. ImGui\Platform</Filter>
+      <Filter>12. ImGui\Platform</Filter>
     </ClInclude>
     <ClInclude Include="DX11ImGuiAPI.h">
-      <Filter>11. ImGui\Platform</Filter>
+      <Filter>12. ImGui\Platform</Filter>
     </ClInclude>
     <ClInclude Include="IRenderState.h">
       <Filter>06. Renderer\Resource\RenderState</Filter>
@@ -248,6 +263,39 @@
     </ClInclude>
     <ClInclude Include="ConstantBufferStruct.h">
       <Filter>06. Renderer\Resource\ConstantBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor.h">
+      <Filter>13. Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="ImWindow.h">
+      <Filter>12. ImGui\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="CrabColor.h">
+      <Filter>99. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ImStyle.h">
+      <Filter>12. ImGui\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="ImImage.h">
+      <Filter>12. ImGui\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="ImOp.h">
+      <Filter>12. ImGui\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.h">
+      <Filter>08. Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewportPanel.h">
+      <Filter>13. Editor\Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="ImHelper.h">
+      <Filter>12. ImGui\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonSerializer.h">
+      <Filter>97. JsonSerializer</Filter>
+    </ClInclude>
+    <ClInclude Include="SerializerHelper.h">
+      <Filter>97. JsonSerializer</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -332,7 +380,7 @@
       <Filter>07. Scene</Filter>
     </ClCompile>
     <ClCompile Include="Entity.cpp">
-      <Filter>08. Entity</Filter>
+      <Filter>09. Entity</Filter>
     </ClCompile>
     <ClCompile Include="EventDispatcher.cpp">
       <Filter>04. Event</Filter>
@@ -356,13 +404,13 @@
       <Filter>06. Renderer\Resource\Geometry</Filter>
     </ClCompile>
     <ClCompile Include="ImGuiRenderer.cpp">
-      <Filter>11. ImGui</Filter>
+      <Filter>12. ImGui</Filter>
     </ClCompile>
     <ClCompile Include="IImGuiAPI.cpp">
-      <Filter>11. ImGui\Platform</Filter>
+      <Filter>12. ImGui\Platform</Filter>
     </ClCompile>
     <ClCompile Include="DX11ImGuiAPI.cpp">
-      <Filter>11. ImGui\Platform</Filter>
+      <Filter>12. ImGui\Platform</Filter>
     </ClCompile>
     <ClCompile Include="IRenderState.cpp">
       <Filter>06. Renderer\Resource\RenderState</Filter>
@@ -378,6 +426,39 @@
     </ClCompile>
     <ClCompile Include="ConstantBufferStruct.cpp">
       <Filter>06. Renderer\Resource\ConstantBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor.cpp">
+      <Filter>13. Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="ImWindow.cpp">
+      <Filter>12. ImGui\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="CrabColor.cpp">
+      <Filter>99. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ImStyle.cpp">
+      <Filter>12. ImGui\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="ImImage.cpp">
+      <Filter>12. ImGui\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="ImOp.cpp">
+      <Filter>12. ImGui\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>08. Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewportPanel.cpp">
+      <Filter>13. Editor\Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="ImHelper.cpp">
+      <Filter>12. ImGui\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonSerializer.cpp">
+      <Filter>97. JsonSerializer</Filter>
+    </ClCompile>
+    <ClCompile Include="SerializerHelper.cpp">
+      <Filter>97. JsonSerializer</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

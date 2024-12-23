@@ -122,8 +122,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp20</LanguageStandard>
-      <LanguageStandard_C>stdclatest</LanguageStandard_C>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
       <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>CrabEnginePch.h</PrecompiledHeaderFile>
@@ -162,8 +162,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AssetManager.h" />
+    <ClInclude Include="CrabColor.h" />
     <ClInclude Include="ConstantBufferStruct.h" />
     <ClInclude Include="DX11ConstantBuffer.h" />
+    <ClInclude Include="Editor.h" />
     <ClInclude Include="IConstantBuffer.h" />
     <ClInclude Include="DX11ImGuiAPI.h" />
     <ClInclude Include="DX11IndexBuffer.h" />
@@ -176,6 +179,11 @@
     <ClInclude Include="Geometry.h" />
     <ClInclude Include="IImGuiAPI.h" />
     <ClInclude Include="ImGuiRenderer.h" />
+    <ClInclude Include="ImHelper.h" />
+    <ClInclude Include="ImImage.h" />
+    <ClInclude Include="ImOp.h" />
+    <ClInclude Include="ImStyle.h" />
+    <ClInclude Include="ImWindow.h" />
     <ClInclude Include="Inc\Application.h" />
     <ClInclude Include="Inc\CircularQueue.h" />
     <ClInclude Include="Inc\DX11RenderAPI.h" />
@@ -208,15 +216,21 @@
     <ClInclude Include="Inc\TypeID.h" />
     <ClInclude Include="IRenderState.h" />
     <ClInclude Include="IShader.h" />
+    <ClInclude Include="JsonSerializer.h" />
     <ClInclude Include="LayoutElement.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="SceneManager.h" />
     <ClInclude Include="RendererSingleInclude.h" />
     <ClInclude Include="ImGuiInclude.h" />
+    <ClInclude Include="SerializerHelper.h" />
+    <ClInclude Include="ViewportPanel.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AssetManager.cpp" />
+    <ClCompile Include="CrabColor.cpp" />
     <ClCompile Include="ConstantBufferStruct.cpp" />
     <ClCompile Include="DX11ConstantBuffer.cpp" />
+    <ClCompile Include="Editor.cpp" />
     <ClCompile Include="IConstantBuffer.cpp" />
     <ClCompile Include="DX11ImGuiAPI.cpp" />
     <ClCompile Include="DX11IndexBuffer.cpp" />
@@ -229,11 +243,18 @@
     <ClCompile Include="Geometry.cpp" />
     <ClCompile Include="IImGuiAPI.cpp" />
     <ClCompile Include="ImGuiRenderer.cpp" />
+    <ClCompile Include="ImHelper.cpp" />
+    <ClCompile Include="ImImage.cpp" />
+    <ClCompile Include="ImOp.cpp" />
+    <ClCompile Include="ImStyle.cpp" />
+    <ClCompile Include="ImWindow.cpp" />
     <ClCompile Include="IRenderState.cpp" />
     <ClCompile Include="IShader.cpp" />
+    <ClCompile Include="JsonSerializer.cpp" />
     <ClCompile Include="LayoutElement.cpp" />
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="SerializerHelper.cpp" />
     <ClCompile Include="Src\Application.cpp" />
     <ClCompile Include="Src\CircularQueue.cpp" />
     <ClCompile Include="Src\DX11RenderAPI.cpp" />
@@ -245,6 +266,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="Src\TypeID.cpp" />
+    <ClCompile Include="ViewportPanel.cpp" />
     <ClInclude Include="Inc\EntryPoint.h" />
     <ClCompile Include="Src\GameWindow.cpp" />
     <ClCompile Include="Src\IIndexBuffer.cpp" />

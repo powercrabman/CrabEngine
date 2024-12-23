@@ -10,10 +10,12 @@ namespace crab
 		int windowPositionX = 0;
 		int windowPositionY = 0;
 
-		int windowWidth = 800;
+		int windowWidth  = 800;
 		int windowHeight = 600;
 
-		eRenderAPI renderingAPI = eRenderAPI::OpenGL;
+		eRenderAPI	renderingAPI = eRenderAPI::OpenGL;
+
+		bool		enableEditor = false; // run only debug build
 	};
 
 	class Application

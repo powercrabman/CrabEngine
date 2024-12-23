@@ -10,3 +10,9 @@
 #include "backends/imgui_impl_sdl2.h"
 #include "backends/imgui_impl_opengl3.h"
 #include "backends/imgui_impl_opengl3_loader.h"
+
+#include "ImOp.h"
+#include "ImWindow.h"
+#include "ImStyle.h"
+#include "ImImage.h"
+#include "ImHelper.h"

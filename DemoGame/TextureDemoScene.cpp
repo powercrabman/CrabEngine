@@ -61,10 +61,4 @@ void TextureDemoScene::OnRender(float in_deltaTime)
 
 void TextureDemoScene::OnImGuiRender(float in_deltaTime)
 {
-	ImGui::Begin("Inspector");
-	ImGui::DragFloat3("Position", (float*)&m_position, 0.01f, -1.f, 1.f);
-	ImGui::DragFloat3("Rotation", (float*)&m_rot, 0.001f, -crab::math::PI, crab::math::PI);
-	ImGui::DragFloat3("Scale", (float*)&m_scale, 0.01f, 0.001f, 5.f);
-
-	ImGui::End();
 }

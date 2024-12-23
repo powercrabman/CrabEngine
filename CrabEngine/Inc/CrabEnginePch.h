@@ -48,6 +48,7 @@
 #include "EngineAssert.h"
 #include "EventDispatcher.h"
 #include "CrabMath.h"
+#include "CrabColor.h"
 
 #include "CrabEngine.h"
 #include "Input.h"
@@ -57,4 +58,7 @@
 
 #include "ImGuiInclude.h"
 
+#include "AssetManager.h"
+#include "JsonSerializer.h"
+#include "SerializerHelper.h"
 #include "EntryPoint.h"

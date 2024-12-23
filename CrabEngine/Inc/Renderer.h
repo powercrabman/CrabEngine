@@ -28,7 +28,7 @@ namespace crab
 
 		static void					SetCameraData(const CBCamera& in_data) { m_api->SetCameraData(in_data); }
 
-		static void					SetRenderTarget(const Ref<IRenderTarget>& in_renderTarget) { m_api->SetRenderTarget(in_renderTarget); }
+		static void					BindRenderTarget(const Ref<IRenderTarget>& in_renderTarget) { m_api->BindRenderTarget(in_renderTarget); }
 		static Ref<IRenderTarget>	GetRenderTarget() { return m_api->GetRenderTarget(); }
 
 	private:

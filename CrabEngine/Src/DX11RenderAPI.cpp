@@ -56,7 +56,7 @@ namespace crab
 
 		// render target creation
 		m_coreRenderTarget = DX11RenderTarget::CreateBySwapChain();
-		SetRenderTarget(m_coreRenderTarget);
+		BindRenderTarget(m_coreRenderTarget);
 
 		// render state creation
 		m_renderState = MakeScope<DX11RenderState>();
@@ -95,7 +95,7 @@ namespace crab
 		DX_ASSERT(m_swapchain->ResizeBuffers(0, in_width, in_height, DXGI_FORMAT_UNKNOWN, 0), "ResizeBuffers fail");
 
 		m_coreRenderTarget = DX11RenderTarget::CreateBySwapChain();
-		SetRenderTarget(m_coreRenderTarget);
+		BindRenderTarget(m_coreRenderTarget);
 	}
 
 	void DX11RenderAPI::Present()
@@ -111,13 +111,13 @@ namespace crab
 	void DX11RenderAPI::DrawIndices(const Ref<Geometry>& in_geometry, const Mat& in_worldMat)
 	{
 		in_geometry->Bind();
-		m_transformBuffer->SetData(CBTransform{ .worldMat = in_worldMat });
+		m_transformBuffer->SetData(CBTransform{ in_worldMat });
 		m_context->DrawIndexed(in_geometry->GetIndexCount(), 0, 0);
 	}
 
-	void DX11RenderAPI::SetRenderTarget(const Ref<IRenderTarget>& in_renderTarget)
+	void DX11RenderAPI::BindRenderTarget(const Ref<IRenderTarget>& in_renderTarget)
 	{
-		Ref<DX11RenderTarget> rtv = static_pointer_cast<DX11RenderTarget>(in_renderTarget);
+		Ref<DX11RenderTarget> rtv = std::static_pointer_cast<DX11RenderTarget>(in_renderTarget);
 		if (rtv == m_currentRenderTarget) { return; }
 
 		if (rtv)
@@ -128,6 +128,10 @@ namespace crab
 		{
 			m_currentRenderTarget = m_coreRenderTarget;
 		}
+
+		D3D11_VIEWPORT viewport = m_currentRenderTarget->GetViewport();
+		m_context->RSSetViewports(1, &viewport);
+		m_context->OMSetRenderTargets(1, m_currentRenderTarget->GetRenderTargetView().GetAddressOf(), m_currentRenderTarget->GetDepthStencilView().Get());
 	}
 
 	Ref<IRenderTarget> DX11RenderAPI::GetRenderTarget() const
@@ -160,14 +164,8 @@ namespace crab
 		// Primitive Topology
 		m_context->IASetPrimitiveTopology(D3D11_PRIMITIVE_TOPOLOGY_TRIANGLELIST);
 
-		// Render Target
-		D3D11_VIEWPORT viewport = m_currentRenderTarget->GetViewport();
-		m_context->RSSetViewports(1, &viewport);
-		m_context->OMSetRenderTargets(1, m_currentRenderTarget->GetRenderTargetView().GetAddressOf(), m_currentRenderTarget->GetDepthStencilView().Get());
-
 		// Camera
 		m_cameraBuffer->SetData(m_cameraData);
-
 	}
 
 	void DX11RenderAPI::RenderEnd()
