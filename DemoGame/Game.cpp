@@ -2,6 +2,7 @@
 #include "Application.h"
 #include "GameScene.h"
 #include "TextureDemoScene.h"
+#include "EntityAssetDemoScene.h"
 
 class DemoGame : public crab::Application
 {
@@ -22,7 +23,7 @@ public:
 
 	void Initialize() override 
 	{
-		crab::SceneManager::Get().ChangeScene<TextureDemoScene>();
+		crab::SceneManager::Get().ChangeScene<EntityAssetDemoScene>();
 	}
 
 	void Shutdown() override {}

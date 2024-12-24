@@ -15,7 +15,8 @@ namespace crab
 		void*							 GetTexture() const override;
 
 		void							 Clear(const Vec4& in_clearColor, bool in_clearDepth, bool in_clearStencil) override;
-		std::pair<float, float>			 GetSize() { return std::make_pair(m_viewport.Width, m_viewport.Height); };
+		std::pair<float, float>			 GetSize() const override { return std::make_pair(m_viewport.Width, m_viewport.Height); };
+		float							 GetAspect() const override { return m_viewport.Width / m_viewport.Height; }
 
 		static Ref<DX11RenderTarget>	 CreateBySwapChain();
 

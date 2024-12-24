@@ -56,6 +56,7 @@ namespace crab
 		DX_ASSERT(hr, "Create Shader Resource View Fail.");
 
 		m_name = texturename;
+		m_path = in_path;
 		Log::Info(R"(image file load done "{}")", textureString);
 	}
 }

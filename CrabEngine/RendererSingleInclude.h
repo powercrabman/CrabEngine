@@ -7,3 +7,5 @@
 #include "Geometry.h"
 #include "IShader.h"
 #include "ITexture.h"
+#include "VertexType.h"
+#include "GeometryFactory.h"

@@ -135,6 +135,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="EntityAssetDemoScene.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="TextureDemoScene.cpp" />
@@ -145,6 +146,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="EntityAssetDemoScene.h" />
     <ClInclude Include="GameScene.h" />
     <ClInclude Include="TextureDemoScene.h" />
   </ItemGroup>

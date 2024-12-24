@@ -162,7 +162,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AssetBase.h" />
     <ClInclude Include="AssetManager.h" />
+    <ClInclude Include="Components.h" />
     <ClInclude Include="CrabColor.h" />
     <ClInclude Include="ConstantBufferStruct.h" />
     <ClInclude Include="DX11ConstantBuffer.h" />
@@ -218,15 +220,20 @@
     <ClInclude Include="IShader.h" />
     <ClInclude Include="JsonSerializer.h" />
     <ClInclude Include="LayoutElement.h" />
+    <ClInclude Include="Assets.h" />
+    <ClInclude Include="GeometryFactory.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="SceneManager.h" />
     <ClInclude Include="RendererSingleInclude.h" />
     <ClInclude Include="ImGuiInclude.h" />
     <ClInclude Include="SerializerHelper.h" />
+    <ClInclude Include="VertexType.h" />
     <ClInclude Include="ViewportPanel.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AssetBase.cpp" />
     <ClCompile Include="AssetManager.cpp" />
+    <ClCompile Include="Components.cpp" />
     <ClCompile Include="CrabColor.cpp" />
     <ClCompile Include="ConstantBufferStruct.cpp" />
     <ClCompile Include="DX11ConstantBuffer.cpp" />
@@ -252,6 +259,8 @@
     <ClCompile Include="IShader.cpp" />
     <ClCompile Include="JsonSerializer.cpp" />
     <ClCompile Include="LayoutElement.cpp" />
+    <ClCompile Include="Assets.cpp" />
+    <ClCompile Include="GeometryFactory.cpp" />
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="SceneManager.cpp" />
     <ClCompile Include="SerializerHelper.cpp" />
@@ -266,6 +275,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="Src\TypeID.cpp" />
+    <ClCompile Include="VertexType.cpp" />
     <ClCompile Include="ViewportPanel.cpp" />
     <ClInclude Include="Inc\EntryPoint.h" />
     <ClCompile Include="Src\GameWindow.cpp" />

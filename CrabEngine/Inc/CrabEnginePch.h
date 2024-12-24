@@ -1,6 +1,7 @@
 #pragma once
 
 #include <algorithm>
+#include <array>
 #include <format>
 #include <cassert>
 #include <chrono>
@@ -59,6 +60,10 @@
 #include "ImGuiInclude.h"
 
 #include "AssetManager.h"
+
+#include "Components.h"
+
 #include "JsonSerializer.h"
 #include "SerializerHelper.h"
+
 #include "EntryPoint.h"

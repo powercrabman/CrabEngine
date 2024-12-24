@@ -5,7 +5,8 @@ namespace crab
 {
 
 #define REGIST_SCENE(scene)\
-	inline static bool _regist_scene_ = []() { crab::SceneManager::Get().CreateScene<scene>(); return true; }();
+	inline static bool _regist_scene_ = []() { crab::SceneManager::Get().CreateScene<scene>(); return true; }();\
+	inline static const char* s_sceneName = #scene
 
 
 	class Scene
@@ -22,8 +23,8 @@ namespace crab
 		virtual void OnImGuiRender(float in_deltaTime) = 0;
 
 		// About ECS
-		Entity	CreateEntity();
-		bool	DeleteEntity(const Entity& in_entity) { m_registry.destroy(in_entity); }
+		Entity			CreateEntity();
+		bool			DeleteEntity(const Entity& in_entity) { m_registry.destroy(in_entity); }
 
 		entt::registry& GetRegistry() { return m_registry; }
 

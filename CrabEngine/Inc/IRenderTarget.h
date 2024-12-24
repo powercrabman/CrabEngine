@@ -23,7 +23,8 @@ namespace crab
 		virtual void*					GetTexture() const = 0;
 
 		virtual void					Clear(const Vec4& in_clearColor, bool in_clearDepth, bool in_clearStencil) = 0;
-		virtual std::pair<float, float>	GetSize() = 0;
+		virtual std::pair<float, float>	GetSize() const = 0;
+		virtual float					GetAspect() const = 0;
 
 		static Ref<IRenderTarget>		Create(const RenderTargetProp& in_prop);
 

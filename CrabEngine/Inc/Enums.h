@@ -73,4 +73,14 @@ namespace crab
 		SimulatePlay,
 		SimulateStop,
 	};
+
+	enum class eAssetType
+	{
+		Mesh = 0,
+		Flipbook,
+		Sprite,
+		Count
+	};
+
+	enum { eAssetTypeCount = static_cast<uint32_t>(eAssetType::Count) };
 }

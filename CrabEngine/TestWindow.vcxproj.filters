@@ -106,6 +106,9 @@
     <Filter Include="97. JsonSerializer">
       <UniqueIdentifier>{daa74f08-b393-479f-9d95-2b3f5c35216d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="06. Renderer\Helper">
+      <UniqueIdentifier>{2c624dce-f1d4-4824-b613-faa152e1b25b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Inc\Pointer.h">
@@ -297,6 +300,21 @@
     <ClInclude Include="SerializerHelper.h">
       <Filter>97. JsonSerializer</Filter>
     </ClInclude>
+    <ClInclude Include="Components.h">
+      <Filter>10. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetBase.h">
+      <Filter>08. Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets.h">
+      <Filter>08. Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexType.h">
+      <Filter>06. Renderer\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryFactory.h">
+      <Filter>06. Renderer\Helper</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="small.ico">
@@ -459,6 +477,21 @@
     </ClCompile>
     <ClCompile Include="SerializerHelper.cpp">
       <Filter>97. JsonSerializer</Filter>
+    </ClCompile>
+    <ClCompile Include="Components.cpp">
+      <Filter>10. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetBase.cpp">
+      <Filter>08. Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets.cpp">
+      <Filter>08. Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexType.cpp">
+      <Filter>06. Renderer\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryFactory.cpp">
+      <Filter>06. Renderer\Helper</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
