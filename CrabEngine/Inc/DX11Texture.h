@@ -12,7 +12,11 @@ namespace crab
 		DX11Texture() = default;
 		~DX11Texture() = default;
 
-		void							Bind(const uint32_t in_slot) const override;
+		void							Bind(const uint32_t in_slot, const Vec2& in_uv0 = { 0.f,0.f }, const Vec2& in_uv1 = { 1.f,1.f }) const override 
+		{
+			static_cast<DX11RenderAPI*>(Renderer::GetRenderAPI())->GetContext()->PSSetShaderResources(in_slot, 1, m_srv.GetAddressOf());
+			Renderer::SetTextureData(in_uv0, in_uv1); 
+		}
 
 		void*							GetNativeTexture() const override { return m_srv.Get(); }
 		std::pair<float, float>			GetSize() const override { return std::make_pair((float)m_metaData.width, (float)m_metaData.height); }

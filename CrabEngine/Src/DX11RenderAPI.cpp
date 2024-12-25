@@ -4,6 +4,7 @@
 #include "IRenderState.h"
 #include "DX11RenderState.h"
 #include "Geometry.h"
+#include "ITexture.h"
 
 namespace crab
 {
@@ -62,11 +63,14 @@ namespace crab
 		m_renderState = MakeScope<DX11RenderState>();
 
 		// constant buffer
-		m_transformBuffer = IConstantBuffer::Create<CBTransform>();
-		m_transformBuffer->Bind(eShaderFlags_VertexShader, eConstantBufferSlot::TransformSlot);
+		m_transformCBuffer = IConstantBuffer::Create<CBTransform>();
+		m_transformCBuffer->Bind(eShaderFlags_VertexShader, CBTransform::s_slot);
 
-		m_cameraBuffer = IConstantBuffer::Create<CBCamera>();
-		m_cameraBuffer->Bind(eShaderFlags_VertexShader, eConstantBufferSlot::CameraSlot);
+		m_cameraCBuffer = IConstantBuffer::Create<CBCamera>();
+		m_cameraCBuffer->Bind(eShaderFlags_VertexShader, CBCamera::s_slot);
+
+		m_textureCBuffer = IConstantBuffer::Create<CBTransform>();
+		m_textureCBuffer->Bind(eShaderFlags_VertexShader, CBTexture::s_slot);
 	}
 
 	void DX11RenderAPI::Shutdown()
@@ -111,7 +115,7 @@ namespace crab
 	void DX11RenderAPI::DrawIndices(const Ref<Geometry>& in_geometry, const Mat& in_worldMat)
 	{
 		in_geometry->Bind();
-		m_transformBuffer->SetData(CBTransform{ in_worldMat });
+		m_transformCBuffer->SetData(CBTransform{ in_worldMat });
 		m_context->DrawIndexed(in_geometry->GetIndexCount(), 0, 0);
 	}
 
@@ -139,6 +143,12 @@ namespace crab
 		return m_currentRenderTarget;
 	}
 
+	void DX11RenderAPI::SetCameraData(const Mat& in_viewPorjMat, const Vec3& in_cameraPos)
+	{
+		m_viewProjMat = in_viewPorjMat;
+		m_cameraPosition = in_cameraPos;
+	}
+
 	void DX11RenderAPI::BindBlendState(eBlendState in_state)
 	{
 		m_renderState->BindBlendState(in_state);
@@ -159,13 +169,18 @@ namespace crab
 		m_renderState->BindSamplerState(in_state, in_slot);
 	}
 
+	void DX11RenderAPI::SetTextureData(const Vec2& in_uv0, const Vec2& in_uv1)
+	{
+		m_textureCBuffer->SetData(CBTexture{ in_uv0, in_uv1 });
+	}
+
 	void DX11RenderAPI::RenderBegin()
 	{
 		// Primitive Topology
 		m_context->IASetPrimitiveTopology(D3D11_PRIMITIVE_TOPOLOGY_TRIANGLELIST);
 
 		// Camera
-		m_cameraBuffer->SetData(m_cameraData);
+		m_cameraCBuffer->SetData(CBCamera{m_viewProjMat, m_cameraPosition});
 	}
 
 	void DX11RenderAPI::RenderEnd()

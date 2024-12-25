@@ -62,8 +62,9 @@ namespace crab
 
 	enum class eConstantBufferSlot
 	{
-		TransformSlot = 0,
-		CameraSlot    = 1
+		TransformSlot  = 0,
+		CameraSlot     = 1,
+		TextureSlot    = 2
 	};
 
 	enum class eRunType
@@ -83,4 +84,10 @@ namespace crab
 	};
 
 	enum { eAssetTypeCount = static_cast<uint32_t>(eAssetType::Count) };
+
+	enum class eProjection
+	{
+		Orthographic,
+		Perspective
+	};
 }

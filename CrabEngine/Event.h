@@ -12,9 +12,15 @@ namespace crab
 		AppShutdownEvent,
 		AppCloseEvent,
 		WindowResizeEvent,
-		MouseClickEvent,
+
+		// Input
+		MousePressEvent,
+		MouseWheelEvent,
+
+		// In Editor
 		SetRunTypeEvent,
-		NextFrameInSimulateEvent
+		NextFrameInSimulateEvent,
+		SetEditCameraEvent,
 	};
 
 	class IEvent
@@ -62,6 +68,10 @@ namespace crab
 		Right
 	};
 
+	//===================================================
+	//                      INPUT
+	//===================================================
+
 	constexpr const char* ToString(eMouse in_e)
 	{
 		switch (in_e)
@@ -73,7 +83,7 @@ namespace crab
 		}
 	}
 
-	class MouseClickEvent : public IEvent
+	class MousePressEvent : public IEvent
 	{
 	public:
 		std::string ToString()
@@ -81,12 +91,33 @@ namespace crab
 			return fmt::format("{} : {} Click -> ({}, {})", EventString, crab::ToString(m_mouseMode), m_x, m_y);
 		}
 
-		EVENT_IMPLEMENT(MouseClickEvent);
+		EVENT_IMPLEMENT(MousePressEvent);
 
 		eMouse m_mouseMode = {};
 		uint32 m_x;
 		uint32 m_y;
+		float m_dx;
+		float m_dy;
 	};
+
+	class MouseWheelEvent : public IEvent
+	{
+	public:
+		std::string ToString()
+		{
+			return fmt::format("{} : delta ({}, {})", EventString, m_dx, m_dy);
+		}
+
+		EVENT_IMPLEMENT(MouseWheelEvent);
+
+		float m_dx;
+		float m_dy;
+	};
+
+	//===================================================
+	//                      EDITOR
+	//===================================================
+
 
 	constexpr const char* ToString(eRunType in_mode)
 	{
@@ -122,6 +153,26 @@ namespace crab
 		}
 
 		EVENT_IMPLEMENT(NextFrameInSimulateEvent);
+	};
+
+	class SetEditCameraEvent : public IEvent
+	{
+	public:
+		std::string ToString()
+		{
+			return EventString;
+		}
+
+		eProjection mode;
+		float		nearPlane;
+		float		farPlane;
+		float		fov;
+
+		Vec3		position;
+		Vec3		rotation;
+		Vec3		scaling;
+
+		EVENT_IMPLEMENT(SetEditCameraEvent);
 	};
 }
 

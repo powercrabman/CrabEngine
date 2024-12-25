@@ -303,9 +303,6 @@
     <ClInclude Include="Components.h">
       <Filter>10. Component</Filter>
     </ClInclude>
-    <ClInclude Include="AssetBase.h">
-      <Filter>08. Asset</Filter>
-    </ClInclude>
     <ClInclude Include="Assets.h">
       <Filter>08. Asset</Filter>
     </ClInclude>
@@ -314,6 +311,21 @@
     </ClInclude>
     <ClInclude Include="GeometryFactory.h">
       <Filter>06. Renderer\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetContainer.h">
+      <Filter>08. Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetID.h">
+      <Filter>08. Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetSingleInclude.h">
+      <Filter>08. Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem.h">
+      <Filter>11. System</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentInspector.h">
+      <Filter>13. Editor\Panel</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -481,9 +493,6 @@
     <ClCompile Include="Components.cpp">
       <Filter>10. Component</Filter>
     </ClCompile>
-    <ClCompile Include="AssetBase.cpp">
-      <Filter>08. Asset</Filter>
-    </ClCompile>
     <ClCompile Include="Assets.cpp">
       <Filter>08. Asset</Filter>
     </ClCompile>
@@ -492,6 +501,18 @@
     </ClCompile>
     <ClCompile Include="GeometryFactory.cpp">
       <Filter>06. Renderer\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetContainer.cpp">
+      <Filter>08. Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetID.cpp">
+      <Filter>08. Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem.cpp">
+      <Filter>11. System</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentInspector.cpp">
+      <Filter>13. Editor\Panel</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

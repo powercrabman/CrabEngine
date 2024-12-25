@@ -31,9 +31,6 @@ namespace crab
 		void		_handle_window_event_(const SDL_Event& in_event);
 		void		_on_event_(IEvent& in_event);
 
-		void		_editor_rendering_loop_(float in_deltaTime);
-		void		_runtime_rendering_loop_(float in_deltaTime) const;
-
 		GameWindow		m_gameWindow;
 		Scope<Editor>	m_editor;
 

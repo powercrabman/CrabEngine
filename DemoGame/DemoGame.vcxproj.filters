@@ -30,5 +30,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="TextureDemoShader.hlsli" />
+    <None Include="FlipbookDemoShader.hlsli" />
   </ItemGroup>
 </Project>

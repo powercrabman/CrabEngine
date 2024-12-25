@@ -22,10 +22,10 @@ namespace crab
 
 		// GameWindow 생성
 		if (!m_gameWindow.Init(
-			in_prop.applcationName, 
-			in_prop.windowPositionX, 
-			in_prop.windowPositionY, 
-			in_prop.windowWidth, 
+			in_prop.applcationName,
+			in_prop.windowPositionX,
+			in_prop.windowPositionY,
+			in_prop.windowWidth,
 			in_prop.windowHeight,
 			in_prop.enableEditor
 		))
@@ -48,11 +48,10 @@ namespace crab
 			m_editor->Init(in_prop.windowWidth, in_prop.windowHeight);
 		}
 
-
 		// Run Engine
 		Log::Info("Engine initialize done.");
 		m_isRunning = true;
-		m_appName   = in_prop.applcationName;
+		m_appName = in_prop.applcationName;
 	}
 
 	int CrabEngine::_run_()
@@ -69,17 +68,29 @@ namespace crab
 			Input::UpdateInputState();
 			float dt = timer.CalcDeltaTime();
 
-			// Update
-			SceneManager::Get().OnUpdate(dt);
-
-			// Render
 			if (m_editor)
 			{
-				_editor_rendering_loop_(dt);
+				// Loop in editing mode
+				m_editor->OnUpdate(dt);
 			}
 			else
 			{
-				_runtime_rendering_loop_(dt);
+				// Loop in runtime
+				SceneManager::Get().OnUpdate(dt);
+
+				Renderer::RenderBegin();
+				{
+					Renderer::BindRenderTarget(nullptr); // 기본 렌더타겟 사용
+					Renderer::ClearBuffer(Color::BLACK);
+
+					SceneManager::Get().OnRender(dt);
+
+					ImGuiRenderer::RenderBegin();
+					SceneManager::Get().OnImGuiRender(dt);
+					ImGuiRenderer::RenderEnd();
+				}
+				Renderer::RenderEnd();
+				Renderer::Present();
 			}
 		}
 
@@ -114,10 +125,19 @@ namespace crab
 
 		case SDL_MOUSEBUTTONDOWN:
 		{
-			MouseClickEvent e;
+			MousePressEvent e;
 			e.m_mouseMode = (eMouse)in_event.button.button;
 			e.m_x = in_event.button.x;
 			e.m_y = in_event.button.y;
+			DispatchEvent(e);
+			break;
+		}
+
+		case SDL_MOUSEWHEEL:
+		{
+			MouseWheelEvent e;
+			e.m_dx = in_event.wheel.preciseX;
+			e.m_dy = in_event.wheel.preciseY;
 			DispatchEvent(e);
 			break;
 		}
@@ -161,41 +181,5 @@ namespace crab
 
 		dispatcher.Dispatch<AppCloseEvent>([&](AppCloseEvent& in_event) { m_isRunning = false; });
 		dispatcher.Dispatch<AppShutdownEvent>(BIND_FN_CALLBACK_ARG1(this, CrabEngine::_shutdown_));
-	}
-
-	void CrabEngine::_editor_rendering_loop_(float in_deltaTime)
-	{
-		Renderer::RenderBegin(); // 렌더링 시작
-		m_editor->BindSceneRenderTarget(); // Scene 을 위한 렌더링 공간 마련
-		Renderer::ClearBuffer(m_clearColor); // Clear
-
-		SceneManager::Get().OnRender(in_deltaTime); // Scene Rendering
-
-		ImGuiRenderer::RenderBegin(); // ImGui 렌더링
-		SceneManager::Get().OnImGuiRender(in_deltaTime); // Scene ImGui
-
-		Renderer::BindRenderTarget(nullptr); // 기본 렌더 타겟으로 변경
-		Renderer::ClearBuffer(m_clearColor); // Clear
-		m_editor->OnImGuiRender(in_deltaTime); // Editor ImGui
-		ImGuiRenderer::RenderEnd(); // ImGui 렌더링 종료
-
-		Renderer::RenderEnd(); // 렌더링 종료
-		Renderer::Present(); // Bitblt
-	}
-
-	void CrabEngine::_runtime_rendering_loop_(float in_deltaTime) const
-	{
-		Renderer::RenderBegin(); // 렌더링 시작
-		Renderer::BindRenderTarget(nullptr); // 기본 렌더 타겟 사용
-		Renderer::ClearBuffer(m_clearColor); // 렌더 타겟 Clear
-
-		SceneManager::Get().OnRender(in_deltaTime); // 씬 렌더링
-
-		ImGuiRenderer::RenderBegin(); // ImGui 렌더링 시작
-		SceneManager::Get().OnImGuiRender(in_deltaTime);
-		ImGuiRenderer::RenderEnd(); // ImGui 렌더링 종료
-
-		Renderer::RenderEnd(); // 렌더링 종료
-		Renderer::Present(); // Bitblt
 	}
 }

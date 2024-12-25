@@ -24,6 +24,12 @@ namespace crab
 			m_registry->erase<Ty>(m_entity);
 		}
 
+		template<typename Ty>
+		Ty* TryGetComponent()
+		{
+			return m_registry->try_get<Ty>(m_entity);
+		}
+
 		static Entity s_nullEntity;
 
 	private:

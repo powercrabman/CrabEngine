@@ -52,6 +52,7 @@ namespace crab
 
 		ImGui_ImplSDL2_NewFrame();
 		ImGui::NewFrame();
+		ImGuizmo::BeginFrame();
 	}
 
 	void ImGuiRenderer::RenderEnd()

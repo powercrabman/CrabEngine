@@ -15,5 +15,5 @@
 
 #define BIT(x) (1 << x)
 
-#define ASSET_MANAGER	AssetManager::Get()
-#define CRAB_ENGINE		CrabEngine::Get()
+#define ASSET_MANAGER	crab::AssetManager::Get()
+#define CRAB_ENGINE		crab::CrabEngine::Get()

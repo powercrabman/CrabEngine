@@ -4,6 +4,7 @@ namespace crab
 {
 	class Geometry;
 	class IRenderTarget;
+	class ITexture;
 
 	enum class eCullMode
 	{
@@ -40,7 +41,8 @@ namespace crab
 		virtual void				BindRasterizerState(eRasterizerState in_state) = 0;
 		virtual void				BindSamplerState(eSamplerState in_state, uint32 in_slot) = 0;
 
-		virtual void				SetCameraData(const CBCamera& in_data) = 0;
+		virtual void				SetTextureData(const Vec2& in_uv0, const Vec2& in_uv1) = 0;
+		virtual void				SetCameraData(const Mat& in_viewPorjMat, const Vec3& in_cameraPos) = 0;
 
 		virtual void				BindRenderTarget(const Ref<IRenderTarget>& in_renderTarget) = 0;
 		virtual Ref<IRenderTarget>	GetRenderTarget() const = 0;

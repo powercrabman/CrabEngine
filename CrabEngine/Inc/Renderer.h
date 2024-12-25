@@ -26,7 +26,8 @@ namespace crab
 		static void					BindRasterizerState(eRasterizerState in_state) { m_api->BindRasterizerState(in_state); };
 		static void					BindSamplerState(eSamplerState in_state, uint32 in_slot = 0) { m_api->BindSamplerState(in_state, in_slot); }
 
-		static void					SetCameraData(const CBCamera& in_data) { m_api->SetCameraData(in_data); }
+		static void					SetTextureData(const Vec2& in_uv0 = { 0.f,0.f }, const Vec2& in_uv1 = { 1.f,1.f }) { m_api->SetTextureData(in_uv0, in_uv1); };
+		static void					SetCameraData(const Mat& in_viewPorjMat, const Vec3& in_cameraPos) { m_api->SetCameraData(in_viewPorjMat, in_cameraPos); };
 
 		static void					BindRenderTarget(const Ref<IRenderTarget>& in_renderTarget) { m_api->BindRenderTarget(in_renderTarget); }
 		static Ref<IRenderTarget>	GetRenderTarget() { return m_api->GetRenderTarget(); }

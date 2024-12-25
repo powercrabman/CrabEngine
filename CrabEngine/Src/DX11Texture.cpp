@@ -4,13 +4,6 @@
 
 namespace crab
 {
-
-	void DX11Texture::Bind(const uint32_t in_slot) const
-	{
-		auto* api = static_cast<DX11RenderAPI*>(Renderer::GetRenderAPI());
-		api->GetContext()->PSSetShaderResources(in_slot, 1, m_srv.GetAddressOf());
-	}
-
 	void DX11Texture::_create_(const std::filesystem::path& in_path)
 	{
 		DX11RenderAPI* api = static_cast<DX11RenderAPI*>(Renderer::GetRenderAPI());

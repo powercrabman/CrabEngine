@@ -26,14 +26,15 @@ namespace crab
 
 		void				ClearBuffer(const Vec4& in_color, bool in_clearRenderTarget = true, bool in_clearDepthStencil = true) override;
 
-		void				DrawIndices(const Ref<Geometry>&in_geometry, const Mat& in_worldMat) override;
+		void				DrawIndices(const Ref<Geometry>& in_geometry, const Mat& in_worldMat) override;
 
 		void				BindBlendState(eBlendState in_state) override;
 		void				BindDepthStencilState(eDepthStencilState in_state) override;
 		void				BindRasterizerState(eRasterizerState in_state) override;
 		void				BindSamplerState(eSamplerState in_state, uint32 in_slot) override;
 
-		void				SetCameraData(const CBCamera& in_data) override { m_cameraData = in_data; }
+		void				SetTextureData(const Vec2& in_uv0, const Vec2& in_uv1) override;
+		void				SetCameraData(const Mat& in_viewPorjMat, const Vec3& in_cameraPos) override;
 
 		void				BindRenderTarget(const Ref<IRenderTarget>& in_renderTarget) override;
 		Ref<IRenderTarget>	GetRenderTarget() const override;
@@ -55,10 +56,13 @@ namespace crab
 
 		Scope<IRenderState>					m_renderState = nullptr;
 
-		Ref<IConstantBuffer>				m_transformBuffer = nullptr;
-		Ref<IConstantBuffer>				m_cameraBuffer = nullptr;
+		Ref<IConstantBuffer>				m_transformCBuffer = nullptr;
+		Ref<IConstantBuffer>				m_cameraCBuffer = nullptr;
+		Ref<IConstantBuffer>				m_textureCBuffer = nullptr;
 
-		// TEMP
-		CBCamera							m_cameraData = {};
+		// Camera
+		Mat									m_viewProjMat = Mat::Identity;
+		Vec3								m_cameraPosition = Vec3::Zero;
+
 	};
 }

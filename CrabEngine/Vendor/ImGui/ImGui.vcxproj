@@ -19,6 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\ImGuizmo\GraphEditor.h" />
+    <ClInclude Include="..\ImGuizmo\ImCurveEdit.h" />
+    <ClInclude Include="..\ImGuizmo\ImGradient.h" />
+    <ClInclude Include="..\ImGuizmo\ImGuizmo.h" />
+    <ClInclude Include="..\ImGuizmo\ImSequencer.h" />
+    <ClInclude Include="..\ImGuizmo\ImZoomSlider.h" />
     <ClInclude Include="imgui\backends\imgui_impl_dx10.h" />
     <ClInclude Include="imgui\backends\imgui_impl_dx11.h" />
     <ClInclude Include="imgui\backends\imgui_impl_dx12.h" />
@@ -37,6 +43,11 @@
     <ClInclude Include="imgui\imstb_truetype.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\ImGuizmo\GraphEditor.cpp" />
+    <ClCompile Include="..\ImGuizmo\ImCurveEdit.cpp" />
+    <ClCompile Include="..\ImGuizmo\ImGradient.cpp" />
+    <ClCompile Include="..\ImGuizmo\ImGuizmo.cpp" />
+    <ClCompile Include="..\ImGuizmo\ImSequencer.cpp" />
     <ClCompile Include="imgui\backends\imgui_impl_dx10.cpp" />
     <ClCompile Include="imgui\backends\imgui_impl_dx11.cpp" />
     <ClCompile Include="imgui\backends\imgui_impl_dx12.cpp" />

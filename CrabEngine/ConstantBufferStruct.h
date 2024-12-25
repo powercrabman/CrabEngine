@@ -2,15 +2,26 @@
 
 namespace crab
 {
-	struct CBTransform 
+	struct alignas(16) CBTransform
 	{
+		inline static eConstantBufferSlot s_slot = eConstantBufferSlot::TransformSlot;
+
 		Mat worldMat = Mat::Identity;
 	};
 
-	struct CBCamera
+	struct alignas(16) CBCamera
 	{
+		inline static eConstantBufferSlot s_slot = eConstantBufferSlot::CameraSlot;
+
 		Mat		viewProjMat = Mat::Identity;
 		Vec3	cameraPosition = Vec3::Zero;
-		float	pad;
+	};
+
+	struct alignas(16) CBTexture
+	{
+		inline static eConstantBufferSlot s_slot = eConstantBufferSlot::TextureSlot;
+
+		Vec2 uv1;
+		Vec2 uv2;
 	};
 }

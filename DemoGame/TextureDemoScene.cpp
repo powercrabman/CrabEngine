@@ -33,6 +33,7 @@ void TextureDemoScene::OnEnterScene()
 	);
 
 	shader->Bind();
+
 }
 
 void TextureDemoScene::OnExitScene()

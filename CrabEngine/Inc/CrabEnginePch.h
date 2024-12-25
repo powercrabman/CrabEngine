@@ -57,13 +57,14 @@
 #include "RendererSingleInclude.h"
 #include "SceneManager.h"
 
-#include "ImGuiInclude.h"
-
-#include "AssetManager.h"
+#include "AssetSingleInclude.h"
 
 #include "Components.h"
+#include "ImGuiInclude.h"
 
 #include "JsonSerializer.h"
 #include "SerializerHelper.h"
+
+#include "RenderSystem.h"
 
 #include "EntryPoint.h"

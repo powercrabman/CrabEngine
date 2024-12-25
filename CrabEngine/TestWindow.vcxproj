@@ -162,8 +162,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="AssetBase.h" />
+    <ClInclude Include="AssetContainer.h" />
+    <ClInclude Include="AssetID.h" />
     <ClInclude Include="AssetManager.h" />
+    <ClInclude Include="ComponentInspector.h" />
     <ClInclude Include="Components.h" />
     <ClInclude Include="CrabColor.h" />
     <ClInclude Include="ConstantBufferStruct.h" />
@@ -222,6 +224,7 @@
     <ClInclude Include="LayoutElement.h" />
     <ClInclude Include="Assets.h" />
     <ClInclude Include="GeometryFactory.h" />
+    <ClInclude Include="RenderSystem.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="SceneManager.h" />
     <ClInclude Include="RendererSingleInclude.h" />
@@ -229,10 +232,13 @@
     <ClInclude Include="SerializerHelper.h" />
     <ClInclude Include="VertexType.h" />
     <ClInclude Include="ViewportPanel.h" />
+    <ClInclude Include="AssetSingleInclude.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AssetBase.cpp" />
+    <ClCompile Include="AssetContainer.cpp" />
+    <ClCompile Include="AssetID.cpp" />
     <ClCompile Include="AssetManager.cpp" />
+    <ClCompile Include="ComponentInspector.cpp" />
     <ClCompile Include="Components.cpp" />
     <ClCompile Include="CrabColor.cpp" />
     <ClCompile Include="ConstantBufferStruct.cpp" />
@@ -261,6 +267,7 @@
     <ClCompile Include="LayoutElement.cpp" />
     <ClCompile Include="Assets.cpp" />
     <ClCompile Include="GeometryFactory.cpp" />
+    <ClCompile Include="RenderSystem.cpp" />
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="SceneManager.cpp" />
     <ClCompile Include="SerializerHelper.cpp" />
