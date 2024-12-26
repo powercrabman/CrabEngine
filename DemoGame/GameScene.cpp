@@ -1,7 +1,8 @@
 #include "CrabEnginePch.h"
 #include "GameScene.h"
 
-void GameScene::OnEnterScene()
+
+void GameScene::SetupScene()
 {
 	using namespace crab;
 
@@ -52,13 +53,17 @@ void GameScene::OnEnterScene()
 			}
 		)";
 
-	Ref<IShader> shader = IShader::CreateByString(
+	m_shader = IShader::CreateByString(
 		{ { "POSITION", 0, eLayoutFormat::Float3 },
 		  { "COLOR", 0, eLayoutFormat::Float4 } }
 		, singleShader
 	);
 
-	shader->Bind();
+}
+
+void GameScene::OnEnterScene()
+{
+	m_shader->Bind();
 }
 
 void GameScene::OnExitScene()
@@ -67,7 +72,7 @@ void GameScene::OnExitScene()
 
 void GameScene::OnUpdate(float in_deltaTime)
 {
-	if (crab::Input::IsKeyPress(crab::eKeyCode::Enter))
+	if (crab::Input::IsKeyPress(crab::eKey::Enter))
 	{
 		crab::Log::Debug("Enter Key Pressed");
 		crab::Log::Debug("fps is {:.3f}", 1 / in_deltaTime);
@@ -93,3 +98,4 @@ void GameScene::OnImGuiRender(float in_deltaTime)
 
 	ImGui::End();
 }
+

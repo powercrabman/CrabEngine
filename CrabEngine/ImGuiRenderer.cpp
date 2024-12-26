@@ -52,7 +52,7 @@ namespace crab
 
 		ImGui_ImplSDL2_NewFrame();
 		ImGui::NewFrame();
-		ImGuizmo::BeginFrame();
+		Input::UpdateInputState(); // imgui의 IO를 이용하는 방식이기 때문 -> 현재는 계획에 없지만 바꿀 수도 있음
 	}
 
 	void ImGuiRenderer::RenderEnd()

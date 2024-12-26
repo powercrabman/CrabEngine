@@ -65,7 +65,6 @@ namespace crab
 			while (SDL_PollEvent(&event)) { _translate_event_(event); }
 
 			// Main Loop
-			Input::UpdateInputState();
 			float dt = timer.CalcDeltaTime();
 
 			if (m_editor)
@@ -120,25 +119,6 @@ namespace crab
 		case SDL_WINDOWEVENT:
 		{
 			_handle_window_event_(in_event);
-			break;
-		}
-
-		case SDL_MOUSEBUTTONDOWN:
-		{
-			MousePressEvent e;
-			e.m_mouseMode = (eMouse)in_event.button.button;
-			e.m_x = in_event.button.x;
-			e.m_y = in_event.button.y;
-			DispatchEvent(e);
-			break;
-		}
-
-		case SDL_MOUSEWHEEL:
-		{
-			MouseWheelEvent e;
-			e.m_dx = in_event.wheel.preciseX;
-			e.m_dy = in_event.wheel.preciseY;
-			DispatchEvent(e);
 			break;
 		}
 

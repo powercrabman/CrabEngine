@@ -8,6 +8,7 @@ public:
 	GameScene() = default;
 	~GameScene() = default;
 
+	void SetupScene()						override;
 	void OnEnterScene()						override;
 	void OnExitScene()						override;
 
@@ -19,5 +20,6 @@ public:
 
 private:
 	crab::Ref<crab::Geometry> m_geometry;
+	crab::Ref<crab::IShader> m_shader;
 };
 

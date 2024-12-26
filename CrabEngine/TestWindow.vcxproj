@@ -165,12 +165,13 @@
     <ClInclude Include="AssetContainer.h" />
     <ClInclude Include="AssetID.h" />
     <ClInclude Include="AssetManager.h" />
-    <ClInclude Include="ComponentInspector.h" />
+    <ClInclude Include="PanelDrawHelper.h" />
     <ClInclude Include="Components.h" />
     <ClInclude Include="CrabColor.h" />
     <ClInclude Include="ConstantBufferStruct.h" />
     <ClInclude Include="DX11ConstantBuffer.h" />
     <ClInclude Include="Editor.h" />
+    <ClInclude Include="EntityInspector.h" />
     <ClInclude Include="IConstantBuffer.h" />
     <ClInclude Include="DX11ImGuiAPI.h" />
     <ClInclude Include="DX11IndexBuffer.h" />
@@ -226,6 +227,7 @@
     <ClInclude Include="GeometryFactory.h" />
     <ClInclude Include="RenderSystem.h" />
     <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneHierarchy.h" />
     <ClInclude Include="SceneManager.h" />
     <ClInclude Include="RendererSingleInclude.h" />
     <ClInclude Include="ImGuiInclude.h" />
@@ -238,12 +240,13 @@
     <ClCompile Include="AssetContainer.cpp" />
     <ClCompile Include="AssetID.cpp" />
     <ClCompile Include="AssetManager.cpp" />
-    <ClCompile Include="ComponentInspector.cpp" />
+    <ClCompile Include="PanelDrawHelper.cpp" />
     <ClCompile Include="Components.cpp" />
     <ClCompile Include="CrabColor.cpp" />
     <ClCompile Include="ConstantBufferStruct.cpp" />
     <ClCompile Include="DX11ConstantBuffer.cpp" />
     <ClCompile Include="Editor.cpp" />
+    <ClCompile Include="EntityInspector.cpp" />
     <ClCompile Include="IConstantBuffer.cpp" />
     <ClCompile Include="DX11ImGuiAPI.cpp" />
     <ClCompile Include="DX11IndexBuffer.cpp" />
@@ -269,6 +272,7 @@
     <ClCompile Include="GeometryFactory.cpp" />
     <ClCompile Include="RenderSystem.cpp" />
     <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="SceneHierarchy.cpp" />
     <ClCompile Include="SceneManager.cpp" />
     <ClCompile Include="SerializerHelper.cpp" />
     <ClCompile Include="Src\Application.cpp" />

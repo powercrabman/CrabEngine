@@ -1,7 +1,7 @@
 #include "CrabEnginePch.h"
 #include "TextureDemoScene.h"
 
-void TextureDemoScene::OnEnterScene()
+void TextureDemoScene::SetupScene()
 {
 	using namespace crab;
 
@@ -21,19 +21,20 @@ void TextureDemoScene::OnEnterScene()
 	Ref<IIndexBuffer> iBuf = IIndexBuffer::Create({ 0,1,2, 0,2,3 });
 
 	m_geometry = Geometry::Create(vBuf, iBuf);
-	m_geometry->Bind();
 
 	m_texture = ITexture::Create(R"(sampleTexture.jpg)");
-	m_texture->Bind(0);
-	
-	Ref<IShader> shader = IShader::CreateByFile(
+
+	m_shader = IShader::CreateByFile(
 		{ { "POSITION", 0, eLayoutFormat::Float3 },
 		  { "TEXCOORD", 0, eLayoutFormat::Float2 } }
 		, L"TextureDemoShader.hlsli"
 	);
+}
 
-	shader->Bind();
-
+void TextureDemoScene::OnEnterScene()
+{
+	m_shader->Bind();
+	m_texture->Bind(0);
 }
 
 void TextureDemoScene::OnExitScene()
@@ -63,3 +64,4 @@ void TextureDemoScene::OnRender(float in_deltaTime)
 void TextureDemoScene::OnImGuiRender(float in_deltaTime)
 {
 }
+

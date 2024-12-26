@@ -7,6 +7,7 @@ public:
 	TextureDemoScene() = default;
 	~TextureDemoScene() = default;
 
+	void SetupScene() override;
 	void OnEnterScene() override;
 	void OnExitScene() override;
 
@@ -19,6 +20,7 @@ public:
 public:
 	crab::Ref<crab::Geometry> m_geometry;
 	crab::Ref<crab::ITexture> m_texture;
+	crab::Ref<crab::IShader> m_shader;
 
 	Vec3 m_position = Vec3::Zero;
 	Vec3 m_rot      = Vec3::Zero;

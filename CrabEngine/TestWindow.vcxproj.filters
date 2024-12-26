@@ -109,6 +109,9 @@
     <Filter Include="06. Renderer\Helper">
       <UniqueIdentifier>{2c624dce-f1d4-4824-b613-faa152e1b25b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="13. Editor\Helper">
+      <UniqueIdentifier>{f3db2c19-614e-472b-9f61-b1ef8752b96e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Inc\Pointer.h">
@@ -324,7 +327,13 @@
     <ClInclude Include="RenderSystem.h">
       <Filter>11. System</Filter>
     </ClInclude>
-    <ClInclude Include="ComponentInspector.h">
+    <ClInclude Include="PanelDrawHelper.h">
+      <Filter>13. Editor\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneHierarchy.h">
+      <Filter>13. Editor\Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityInspector.h">
       <Filter>13. Editor\Panel</Filter>
     </ClInclude>
   </ItemGroup>
@@ -511,7 +520,13 @@
     <ClCompile Include="RenderSystem.cpp">
       <Filter>11. System</Filter>
     </ClCompile>
-    <ClCompile Include="ComponentInspector.cpp">
+    <ClCompile Include="PanelDrawHelper.cpp">
+      <Filter>13. Editor\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneHierarchy.cpp">
+      <Filter>13. Editor\Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityInspector.cpp">
       <Filter>13. Editor\Panel</Filter>
     </ClCompile>
   </ItemGroup>

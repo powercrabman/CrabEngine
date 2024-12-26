@@ -7,7 +7,7 @@ namespace crab
 	Entity Entity::s_nullEntity = Entity{ nullptr, entt::null };
 
 	Entity::Entity(Scene* in_scene, entt::entity in_entity)
-		: m_registry(&in_scene->GetRegistry())
+		: m_registry(in_scene ? &in_scene->GetRegistry() : nullptr)
 		, m_entity(in_entity)
 	{
 	}

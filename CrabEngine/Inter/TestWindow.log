@@ -1,227 +1,227 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2175,5): warning MSB9008: The referenced project '..\DirectXTex\DirectXTex\DirectXTex_Desktop_2022.vcxproj' does not exist.
 C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(516,5): warning MSB8004: Intermediate 디렉터리가 슬래시로 끝나지 않습니다. Intermediate 디렉터리의 적절한 평가를 허용하는 데 필요하므로 이 빌드 인스턴스에서 슬래시를 추가합니다.
-  unity_370ETFHV8ZJ11268.cpp
-C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Editor.cpp(22,16): warning C4244: '=': 'uint32'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  unity_GRBPZ3X6PH7ZT6NQ.cpp
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Editor.cpp(29,16): warning C4244: '=': 'uint32'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
-C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Editor.cpp(23,17): warning C4244: '=': 'uint32'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Editor.cpp(30,17): warning C4244: '=': 'uint32'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\DX11Shader.cpp(68,3): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Assets.cpp(53,31): warning C4244: '=': 'float'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Assets.cpp(54,32): warning C4244: '=': 'float'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\DX11RenderTarget.cpp(16,26): warning C4244: '=': 'const float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\DX11RenderTarget.cpp(17,27): warning C4244: '=': 'const float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\DX11RenderTarget.cpp(37,50): warning C4244: '=': 'const float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\DX11RenderTarget.cpp(38,50): warning C4244: '=': 'const float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\DX11RenderTarget.cpp(132,27): warning C4244: '=': 'const int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\DX11RenderTarget.cpp(133,28): warning C4244: '=': 'const int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x73 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x78 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x7b 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x7c 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x7d 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x7e 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x7f 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x82 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0xb2 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0xb4 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0xb5 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0xb7 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0xb8 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0xba 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x10a 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x10c 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x10d 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x10f 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x112 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x114 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x115 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x116 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x117 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x251 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x253 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x254 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x256 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x257 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x259 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x2df 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x2e0 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x2e2 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x2e4 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x2e5 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x2e7 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x2e9 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x2ea 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x2ec 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x2ed 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x2ee 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x2ef 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x369 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x36e 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x373 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x375 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x376 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x377 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x378 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x449 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x44c 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x44e 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x44f 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x481 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x484 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x486 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x487 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x488 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x489 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x48b 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x48c 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x48d 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\Log.cpp(1,1): warning C4828: 파일에 0x48e 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\AssetContainer.h(31,23): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_370ETFHV8ZJ11268.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_GRBPZ3X6PH7ZT6NQ.cpp'을(를) 컴파일하는 중)
       C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\AssetContainer.h(31,23):
       템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
           C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Assets.cpp(24,24):

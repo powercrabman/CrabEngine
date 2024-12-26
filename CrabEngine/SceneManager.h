@@ -8,16 +8,19 @@ namespace crab
 		friend class Singleton<SceneManager>;
 	public:
 		template <typename Ty>
-		Scene*	CreateScene();
+		Scene* CreateScene();
 
 		template <typename Ty>
-		Scene*  TryFindScene();
+		Scene*	TryFindScene();
+		Scene*	TryFindSceneByName(const std::string_view in_name);
+		Scene*	TryGetCurrentScene() const;
 
 		template <typename Ty>
 		void	DeleteScene();
 
 		template <typename Ty>
 		void	ChangeScene();
+		void	ChangeSceneByName(const std::string_view in_name) { _change_scene_(TryFindSceneByName(in_name)); }
 
 		void	OnUpdate(float in_deltaTime);
 		void	OnRender(float in_deltaTime);
@@ -25,9 +28,17 @@ namespace crab
 
 		void	OnEvent(IEvent& in_event);
 
+		std::unordered_map<TypeID, Scope<Scene>>::const_iterator cbegin() const { return m_sceneRepo.cbegin(); }
+		std::unordered_map<TypeID, Scope<Scene>>::const_iterator cend() const { return m_sceneRepo.cend(); }
+
+		std::unordered_map<TypeID, Scope<Scene>>::iterator begin() { return m_sceneRepo.begin(); }
+		std::unordered_map<TypeID, Scope<Scene>>::iterator end() { return m_sceneRepo.end(); }
+
 	private:
-		std::unordered_map<TypeID, Scope<Scene>> m_sceneRepo;
-		Scene* m_currentScene = nullptr;
+		void _change_scene_(Scene* in_scene);
+
+		std::unordered_map<TypeID, Scope<Scene>>	m_sceneRepo;
+		Scene*										m_currentScene = nullptr;
 	};
 
 	//===================================================
@@ -66,14 +77,7 @@ namespace crab
 	{
 		static_assert(std::is_base_of_v<Scene, Ty>);
 		Scene* scene = TryFindScene<Ty>();
-
-		if (scene)
-		{
-			if (m_currentScene) { m_currentScene->OnExitScene(); }
-
-			m_currentScene = scene;
-			m_currentScene->OnEnterScene();
-		}
+		_change_scene_(scene);
 	}
 
 }
