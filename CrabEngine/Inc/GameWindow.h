@@ -11,6 +11,8 @@ namespace crab
 		GameWindow() = default;
 		~GameWindow();
 
+		void TranslateEvent(const SDL_Event& in_event);
+
 		/* position 을 명시적으로 설정하지 않을 경우 윈도우 중앙 정렬*/
 		bool Init(
 			const std::string_view	in_title,
@@ -51,11 +53,13 @@ namespace crab
 		}
 
 		SDL_Window* GetSDLWindow() const { return m_window; }
-		void*		GetNativeWindow() const;
+		void* GetNativeWindow() const;
 
 		constexpr inline static float s_menubarHeight = 50.f;
 
 	private:
+		void _handle_window_event_(const SDL_Event& in_event);
+
 		SDL_Window* m_window = nullptr;
 	};
 }

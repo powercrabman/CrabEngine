@@ -27,12 +27,10 @@ namespace crab
 		int			_run_();
 		void		_shutdown_(AppShutdownEvent& in_event) const;
 
-		void		_translate_event_(const SDL_Event& in_event);
-		void		_handle_window_event_(const SDL_Event& in_event);
 		void		_on_event_(IEvent& in_event);
 
-		GameWindow		m_gameWindow;
 		Scope<Editor>	m_editor;
+		GameWindow		m_gameWindow;
 
 		bool			m_isRunning = false;
 		Vec4			m_clearColor = Color::BLACK;

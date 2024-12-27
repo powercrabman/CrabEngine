@@ -20,13 +20,19 @@ namespace crab
 		template<typename Ty, typename ...Args>
 		auto TryCreateComponent(Args... args)
 		{
-			return m_registry->emplace_or_replace<Ty>(m_entity, std::forward<Args>(args)...);
+			return m_registry->get_or_emplace<Ty>(m_entity, std::forward<Args>(args)...);
+		}
+
+		template<typename Ty, typename ...Args>
+		auto CreateComponent(Args... args)
+		{
+			return m_registry->emplace<Ty>(m_entity, std::forward<Args>(args)...);
 		}
 
 		template<typename Ty>
-		auto TryRemoveComponent()
+		void RemoveComponent()
 		{
-			m_registry->erase<Ty>(m_entity);
+			m_registry->remove<Ty>(m_entity);
 		}
 
 		template<typename Ty>

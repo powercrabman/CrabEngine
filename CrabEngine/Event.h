@@ -12,6 +12,7 @@ namespace crab
 		AppShutdownEvent,
 		AppCloseEvent,
 		WindowResizeEvent,
+		WindowMoveEvent,
 
 		// In Editor
 		SetRunTypeEvent,
@@ -26,6 +27,19 @@ namespace crab
 		virtual eEventType	GetType() = 0;
 
 		bool m_isHandled = false;
+	};
+
+	class WindowMoveEvent : public IEvent
+	{
+	public:
+		EVENT_IMPLEMENT(WindowMoveEvent);
+		std::string ToString() override
+		{
+			return fmt::format("{} : ({}, {})", EventString, m_x, m_y);
+		}
+
+		uint32 m_x;
+		uint32 m_y;
 	};
 
 	class WindowResizeEvent : public IEvent

@@ -35,6 +35,5 @@ namespace crab
 		DirectX::ScratchImage				m_image    = {};
 		std::wstring						m_name     = {};
 		std::filesystem::path				m_path     = {};
-
 	};
 }

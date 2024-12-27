@@ -11,6 +11,28 @@ namespace crab
 		}
 	}
 
+	void GameWindow::TranslateEvent(const SDL_Event& in_event)
+	{
+		ImGui_ImplSDL2_ProcessEvent(&in_event);
+
+		switch (in_event.type)
+		{
+
+		case SDL_QUIT:
+		{
+			AppCloseEvent e;
+			CRAB_ENGINE.DispatchEvent(e);
+			break;
+		}
+
+		case SDL_WINDOWEVENT:
+		{
+			_handle_window_event_(in_event);
+			break;
+		}
+		}
+	}
+
 	bool GameWindow::Init(
 		const std::string_view	in_title,
 		const int				in_positionX,
@@ -64,4 +86,33 @@ namespace crab
 		return nullptr;
 #endif
 	}
+
+	void GameWindow::_handle_window_event_(const SDL_Event& in_event)
+	{
+		switch (in_event.window.event)
+		{
+		case SDL_WINDOWEVENT_RESIZED:
+		case SDL_WINDOWEVENT_SIZE_CHANGED:
+			if (in_event.window.windowID == SDL_GetWindowID(m_window))
+			{
+				WindowResizeEvent e;
+				e.m_width = in_event.window.data1;
+				e.m_height = in_event.window.data2;
+				CRAB_ENGINE.DispatchEvent(e);
+			}
+			break;
+
+		case SDL_WINDOWEVENT_MOVED:
+			if (in_event.window.windowID == SDL_GetWindowID(m_window))
+			{
+				WindowMoveEvent e;
+				e.m_x = in_event.window.data1;
+				e.m_y = in_event.window.data2;
+				CRAB_ENGINE.DispatchEvent(e);
+			}
+			break;
+
+		}
+	}
+
 }

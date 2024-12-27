@@ -62,7 +62,7 @@ namespace crab
 		while (m_isRunning)
 		{
 			// Application Event
-			while (SDL_PollEvent(&event)) { _translate_event_(event); }
+			while (SDL_PollEvent(&event)) { m_gameWindow.TranslateEvent(event); }
 
 			// Main Loop
 			float dt = timer.CalcDeltaTime();
@@ -102,47 +102,6 @@ namespace crab
 		if (m_isRunning) { in_event.m_isHandled = true; }
 	}
 
-	void CrabEngine::_translate_event_(const SDL_Event& in_event)
-	{
-		ImGui_ImplSDL2_ProcessEvent(&in_event);
-
-		switch (in_event.type)
-		{
-
-		case SDL_QUIT:
-		{
-			AppCloseEvent e;
-			DispatchEvent(e);
-			break;
-		}
-
-		case SDL_WINDOWEVENT:
-		{
-			_handle_window_event_(in_event);
-			break;
-		}
-
-		}
-	}
-
-	void CrabEngine::_handle_window_event_(const SDL_Event& in_event)
-	{
-		switch (in_event.window.event)
-		{
-		case SDL_WINDOWEVENT_RESIZED:
-		case SDL_WINDOWEVENT_SIZE_CHANGED:
-		{
-			if (in_event.window.windowID == SDL_GetWindowID(m_gameWindow.GetSDLWindow()))
-			{
-				WindowResizeEvent e;
-				e.m_width = in_event.window.data1;
-				e.m_height = in_event.window.data2;
-				DispatchEvent(e);
-			}
-			break;
-		}
-		}
-	}
 
 	void CrabEngine::DispatchEvent(IEvent& in_event)
 	{
