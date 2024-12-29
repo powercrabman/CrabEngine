@@ -1,7 +1,0 @@
-[2024-12-20 00:00:31] [info] Log initialize done.
-[2024-12-20 00:00:32] [info] Engine initialize done.
-[2024-12-20 00:00:34] [debug] Enter Key Pressed
-[2024-12-20 00:00:34] [debug] Enter Key Pressed
-[2024-12-20 00:00:37] [debug] Enter Key Pressed
-[2024-12-20 00:00:38] [debug] Enter Key Pressed
-[2024-12-20 00:00:38] [debug] Enter Key Pressed

@@ -41,6 +41,9 @@ namespace crab
 		// ImGui 초기화
 		ImGuiRenderer::Init();
 
+		// Client Asset 로딩
+		ASSET_MANAGER.LoadClientAssets();
+
 		// Editor
 		if (in_prop.enableEditor)
 		{

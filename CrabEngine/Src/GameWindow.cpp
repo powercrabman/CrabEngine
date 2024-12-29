@@ -112,6 +112,12 @@ namespace crab
 			}
 			break;
 
+		case SDL_WINDOWEVENT_CLOSE:
+			{
+				AppCloseEvent e;
+				CRAB_ENGINE.DispatchEvent(e);
+			}
+			break;
 		}
 	}
 

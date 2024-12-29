@@ -336,6 +336,12 @@
     <ClInclude Include="EntityInspector.h">
       <Filter>13. Editor\Panel</Filter>
     </ClInclude>
+    <ClInclude Include="AssetBrowserPanel.h">
+      <Filter>13. Editor\Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetSerializer.h">
+      <Filter>08. Asset</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="small.ico">
@@ -528,6 +534,12 @@
     </ClCompile>
     <ClCompile Include="EntityInspector.cpp">
       <Filter>13. Editor\Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetBrowserPanel.cpp">
+      <Filter>13. Editor\Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetSerializer.cpp">
+      <Filter>08. Asset</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

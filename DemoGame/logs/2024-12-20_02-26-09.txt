@@ -1,2 +1,0 @@
-[2024-12-20 02:26:09] [info] Log initialize done.
-[2024-12-20 02:26:09] [info] Engine initialize done.

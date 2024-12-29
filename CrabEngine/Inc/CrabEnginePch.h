@@ -6,6 +6,8 @@
 #include <cassert>
 #include <chrono>
 #include <filesystem>
+#include <string>
+#include <fstream>
 #include <string_view>
 #include <SDL/include/SDL.h>
 

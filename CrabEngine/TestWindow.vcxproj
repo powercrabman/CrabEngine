@@ -165,6 +165,8 @@
     <ClInclude Include="AssetContainer.h" />
     <ClInclude Include="AssetID.h" />
     <ClInclude Include="AssetManager.h" />
+    <ClInclude Include="AssetBrowserPanel.h" />
+    <ClInclude Include="AssetSerializer.h" />
     <ClInclude Include="PanelDrawHelper.h" />
     <ClInclude Include="Components.h" />
     <ClInclude Include="CrabColor.h" />
@@ -240,6 +242,8 @@
     <ClCompile Include="AssetContainer.cpp" />
     <ClCompile Include="AssetID.cpp" />
     <ClCompile Include="AssetManager.cpp" />
+    <ClCompile Include="AssetBrowserPanel.cpp" />
+    <ClCompile Include="AssetSerializer.cpp" />
     <ClCompile Include="PanelDrawHelper.cpp" />
     <ClCompile Include="Components.cpp" />
     <ClCompile Include="CrabColor.cpp" />

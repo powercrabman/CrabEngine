@@ -75,6 +75,9 @@ namespace crab
 		SimulateStop,
 	};
 
+	/////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////////////
+
 	enum class eAssetType
 	{
 		Mesh = 0,
@@ -84,6 +87,20 @@ namespace crab
 	};
 
 	enum { eAssetTypeCount = static_cast<uint32_t>(eAssetType::Count) };
+
+	constexpr const char* ToString(eAssetType in_type)
+	{
+		switch (in_type)
+		{
+		case eAssetType::Mesh:		return "Mesh";
+		case eAssetType::Flipbook:	return "Flipbook";
+		case eAssetType::Sprite:	return "Sprite";
+		default: assert(false);		return "";
+		}
+	}
+
+	/////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////////////
 
 	enum class eProjection
 	{
