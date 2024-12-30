@@ -173,7 +173,7 @@
     <ClInclude Include="ConstantBufferStruct.h" />
     <ClInclude Include="DX11ConstantBuffer.h" />
     <ClInclude Include="Editor.h" />
-    <ClInclude Include="EntityInspector.h" />
+    <ClInclude Include="EntityInspectorPanel.h" />
     <ClInclude Include="IConstantBuffer.h" />
     <ClInclude Include="DX11ImGuiAPI.h" />
     <ClInclude Include="DX11IndexBuffer.h" />
@@ -229,7 +229,7 @@
     <ClInclude Include="GeometryFactory.h" />
     <ClInclude Include="RenderSystem.h" />
     <ClInclude Include="Scene.h" />
-    <ClInclude Include="SceneHierarchy.h" />
+    <ClInclude Include="SceneHierarchyPanel.h" />
     <ClInclude Include="SceneManager.h" />
     <ClInclude Include="RendererSingleInclude.h" />
     <ClInclude Include="ImGuiInclude.h" />
@@ -237,6 +237,7 @@
     <ClInclude Include="VertexType.h" />
     <ClInclude Include="ViewportPanel.h" />
     <ClInclude Include="AssetSingleInclude.h" />
+    <ClInclude Include="AssetPayload.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssetContainer.cpp" />
@@ -250,7 +251,7 @@
     <ClCompile Include="ConstantBufferStruct.cpp" />
     <ClCompile Include="DX11ConstantBuffer.cpp" />
     <ClCompile Include="Editor.cpp" />
-    <ClCompile Include="EntityInspector.cpp" />
+    <ClCompile Include="EntityInspectorPanel.cpp" />
     <ClCompile Include="IConstantBuffer.cpp" />
     <ClCompile Include="DX11ImGuiAPI.cpp" />
     <ClCompile Include="DX11IndexBuffer.cpp" />
@@ -276,7 +277,7 @@
     <ClCompile Include="GeometryFactory.cpp" />
     <ClCompile Include="RenderSystem.cpp" />
     <ClCompile Include="Scene.cpp" />
-    <ClCompile Include="SceneHierarchy.cpp" />
+    <ClCompile Include="SceneHierarchyPanel.cpp" />
     <ClCompile Include="SceneManager.cpp" />
     <ClCompile Include="SerializerHelper.cpp" />
     <ClCompile Include="Src\Application.cpp" />
@@ -292,6 +293,7 @@
     <ClCompile Include="Src\TypeID.cpp" />
     <ClCompile Include="VertexType.cpp" />
     <ClCompile Include="ViewportPanel.cpp" />
+    <ClCompile Include="AssetPayload.cpp" />
     <ClInclude Include="Inc\EntryPoint.h" />
     <ClCompile Include="Src\GameWindow.cpp" />
     <ClCompile Include="Src\IIndexBuffer.cpp" />

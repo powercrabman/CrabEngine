@@ -18,3 +18,7 @@
 #define ASSET_MANAGER		crab::AssetManager::Get()
 #define CRAB_ENGINE			crab::CrabEngine::Get()
 #define SCENE_MANAGER		crab::SceneManager::Get()
+
+
+#define IS_SAME_TYPE(Type1, Type2)			std::is_same<Type1, Type2>::value 
+#define IS_BASE_OF(BaseType, DerivedType)	std::is_base_of<BaseType, DerivedType>::value
