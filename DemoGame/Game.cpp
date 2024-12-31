@@ -1,7 +1,5 @@
 #include "CrabEnginePch.h"
 #include "Application.h"
-#include "GameScene.h"
-#include "TextureDemoScene.h"
 #include "EntityAssetDemoScene.h"
 
 class DemoGame : public crab::Application

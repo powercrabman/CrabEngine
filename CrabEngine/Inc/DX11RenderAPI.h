@@ -33,6 +33,7 @@ namespace crab
 		void				BindRasterizerState(eRasterizerState in_state) override;
 		void				BindSamplerState(eSamplerState in_state, uint32 in_slot) override;
 
+		void				UnbindTexture(const uint32 in_slot) override;
 		void				SetTextureData(const Vec2& in_uv0, const Vec2& in_uv1) override;
 		void				SetCameraData(const Mat& in_viewPorjMat, const Vec3& in_cameraPos) override;
 

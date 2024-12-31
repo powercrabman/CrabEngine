@@ -14,7 +14,7 @@ namespace crab
 		auto device = static_cast<DX11RenderAPI*>(Renderer::GetRenderAPI())->GetDevice();
 
 		D3D11_BUFFER_DESC desc = {};
-		desc.Usage = D3D11_USAGE_DEFAULT;
+		desc.Usage = D3D11_USAGE_IMMUTABLE;
 		desc.ByteWidth = static_cast<UINT>(in_verticesSize * in_verticesCount);
 		desc.BindFlags = D3D11_BIND_VERTEX_BUFFER;
 		desc.CPUAccessFlags = 0;
@@ -31,4 +31,9 @@ namespace crab
 		m_offset = 0;
 	}
 
+	//void DX11VertexBuffer::UpdateVertexBuffer(const void* in_newData)
+	//{
+	//	auto context = static_cast<DX11RenderAPI*>(Renderer::GetRenderAPI())->GetContext();
+	//	context->UpdateSubresource(m_buffer.Get(), 0, nullptr, in_newData, 0, 0);
+	//}
 }

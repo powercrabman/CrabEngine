@@ -138,8 +138,6 @@
   <ItemGroup>
     <ClCompile Include="EntityAssetDemoScene.cpp" />
     <ClCompile Include="Game.cpp" />
-    <ClCompile Include="GameScene.cpp" />
-    <ClCompile Include="TextureDemoScene.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CrabEngine\TestWindow.vcxproj">
@@ -148,8 +146,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EntityAssetDemoScene.h" />
-    <ClInclude Include="GameScene.h" />
-    <ClInclude Include="TextureDemoScene.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="FlipbookDemoShader.hlsli" />

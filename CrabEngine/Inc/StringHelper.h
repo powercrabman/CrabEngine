@@ -12,4 +12,14 @@ namespace crab::str
 	{
 		return std::wstring(in_string.begin(), in_string.end());
 	}
+
+	inline auto stoi(const std::string& in_string)
+	{
+		for (char c : in_string) 
+		{
+			if (!std::isdigit(c)) return std::make_pair(false, -1);
+		}
+
+		return std::make_pair(true, std::stoi(in_string));
+	}
 }

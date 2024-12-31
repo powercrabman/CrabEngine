@@ -23,7 +23,6 @@ void crab::DX11ConstantBuffer::_set_data_(const void* in_data, uint32 in_dataSiz
 	ZeroMemory(&res, sizeof(D3D11_MAPPED_SUBRESOURCE));
 
 	DX_ASSERT(context->Map(m_buffer.Get(), 0, D3D11_MAP_WRITE_DISCARD, 0, &res), "Map fail.");
-
 	std::memcpy(res.pData, in_data, in_dataSize);
 
 	context->Unmap(m_buffer.Get(), 0);

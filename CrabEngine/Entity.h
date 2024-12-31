@@ -24,6 +24,12 @@ namespace crab
 		}
 
 		template<typename Ty, typename ...Args>
+		auto ReplaceOrCreateComponent(Args... args)
+		{
+			return m_registry->emplace_or_replace<Ty>(m_entity, std::forward<Args>(args)...);
+		}
+
+		template<typename Ty, typename ...Args>
 		auto CreateComponent(Args... args)
 		{
 			return m_registry->emplace<Ty>(m_entity, std::forward<Args>(args)...);

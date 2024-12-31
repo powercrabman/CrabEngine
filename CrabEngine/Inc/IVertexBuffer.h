@@ -16,6 +16,8 @@ namespace crab
 		template<typename VertexType>
 		static Ref<IVertexBuffer>	Create(const std::initializer_list<VertexType>& in_vertices);
 
+		//virtual void	UpdateVertexBuffer(const void* in_newData) = 0;		// In most cases, you will never need to use this.
+
 	private:
 		virtual void				_create_(const void* in_vertices, uint32 in_verticesSize, uint32 in_verticesCount) = 0;
 		static Ref<IVertexBuffer>	_create_concrete_vertex_buffer_(eRenderAPI in_api);

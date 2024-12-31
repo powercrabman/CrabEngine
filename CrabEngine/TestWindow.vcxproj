@@ -167,6 +167,8 @@
     <ClInclude Include="AssetManager.h" />
     <ClInclude Include="AssetBrowserPanel.h" />
     <ClInclude Include="AssetSerializer.h" />
+    <ClInclude Include="ComponentSerializer.h" />
+    <ClInclude Include="ComponentSerializerManager.h" />
     <ClInclude Include="PanelDrawHelper.h" />
     <ClInclude Include="Components.h" />
     <ClInclude Include="CrabColor.h" />
@@ -233,6 +235,7 @@
     <ClInclude Include="SceneManager.h" />
     <ClInclude Include="RendererSingleInclude.h" />
     <ClInclude Include="ImGuiInclude.h" />
+    <ClInclude Include="SceneSerializer.h" />
     <ClInclude Include="SerializerHelper.h" />
     <ClInclude Include="VertexType.h" />
     <ClInclude Include="ViewportPanel.h" />
@@ -245,6 +248,8 @@
     <ClCompile Include="AssetManager.cpp" />
     <ClCompile Include="AssetBrowserPanel.cpp" />
     <ClCompile Include="AssetSerializer.cpp" />
+    <ClCompile Include="ComponentSerializer.cpp" />
+    <ClCompile Include="ComponentSerializerManager.cpp" />
     <ClCompile Include="PanelDrawHelper.cpp" />
     <ClCompile Include="Components.cpp" />
     <ClCompile Include="CrabColor.cpp" />
@@ -279,6 +284,7 @@
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="SceneHierarchyPanel.cpp" />
     <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="SceneSerializer.cpp" />
     <ClCompile Include="SerializerHelper.cpp" />
     <ClCompile Include="Src\Application.cpp" />
     <ClCompile Include="Src\CircularQueue.cpp" />

@@ -8,7 +8,7 @@ namespace crab
 		friend class Singleton<SceneManager>;
 	public:
 		template <typename Ty>
-		Scene* CreateScene();
+		Scene*  CreateScene();
 
 		template <typename Ty>
 		Scene*	TryFindScene();
@@ -36,6 +36,7 @@ namespace crab
 
 	private:
 		void _change_scene_(Scene* in_scene);
+		void _setup_scene_(Scene* in_scene);
 
 		std::unordered_map<TypeID, Scope<Scene>>	m_sceneRepo;
 		Scene*										m_currentScene = nullptr;

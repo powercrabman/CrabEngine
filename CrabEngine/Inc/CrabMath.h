@@ -16,4 +16,13 @@ namespace crab::math
 	{
 		return in_rad * 180.f / PI;
 	}
+
+	constexpr FORCE_INLINE NO_DISCARD Vec3 DegVecToRadVec(const Vec3& in_srcVec)
+	{
+		return Vec3{
+			DegToRad(in_srcVec.x),
+			DegToRad(in_srcVec.y),
+			DegToRad(in_srcVec.z)
+		};
+	}
 }

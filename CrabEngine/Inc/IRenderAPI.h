@@ -41,6 +41,8 @@ namespace crab
 		virtual void				BindRasterizerState(eRasterizerState in_state) = 0;
 		virtual void				BindSamplerState(eSamplerState in_state, uint32 in_slot) = 0;
 
+		virtual void				UnbindTexture(const uint32 in_slot) = 0;
+
 		virtual void				SetTextureData(const Vec2& in_uv0, const Vec2& in_uv1) = 0;
 		virtual void				SetCameraData(const Mat& in_viewPorjMat, const Vec3& in_cameraPos) = 0;
 

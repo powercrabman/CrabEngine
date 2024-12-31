@@ -4,6 +4,7 @@
 #include "SceneManager.h"
 #include "ImGuiRenderer.h"
 #include "Editor.h"
+#include "ComponentSerializerManager.h"
 
 namespace crab
 {
@@ -114,6 +115,7 @@ namespace crab
 		Renderer::OnEvent(in_event);
 		SceneManager::Get().OnEvent(in_event);
 		ImGuiRenderer::OnEvent(in_event);
+		ComponentSerializerManager::Get().OnEvent(in_event);
 		if (m_editor) { m_editor->OnEvent(in_event); }
 	}
 

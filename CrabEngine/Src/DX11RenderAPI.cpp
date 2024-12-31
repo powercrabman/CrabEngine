@@ -64,13 +64,13 @@ namespace crab
 
 		// constant buffer
 		m_transformCBuffer = IConstantBuffer::Create<CBTransform>();
-		m_transformCBuffer->Bind(eShaderFlags_VertexShader, CBTransform::s_slot);
+		m_transformCBuffer->Bind(CBTransform::s_bindFlags, CBTransform::s_slot);
 
 		m_cameraCBuffer = IConstantBuffer::Create<CBCamera>();
-		m_cameraCBuffer->Bind(eShaderFlags_VertexShader, CBCamera::s_slot);
+		m_cameraCBuffer->Bind(CBCamera::s_bindFlags, CBCamera::s_slot);
 
-		m_textureCBuffer = IConstantBuffer::Create<CBTransform>();
-		m_textureCBuffer->Bind(eShaderFlags_VertexShader, CBTexture::s_slot);
+		m_textureCBuffer = IConstantBuffer::Create<CBTexture>();
+		m_textureCBuffer->Bind(CBTexture::s_bindFlags, CBTexture::s_slot);
 	}
 
 	void DX11RenderAPI::Shutdown()
@@ -169,9 +169,21 @@ namespace crab
 		m_renderState->BindSamplerState(in_state, in_slot);
 	}
 
+	void DX11RenderAPI::UnbindTexture(const uint32 in_slot)
+	{
+		CBTexture data = {};
+		ZeroMemory(&data, sizeof(CBTexture));
+
+		m_textureCBuffer->SetData(data);
+	}
+
 	void DX11RenderAPI::SetTextureData(const Vec2& in_uv0, const Vec2& in_uv1)
 	{
-		m_textureCBuffer->SetData(CBTexture{ in_uv0, in_uv1 });
+		CBTexture data = {};
+		data.uv0 = in_uv0;
+		data.uv1 = in_uv1;
+		data.useTexture = 1;
+		m_textureCBuffer->SetData(data);
 	}
 
 	void DX11RenderAPI::RenderBegin()

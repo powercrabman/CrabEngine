@@ -1,6 +1,7 @@
 #include "CrabEnginePch.h"
 #include "SceneManager.h"
 #include "Scene.h"
+#include "SceneSerializer.h"
 
 namespace crab
 {
@@ -64,13 +65,26 @@ namespace crab
 			// Scene Resource Setup
 			if (!m_currentScene->m_isSetuped) 
 			{
-				m_currentScene->SetupScene(); 
-				m_currentScene->m_isSetuped = true;
+				_setup_scene_(in_scene);
 			}
 
 			// Enter
 			m_currentScene->OnEnterScene();
 		}
+	}
+
+	void SceneManager::_setup_scene_(Scene* in_scene)
+	{
+		std::filesystem::path dataPath = m_currentScene->GetSceneDataPath();
+		if (std::filesystem::exists(dataPath))
+		{
+			SceneSerializer serializer;
+			serializer.LoadJsonFromFile(dataPath);
+			serializer.LoadSceneDataFromJson(m_currentScene);
+		}
+
+		m_currentScene->SetupScene();
+		m_currentScene->m_isSetuped = true;
 	}
 
 }

@@ -64,10 +64,11 @@
 
 #include "AssetSingleInclude.h"
 
-#include "Components.h"
-
 #include "JsonSerializer.h"
 #include "SerializerHelper.h"
+
+#include "Components.h"
+#include "ComponentSerializer.h"
 
 #include "RenderSystem.h"
 

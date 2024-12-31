@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="ScriptEngine">
-      <UniqueIdentifier>{53706b87-0308-410c-b022-48311fa66833}</UniqueIdentifier>
-    </Filter>
     <Filter Include="01. Application">
       <UniqueIdentifier>{c194d78f-10de-44d3-b511-15ebb4dfdfd6}</UniqueIdentifier>
     </Filter>
@@ -111,6 +108,12 @@
     </Filter>
     <Filter Include="13. Editor\Helper">
       <UniqueIdentifier>{f3db2c19-614e-472b-9f61-b1ef8752b96e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="14. Physics">
+      <UniqueIdentifier>{5c5717b0-0dfe-4149-bb35-1f1f69d25fc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="15. ScriptEngine">
+      <UniqueIdentifier>{53706b87-0308-410c-b022-48311fa66833}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -345,6 +348,15 @@
     <ClInclude Include="AssetPayload.h">
       <Filter>13. Editor\Helper</Filter>
     </ClInclude>
+    <ClInclude Include="SceneSerializer.h">
+      <Filter>07. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentSerializerManager.h">
+      <Filter>10. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentSerializer.h">
+      <Filter>10. Component</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="small.ico">
@@ -546,6 +558,15 @@
     </ClCompile>
     <ClCompile Include="AssetPayload.cpp">
       <Filter>13. Editor\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSerializer.cpp">
+      <Filter>07. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentSerializerManager.cpp">
+      <Filter>10. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentSerializer.cpp">
+      <Filter>10. Component</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
