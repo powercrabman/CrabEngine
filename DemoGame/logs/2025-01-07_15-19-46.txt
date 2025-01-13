@@ -1,0 +1,170 @@
+[2025-01-07 15:19:46] [info] Log initialize done.
+[2025-01-07 15:19:46] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2025-01-07 15:19:46] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\Player_Crouch_Shot_Right.json
+[2025-01-07 15:19:46] [trace] image file load "Player_Crouch_Shot_Right"
+[2025-01-07 15:19:46] [info] image file load done "Player_Crouch_Shot_Right"
+[2025-01-07 15:19:46] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2025-01-07 15:19:46] [trace] image file load "Older_Walk"
+[2025-01-07 15:19:46] [info] image file load done "Older_Walk"
+[2025-01-07 15:19:46] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Mesh
+[2025-01-07 15:19:46] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Sprite
+[2025-01-07 15:19:46] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Sprite\SampleSprite.json
+[2025-01-07 15:19:46] [trace] image file load "rio"
+[2025-01-07 15:19:46] [info] image file load done "rio"
+[2025-01-07 15:19:46] [trace] image file load "engine_icon"
+[2025-01-07 15:19:46] [info] image file load done "engine_icon"
+[2025-01-07 15:19:46] [trace] image file load "play_button"
+[2025-01-07 15:19:46] [info] image file load done "play_button"
+[2025-01-07 15:19:46] [trace] image file load "simul_button"
+[2025-01-07 15:19:46] [info] image file load done "simul_button"
+[2025-01-07 15:19:46] [trace] image file load "pause_button"
+[2025-01-07 15:19:46] [info] image file load done "pause_button"
+[2025-01-07 15:19:46] [trace] image file load "reset_button"
+[2025-01-07 15:19:46] [info] image file load done "reset_button"
+[2025-01-07 15:19:46] [trace] image file load "next_button"
+[2025-01-07 15:19:46] [info] image file load done "next_button"
+[2025-01-07 15:19:46] [trace] image file load "camera_icon"
+[2025-01-07 15:19:46] [info] image file load done "camera_icon"
+[2025-01-07 15:19:46] [trace] image file load "move_icon"
+[2025-01-07 15:19:46] [info] image file load done "move_icon"
+[2025-01-07 15:19:46] [trace] image file load "rotation_icon"
+[2025-01-07 15:19:46] [info] image file load done "rotation_icon"
+[2025-01-07 15:19:46] [trace] image file load "scaling_icon"
+[2025-01-07 15:19:46] [info] image file load done "scaling_icon"
+[2025-01-07 15:19:46] [trace] image file load "gear_icon"
+[2025-01-07 15:19:46] [info] image file load done "gear_icon"
+[2025-01-07 15:19:46] [trace] image file load "tag_icon"
+[2025-01-07 15:19:46] [info] image file load done "tag_icon"
+[2025-01-07 15:19:46] [trace] image file load "transform_icon"
+[2025-01-07 15:19:46] [info] image file load done "transform_icon"
+[2025-01-07 15:19:46] [trace] image file load "plus_icon"
+[2025-01-07 15:19:46] [info] image file load done "plus_icon"
+[2025-01-07 15:19:46] [trace] image file load "camera_icon"
+[2025-01-07 15:19:46] [info] image file load done "camera_icon"
+[2025-01-07 15:19:46] [trace] image file load "sprite_icon"
+[2025-01-07 15:19:46] [info] image file load done "sprite_icon"
+[2025-01-07 15:19:46] [trace] image file load "flipbook_icon"
+[2025-01-07 15:19:46] [info] image file load done "flipbook_icon"
+[2025-01-07 15:19:46] [trace] image file load "mesh_icon"
+[2025-01-07 15:19:46] [info] image file load done "mesh_icon"
+[2025-01-07 15:19:46] [trace] image file load "entity_icon"
+[2025-01-07 15:19:46] [info] image file load done "entity_icon"
+[2025-01-07 15:19:46] [trace] image file load "plus_icon"
+[2025-01-07 15:19:46] [info] image file load done "plus_icon"
+[2025-01-07 15:19:46] [trace] image file load "doc_icon"
+[2025-01-07 15:19:46] [info] image file load done "doc_icon"
+[2025-01-07 15:19:46] [trace] image file load "script_icon"
+[2025-01-07 15:19:46] [info] image file load done "script_icon"
+[2025-01-07 15:19:46] [trace] image file load "mesh_icon"
+[2025-01-07 15:19:46] [info] image file load done "mesh_icon"
+[2025-01-07 15:19:46] [trace] image file load "folder_icon"
+[2025-01-07 15:19:46] [info] image file load done "folder_icon"
+[2025-01-07 15:19:46] [trace] image file load "refresh_icon"
+[2025-01-07 15:19:46] [info] image file load done "refresh_icon"
+[2025-01-07 15:19:46] [trace] image file load "search_icon"
+[2025-01-07 15:19:46] [info] image file load done "search_icon"
+[2025-01-07 15:19:46] [info] Engine initialize done.
+[2025-01-07 15:19:46] [info] Load Scene Data: DemoScene (path: C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Scenes\DemoScene.json)
+[2025-01-07 15:19:46] [debug] Event Occured => WindowResizeEvent : (2375, 1276)
+[2025-01-07 15:19:49] [debug] Event Occured => WindowResizeEvent : (1784, 1025)
+[2025-01-07 15:19:49] [debug] Event Occured => WindowResizeEvent : (1784, 1025)
+[2025-01-07 15:19:49] [debug] Event Occured => WindowResizeEvent : (1784, 1025)
+[2025-01-07 15:19:54] [debug] ============================================
+[2025-01-07 15:19:54] [debug] mouse pos in Screen : 854, 549
+[2025-01-07 15:19:54] [debug] mouse pos in Viewport : 540.8333, 376
+[2025-01-07 15:19:54] [debug] mouse pos in RenderTarget : 988, 687
+[2025-01-07 15:19:54] [debug] picking test : entity ID => 0
+[2025-01-07 15:19:54] [debug] ============================================
+[2025-01-07 15:19:55] [debug] ============================================
+[2025-01-07 15:19:55] [debug] mouse pos in Screen : 546, 314
+[2025-01-07 15:19:55] [debug] mouse pos in Viewport : 232.83331, 141
+[2025-01-07 15:19:55] [debug] mouse pos in RenderTarget : 425, 257
+[2025-01-07 15:19:55] [debug] picking test : entity ID => 0
+[2025-01-07 15:19:55] [debug] ============================================
+[2025-01-07 15:19:57] [debug] ============================================
+[2025-01-07 15:19:57] [debug] mouse pos in Screen : 1759, 989
+[2025-01-07 15:19:57] [debug] mouse pos in Viewport : 1445.8333, 816
+[2025-01-07 15:19:57] [debug] mouse pos in RenderTarget : 2642, 1491
+[2025-01-07 15:19:57] [debug] picking test : entity ID => 3435973836
+[2025-01-07 15:19:57] [debug] ============================================
+[2025-01-07 15:19:57] [debug] ============================================
+[2025-01-07 15:19:57] [debug] mouse pos in Screen : 1760, 1031
+[2025-01-07 15:19:57] [debug] mouse pos in Viewport : 1446.8333, 858
+[2025-01-07 15:19:57] [debug] mouse pos in RenderTarget : 2643, 1567
+[2025-01-07 15:19:57] [debug] picking test : entity ID => 3435973836
+[2025-01-07 15:19:57] [debug] ============================================
+[2025-01-07 15:19:57] [debug] ============================================
+[2025-01-07 15:19:57] [debug] mouse pos in Screen : 1760, 1033
+[2025-01-07 15:19:57] [debug] mouse pos in Viewport : 1446.8333, 860
+[2025-01-07 15:19:57] [debug] mouse pos in RenderTarget : 2643, 1571
+[2025-01-07 15:19:57] [debug] picking test : entity ID => 3435973836
+[2025-01-07 15:19:57] [debug] ============================================
+[2025-01-07 15:19:58] [debug] ============================================
+[2025-01-07 15:19:58] [debug] mouse pos in Screen : 847, 445
+[2025-01-07 15:19:58] [debug] mouse pos in Viewport : 533.8333, 272
+[2025-01-07 15:19:58] [debug] mouse pos in RenderTarget : 975, 497
+[2025-01-07 15:19:58] [debug] picking test : entity ID => 0
+[2025-01-07 15:19:58] [debug] ============================================
+[2025-01-07 15:19:59] [debug] ============================================
+[2025-01-07 15:19:59] [debug] mouse pos in Screen : 1024, 574
+[2025-01-07 15:19:59] [debug] mouse pos in Viewport : 710.8333, 401
+[2025-01-07 15:19:59] [debug] mouse pos in RenderTarget : 1298, 732
+[2025-01-07 15:19:59] [debug] picking test : entity ID => 5
+[2025-01-07 15:19:59] [debug] ============================================
+[2025-01-07 15:20:00] [debug] ============================================
+[2025-01-07 15:20:00] [debug] mouse pos in Screen : 1027, 613
+[2025-01-07 15:20:00] [debug] mouse pos in Viewport : 713.8333, 440
+[2025-01-07 15:20:00] [debug] mouse pos in RenderTarget : 1304, 804
+[2025-01-07 15:20:00] [debug] picking test : entity ID => 5
+[2025-01-07 15:20:00] [debug] ============================================
+[2025-01-07 15:20:02] [debug] ============================================
+[2025-01-07 15:20:02] [debug] mouse pos in Screen : 956, 515
+[2025-01-07 15:20:02] [debug] mouse pos in Viewport : 642.8333, 342
+[2025-01-07 15:20:02] [debug] mouse pos in RenderTarget : 1174, 624
+[2025-01-07 15:20:02] [debug] picking test : entity ID => 6
+[2025-01-07 15:20:02] [debug] ============================================
+[2025-01-07 15:20:03] [debug] ============================================
+[2025-01-07 15:20:03] [debug] mouse pos in Screen : 1224, 429
+[2025-01-07 15:20:03] [debug] mouse pos in Viewport : 910.8333, 256
+[2025-01-07 15:20:03] [debug] mouse pos in RenderTarget : 1664, 467
+[2025-01-07 15:20:03] [debug] picking test : entity ID => 9
+[2025-01-07 15:20:03] [debug] ============================================
+[2025-01-07 15:20:05] [debug] ============================================
+[2025-01-07 15:20:05] [debug] mouse pos in Screen : 751, 635
+[2025-01-07 15:20:05] [debug] mouse pos in Viewport : 437.8333, 462
+[2025-01-07 15:20:05] [debug] mouse pos in RenderTarget : 800, 844
+[2025-01-07 15:20:05] [debug] picking test : entity ID => 0
+[2025-01-07 15:20:05] [debug] ============================================
+[2025-01-07 15:20:07] [debug] ============================================
+[2025-01-07 15:20:07] [debug] mouse pos in Screen : 756, 695
+[2025-01-07 15:20:07] [debug] mouse pos in Viewport : 442.8333, 522
+[2025-01-07 15:20:07] [debug] mouse pos in RenderTarget : 809, 953
+[2025-01-07 15:20:07] [debug] picking test : entity ID => 7
+[2025-01-07 15:20:07] [debug] ============================================
+[2025-01-07 15:20:12] [debug] ============================================
+[2025-01-07 15:20:12] [debug] mouse pos in Screen : 951, 693
+[2025-01-07 15:20:12] [debug] mouse pos in Viewport : 637.8333, 520
+[2025-01-07 15:20:12] [debug] mouse pos in RenderTarget : 1165, 950
+[2025-01-07 15:20:12] [debug] picking test : entity ID => 0
+[2025-01-07 15:20:12] [debug] ============================================
+[2025-01-07 15:20:16] [debug] ============================================
+[2025-01-07 15:20:16] [debug] mouse pos in Screen : 843, 686
+[2025-01-07 15:20:16] [debug] mouse pos in Viewport : 529.8333, 513
+[2025-01-07 15:20:16] [debug] mouse pos in RenderTarget : 968, 937
+[2025-01-07 15:20:16] [debug] picking test : entity ID => 2097153
+[2025-01-07 15:20:16] [debug] ============================================
+[2025-01-07 15:20:24] [debug] ============================================
+[2025-01-07 15:20:24] [debug] mouse pos in Screen : 656, 428
+[2025-01-07 15:20:24] [debug] mouse pos in Viewport : 342.8333, 255
+[2025-01-07 15:20:24] [debug] mouse pos in RenderTarget : 626, 465
+[2025-01-07 15:20:24] [debug] picking test : entity ID => 8
+[2025-01-07 15:20:24] [debug] ============================================
+[2025-01-07 15:20:29] [debug] ============================================
+[2025-01-07 15:20:29] [debug] mouse pos in Screen : 1259, 509
+[2025-01-07 15:20:29] [debug] mouse pos in Viewport : 945.8333, 336
+[2025-01-07 15:20:29] [debug] mouse pos in RenderTarget : 1728, 614
+[2025-01-07 15:20:29] [debug] picking test : entity ID => 9
+[2025-01-07 15:20:29] [debug] ============================================
+[2025-01-07 15:20:31] [debug] Event Occured => AppCloseEvent
+[2025-01-07 15:20:31] [debug] Event Occured => AppCloseEvent
+[2025-01-07 15:20:31] [debug] Event Occured => AppShutdownEvent

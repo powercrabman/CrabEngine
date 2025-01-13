@@ -1,0 +1,133 @@
+[2025-01-08 16:18:21] [info] Log initialize done.
+[2025-01-08 16:18:21] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2025-01-08 16:18:21] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\Player_Crouch_Shot_Right.json
+[2025-01-08 16:18:21] [trace] image file load "Player_Crouch_Shot_Right"
+[2025-01-08 16:18:21] [info] image file load done "Player_Crouch_Shot_Right"
+[2025-01-08 16:18:21] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2025-01-08 16:18:21] [trace] image file load "Older_Walk"
+[2025-01-08 16:18:21] [info] image file load done "Older_Walk"
+[2025-01-08 16:18:21] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Mesh
+[2025-01-08 16:18:21] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Sprite
+[2025-01-08 16:18:21] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Sprite\SampleSprite.json
+[2025-01-08 16:18:21] [trace] image file load "rio"
+[2025-01-08 16:18:22] [info] image file load done "rio"
+[2025-01-08 16:18:22] [trace] image file load "engine_icon"
+[2025-01-08 16:18:22] [info] image file load done "engine_icon"
+[2025-01-08 16:18:22] [trace] image file load "play_button"
+[2025-01-08 16:18:22] [info] image file load done "play_button"
+[2025-01-08 16:18:22] [trace] image file load "simul_button"
+[2025-01-08 16:18:22] [info] image file load done "simul_button"
+[2025-01-08 16:18:22] [trace] image file load "pause_button"
+[2025-01-08 16:18:22] [info] image file load done "pause_button"
+[2025-01-08 16:18:22] [trace] image file load "reset_button"
+[2025-01-08 16:18:22] [info] image file load done "reset_button"
+[2025-01-08 16:18:22] [trace] image file load "next_button"
+[2025-01-08 16:18:22] [info] image file load done "next_button"
+[2025-01-08 16:18:22] [trace] image file load "camera_icon"
+[2025-01-08 16:18:22] [info] image file load done "camera_icon"
+[2025-01-08 16:18:22] [trace] image file load "move_icon"
+[2025-01-08 16:18:22] [info] image file load done "move_icon"
+[2025-01-08 16:18:22] [trace] image file load "rotation_icon"
+[2025-01-08 16:18:22] [info] image file load done "rotation_icon"
+[2025-01-08 16:18:22] [trace] image file load "scaling_icon"
+[2025-01-08 16:18:22] [info] image file load done "scaling_icon"
+[2025-01-08 16:18:22] [trace] image file load "gear_icon"
+[2025-01-08 16:18:22] [info] image file load done "gear_icon"
+[2025-01-08 16:18:22] [trace] image file load "tag_icon"
+[2025-01-08 16:18:22] [info] image file load done "tag_icon"
+[2025-01-08 16:18:22] [trace] image file load "transform_icon"
+[2025-01-08 16:18:22] [info] image file load done "transform_icon"
+[2025-01-08 16:18:22] [trace] image file load "plus_icon"
+[2025-01-08 16:18:22] [info] image file load done "plus_icon"
+[2025-01-08 16:18:22] [trace] image file load "camera_icon"
+[2025-01-08 16:18:22] [info] image file load done "camera_icon"
+[2025-01-08 16:18:22] [trace] image file load "sprite_icon"
+[2025-01-08 16:18:22] [info] image file load done "sprite_icon"
+[2025-01-08 16:18:22] [trace] image file load "flipbook_icon"
+[2025-01-08 16:18:22] [info] image file load done "flipbook_icon"
+[2025-01-08 16:18:22] [trace] image file load "mesh_icon"
+[2025-01-08 16:18:22] [info] image file load done "mesh_icon"
+[2025-01-08 16:18:22] [trace] image file load "entity_icon"
+[2025-01-08 16:18:22] [info] image file load done "entity_icon"
+[2025-01-08 16:18:22] [trace] image file load "plus_icon"
+[2025-01-08 16:18:22] [info] image file load done "plus_icon"
+[2025-01-08 16:18:22] [trace] image file load "doc_icon"
+[2025-01-08 16:18:22] [info] image file load done "doc_icon"
+[2025-01-08 16:18:22] [trace] image file load "script_icon"
+[2025-01-08 16:18:22] [info] image file load done "script_icon"
+[2025-01-08 16:18:22] [trace] image file load "mesh_icon"
+[2025-01-08 16:18:22] [info] image file load done "mesh_icon"
+[2025-01-08 16:18:22] [trace] image file load "folder_icon"
+[2025-01-08 16:18:22] [info] image file load done "folder_icon"
+[2025-01-08 16:18:22] [trace] image file load "refresh_icon"
+[2025-01-08 16:18:22] [info] image file load done "refresh_icon"
+[2025-01-08 16:18:22] [trace] image file load "search_icon"
+[2025-01-08 16:18:22] [info] image file load done "search_icon"
+[2025-01-08 16:18:22] [info] Engine initialize done.
+[2025-01-08 16:18:22] [debug] Hello Im Mono Scene
+[2025-01-08 16:18:22] [debug] Enter Mono Scene
+[2025-01-08 16:18:22] [debug] Event Occured => WindowResizeEvent : (1784, 1025)
+[2025-01-08 16:18:38] [debug] Hello Im Mono Render. Right Mouse Clicked!
+[2025-01-08 16:18:40] [debug] Event Occured => WindowMoveEvent : (810, 122)
+[2025-01-08 16:18:41] [debug] Hello Im Mono Render. Right Mouse Clicked!
+[2025-01-08 16:18:41] [debug] Hello Im Mono Render. Right Mouse Clicked!
+[2025-01-08 16:18:41] [debug] Hello Im Mono Render. Right Mouse Clicked!
+[2025-01-08 16:18:46] [debug] Hello Im Mono Render. Right Mouse Clicked!
+[2025-01-08 16:18:47] [debug] Hello Im Mono Render. Right Mouse Clicked!
+[2025-01-08 16:18:47] [debug] Hello Im Mono Render. Right Mouse Clicked!
+[2025-01-08 16:18:47] [debug] Hello Im Mono Render. Right Mouse Clicked!
+[2025-01-08 16:18:49] [debug] Out Mono Scene
+[2025-01-08 16:18:49] [info] Load Scene Data: DemoScene (path: C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Scenes\DemoScene.json)
+[2025-01-08 16:18:51] [debug] Enter Mono Scene
+[2025-01-08 16:18:52] [debug] Out Mono Scene
+[2025-01-08 16:18:53] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-08 16:18:55] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-08 16:18:57] [debug] Enter Mono Scene
+[2025-01-08 16:19:00] [debug] Hello Im Mono Render. Right Mouse Clicked!
+[2025-01-08 16:19:00] [debug] Hello Im Mono Render. Right Mouse Clicked!
+[2025-01-08 16:19:00] [debug] Hello Im Mono Render. Right Mouse Clicked!
+[2025-01-08 16:19:01] [debug] Hello Im Mono Render. Right Mouse Clicked!
+[2025-01-08 16:19:01] [debug] Hello Im Mono Render. Right Mouse Clicked!
+[2025-01-08 16:19:04] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-08 16:19:04] [debug] Out Mono Scene
+[2025-01-08 16:19:04] [debug] Enter Mono Scene
+[2025-01-08 16:19:05] [debug] Hello Im Mono Update
+[2025-01-08 16:19:05] [debug] Hello Im Mono Update
+[2025-01-08 16:19:05] [debug] Hello Im Mono Update
+[2025-01-08 16:19:06] [debug] Hello Im Mono Update
+[2025-01-08 16:19:06] [debug] Hello Im Mono Update
+[2025-01-08 16:19:07] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-08 16:19:07] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-08 16:19:07] [debug] Out Mono Scene
+[2025-01-08 16:19:07] [debug] Enter Mono Scene
+[2025-01-08 16:19:08] [debug] Hello Im Mono Update
+[2025-01-08 16:19:08] [debug] Hello Im Mono Update
+[2025-01-08 16:19:08] [debug] Hello Im Mono Update
+[2025-01-08 16:19:08] [debug] Hello Im Mono Update
+[2025-01-08 16:19:09] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-08 16:19:11] [debug] Event Occured => WindowMoveEvent : (297, 120)
+[2025-01-08 16:19:12] [debug] Event Occured => WindowMoveEvent : (205, 99)
+[2025-01-08 16:19:19] [debug] Event Occured => WindowResizeEvent : (2209, 1165)
+[2025-01-08 16:19:19] [debug] Event Occured => WindowResizeEvent : (2209, 1165)
+[2025-01-08 16:19:19] [debug] Event Occured => WindowResizeEvent : (2209, 1165)
+[2025-01-08 16:19:26] [debug] Out Mono Scene
+[2025-01-08 16:19:27] [debug] Enter Mono Scene
+[2025-01-08 16:19:29] [debug] Hello Im Mono Render. Right Mouse Clicked!
+[2025-01-08 16:19:33] [debug] Hello Im Mono Render. Right Mouse Clicked!
+[2025-01-08 16:19:48] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-08 16:19:48] [debug] Out Mono Scene
+[2025-01-08 16:19:48] [debug] Enter Mono Scene
+[2025-01-08 16:19:49] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-08 16:19:53] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-08 16:19:53] [debug] Out Mono Scene
+[2025-01-08 16:19:53] [debug] Enter Mono Scene
+[2025-01-08 16:19:53] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-08 16:20:44] [debug] Out Mono Scene
+[2025-01-08 16:20:48] [info] Load Scene Data: DemoScene (path: C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Scenes\DemoScene.json)
+[2025-01-08 16:20:49] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-08 16:20:51] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-08 16:20:55] [info] Load Scene Data: DemoScene (path: C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Scenes\DemoScene.json)
+[2025-01-08 16:20:57] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-08 16:21:00] [debug] Event Occured => AppCloseEvent
+[2025-01-08 16:21:00] [debug] Event Occured => AppCloseEvent
+[2025-01-08 16:21:00] [debug] Event Occured => AppShutdownEvent

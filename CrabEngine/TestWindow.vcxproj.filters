@@ -1,0 +1,712 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="01. Application">
+      <UniqueIdentifier>{c194d78f-10de-44d3-b511-15ebb4dfdfd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Base">
+      <UniqueIdentifier>{4b9a823c-d0ab-4480-8577-a5c82fddaab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Base\DataStructure">
+      <UniqueIdentifier>{79bfb942-97ff-4730-8d1e-2708c096eac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Base\NotUsing">
+      <UniqueIdentifier>{f10da170-7eea-4969-b586-75aa71598d31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Engine">
+      <UniqueIdentifier>{52730622-21ed-4a77-9c74-0d1e794f00fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameWindow">
+      <UniqueIdentifier>{7f69385b-9bb2-4479-9357-01312e7d6a9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Log">
+      <UniqueIdentifier>{60209df5-f19e-4c6c-b38b-eb84db1c47b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Base\String">
+      <UniqueIdentifier>{49ac7130-2e8b-48ce-bd0d-10ddf00e7a97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Renderer">
+      <UniqueIdentifier>{4d255edd-2640-4baf-a2ec-acb66f42e21f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Renderer\API">
+      <UniqueIdentifier>{779f7959-36fc-456a-b9f8-aec3110452ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Renderer\Resource">
+      <UniqueIdentifier>{3eab2c6e-4aa4-4867-97fd-02564c366026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Renderer\Resource\Texture">
+      <UniqueIdentifier>{854db86d-08f5-4220-ae46-89aa02790807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Event">
+      <UniqueIdentifier>{bef408d0-8c20-4e45-9953-7a84a30bfd06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Input &amp; Timer">
+      <UniqueIdentifier>{0fad73b1-430d-4b4d-9761-6fa9bdddf63d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07. Scene">
+      <UniqueIdentifier>{bd572461-c547-4104-8546-7555eb46071a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Renderer\Resource\ConstantBuffer">
+      <UniqueIdentifier>{fd798c42-fa15-4f4b-bfbc-b71957d9bc16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Renderer\Resource\Shader">
+      <UniqueIdentifier>{4612a527-96c7-41f7-a1af-3a5484f6bdc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Renderer\Resource\VertexLayout">
+      <UniqueIdentifier>{67dd670a-26d9-4b02-9b8d-039289c707a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Renderer\Resource\Geometry">
+      <UniqueIdentifier>{2fe3cdff-9afd-43d1-a53c-81609e81bca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Renderer\Resource\Geometry\IndexBuffer">
+      <UniqueIdentifier>{392f63e3-d9d1-4679-8176-86f56b8d5a17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Renderer\Resource\Geometry\VertexBuffer">
+      <UniqueIdentifier>{77462967-302c-46c5-9512-1474b10341f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Renderer\Resource\RenderState">
+      <UniqueIdentifier>{2b64209c-8943-4da1-80d5-96f689882e2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09. Entity">
+      <UniqueIdentifier>{7d026aaf-06bd-4e78-bde5-9790d011ffba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10. Component">
+      <UniqueIdentifier>{6c998b1b-8cc8-4c0c-918d-6ee384dd5422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11. System">
+      <UniqueIdentifier>{2fe5047a-9909-4704-802a-74423f26a5e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12. ImGui">
+      <UniqueIdentifier>{d1bf7b16-be65-459b-a24b-3cb47f87b929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12. ImGui\Platform">
+      <UniqueIdentifier>{519da3bc-d770-4cfa-b498-491bc7d07109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08. Asset">
+      <UniqueIdentifier>{254efa75-d4f9-4658-af9e-e8de18be041b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="13. Editor">
+      <UniqueIdentifier>{9345b35e-26d2-4cfd-92ac-fee6388a0329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12. ImGui\Helper">
+      <UniqueIdentifier>{e7ed75f9-475e-467d-a0a2-4d2e57562644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="13. Editor\Panel">
+      <UniqueIdentifier>{d43fd012-6541-4e38-8fff-7fbd0179b81e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. JsonSerializer">
+      <UniqueIdentifier>{daa74f08-b393-479f-9d95-2b3f5c35216d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Renderer\Helper">
+      <UniqueIdentifier>{2c624dce-f1d4-4824-b613-faa152e1b25b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="13. Editor\Helper">
+      <UniqueIdentifier>{f3db2c19-614e-472b-9f61-b1ef8752b96e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. Math">
+      <UniqueIdentifier>{77625b47-341e-4a43-9584-8aac6ea7d068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Renderer\Resource\RenderFrame">
+      <UniqueIdentifier>{60fa5a54-5b80-49e2-a4c7-ff89bb96957b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Renderer\Resource\RenderFrame\RenderTarget">
+      <UniqueIdentifier>{142bca1b-9f65-4f98-b31b-dacb224b9e04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Renderer\Resource\RenderFrame\DepthStencil">
+      <UniqueIdentifier>{e674a33f-4c02-47ab-af2d-143c1975fa1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Renderer\Resource\RenderFrame\UnorderedAccessView">
+      <UniqueIdentifier>{242db683-7d47-488f-a7b1-cde2ddea012a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="14. Plugin">
+      <UniqueIdentifier>{3cddd4c1-3510-49a7-ae69-5e422c3155f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="14. Plugin\Physics2D">
+      <UniqueIdentifier>{5c5717b0-0dfe-4149-bb35-1f1f69d25fc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="15. ScriptEngine">
+      <UniqueIdentifier>{53706b87-0308-410c-b022-48311fa66833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="13. Editor\Panel\AssetEditorPanel">
+      <UniqueIdentifier>{1838c510-72ad-475a-a35b-9183cf188041}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Inc\Pointer.h">
+      <Filter>99. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\CrabEnginePch.h">
+      <Filter>99. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\EngineAssert.h">
+      <Filter>99. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Application.h">
+      <Filter>01. Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\CrabWindow.h">
+      <Filter>03. GameWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\CrabEngine.h">
+      <Filter>02. Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Log.h">
+      <Filter>98. Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\CircularQueue.h">
+      <Filter>99. Base\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Types.h">
+      <Filter>99. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Singleton.h">
+      <Filter>99. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Timer.h">
+      <Filter>05. Input &amp; Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Renderer.h">
+      <Filter>06. Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\IRenderAPI.h">
+      <Filter>06. Renderer\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\DX11RenderAPI.h">
+      <Filter>06. Renderer\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\IIndexBuffer.h">
+      <Filter>06. Renderer\Resource\Geometry\IndexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\ITexture.h">
+      <Filter>06. Renderer\Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\IVertexBuffer.h">
+      <Filter>06. Renderer\Resource\Geometry\VertexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\IRenderTarget.h">
+      <Filter>06. Renderer\Resource\RenderFrame\RenderTarget</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\DX11RenderTarget.h">
+      <Filter>06. Renderer\Resource\RenderFrame\RenderTarget</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\DX11Texture.h">
+      <Filter>06. Renderer\Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Macro.h">
+      <Filter>99. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\StringHelper.h">
+      <Filter>99. Base\String</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Enums.h">
+      <Filter>99. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\framework.h">
+      <Filter>99. Base\NotUsing</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Resource.h">
+      <Filter>99. Base\NotUsing</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\targetver.h">
+      <Filter>99. Base\NotUsing</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\TestWindow.h">
+      <Filter>99. Base\NotUsing</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\CrabMath.h">
+      <Filter>96. Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\EntryPoint.h">
+      <Filter>01. Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\TypeID.h">
+      <Filter>99. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Input.h">
+      <Filter>05. Input &amp; Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>04. Event</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>07. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>07. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>09. Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EventDispatcher.h">
+      <Filter>04. Event</Filter>
+    </ClInclude>
+    <ClInclude Include="LayoutElement.h">
+      <Filter>06. Renderer\Resource\VertexLayout</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11VertexBuffer.h">
+      <Filter>06. Renderer\Resource\Geometry\VertexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11Shader.h">
+      <Filter>06. Renderer\Resource\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="IShader.h">
+      <Filter>06. Renderer\Resource\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11IndexBuffer.h">
+      <Filter>06. Renderer\Resource\Geometry\IndexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>06. Renderer\Resource\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererSingleInclude.h">
+      <Filter>06. Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiInclude.h">
+      <Filter>12. ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiRenderer.h">
+      <Filter>12. ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="IImGuiAPI.h">
+      <Filter>12. ImGui\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11ImGuiAPI.h">
+      <Filter>12. ImGui\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderState.h">
+      <Filter>06. Renderer\Resource\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11RenderState.h">
+      <Filter>06. Renderer\Resource\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="IConstantBuffer.h">
+      <Filter>06. Renderer\Resource\ConstantBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11ConstantBuffer.h">
+      <Filter>06. Renderer\Resource\ConstantBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBufferStruct.h">
+      <Filter>06. Renderer\Resource\ConstantBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor.h">
+      <Filter>13. Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="ImWindow.h">
+      <Filter>12. ImGui\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="CrabColor.h">
+      <Filter>99. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ImStyle.h">
+      <Filter>12. ImGui\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="ImImage.h">
+      <Filter>12. ImGui\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="ImOp.h">
+      <Filter>12. ImGui\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.h">
+      <Filter>08. Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewportPanel.h">
+      <Filter>13. Editor\Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="ImHelper.h">
+      <Filter>12. ImGui\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonSerializer.h">
+      <Filter>97. JsonSerializer</Filter>
+    </ClInclude>
+    <ClInclude Include="SerializerHelper.h">
+      <Filter>97. JsonSerializer</Filter>
+    </ClInclude>
+    <ClInclude Include="Components.h">
+      <Filter>10. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets.h">
+      <Filter>08. Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexType.h">
+      <Filter>06. Renderer\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryFactory.h">
+      <Filter>06. Renderer\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetContainer.h">
+      <Filter>08. Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetID.h">
+      <Filter>08. Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetSingleInclude.h">
+      <Filter>08. Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem.h">
+      <Filter>11. System</Filter>
+    </ClInclude>
+    <ClInclude Include="PanelDrawHelper.h">
+      <Filter>13. Editor\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneHierarchyPanel.h">
+      <Filter>13. Editor\Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityInspectorPanel.h">
+      <Filter>13. Editor\Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetSerializer.h">
+      <Filter>08. Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetPayload.h">
+      <Filter>13. Editor\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSerializer.h">
+      <Filter>07. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentSerializerManager.h">
+      <Filter>10. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentSerializer.h">
+      <Filter>10. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Physic2D.h">
+      <Filter>14. Plugin\Physics2D</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicComponents.h">
+      <Filter>10. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw2D.h">
+      <Filter>06. Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPipeline.h">
+      <Filter>06. Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="IDepthStencil.h">
+      <Filter>06. Renderer\Resource\RenderFrame\DepthStencil</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11DepthStencil.h">
+      <Filter>06. Renderer\Resource\RenderFrame\DepthStencil</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderFrame.h">
+      <Filter>06. Renderer\Resource\RenderFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11RenderFrame.h">
+      <Filter>06. Renderer\Resource\RenderFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="CrabEditorData.h">
+      <Filter>13. Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="IUnorderedAccessView.h">
+      <Filter>06. Renderer\Resource\RenderFrame\UnorderedAccessView</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11UnorderedAccessView.h">
+      <Filter>06. Renderer\Resource\RenderFrame\UnorderedAccessView</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoScriptEngine.h">
+      <Filter>15. ScriptEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoScriptBridge.h">
+      <Filter>15. ScriptEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="NativeScript.h">
+      <Filter>10. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="NativeScriptSystem.h">
+      <Filter>11. System</Filter>
+    </ClInclude>
+    <ClInclude Include="IPlugin.h">
+      <Filter>14. Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorEvent.h">
+      <Filter>04. Event</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineEvent.h">
+      <Filter>04. Event</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetBrowserPanel.h">
+      <Filter>13. Editor\Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteEditorPanel.h">
+      <Filter>13. Editor\Panel\AssetEditorPanel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>99. Base\NotUsing</Filter>
+    </Image>
+    <Image Include="TestWindow.ico">
+      <Filter>99. Base\NotUsing</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\CrabEnginePch.cpp">
+      <Filter>99. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application.cpp">
+      <Filter>01. Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CrabWindow.cpp">
+      <Filter>03. GameWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CrabEngine.cpp">
+      <Filter>02. Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Log.cpp">
+      <Filter>98. Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CircularQueue.cpp">
+      <Filter>99. Base\DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Timer.cpp">
+      <Filter>05. Input &amp; Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Renderer.cpp">
+      <Filter>06. Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IRenderAPI.cpp">
+      <Filter>06. Renderer\API</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Types.cpp">
+      <Filter>99. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DX11RenderAPI.cpp">
+      <Filter>06. Renderer\API</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IIndexBuffer.cpp">
+      <Filter>06. Renderer\Resource\Geometry\IndexBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\ITexture.cpp">
+      <Filter>06. Renderer\Resource\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IVertexBuffer.cpp">
+      <Filter>06. Renderer\Resource\Geometry\VertexBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\IRenderTarget.cpp">
+      <Filter>06. Renderer\Resource\RenderFrame\RenderTarget</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DX11RenderTarget.cpp">
+      <Filter>06. Renderer\Resource\RenderFrame\RenderTarget</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\DX11Texture.cpp">
+      <Filter>06. Renderer\Resource\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\StringHelper.cpp">
+      <Filter>99. Base\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CrabMath.cpp">
+      <Filter>96. Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TypeID.cpp">
+      <Filter>99. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Input.cpp">
+      <Filter>05. Input &amp; Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>04. Event</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>07. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>07. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>09. Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EventDispatcher.cpp">
+      <Filter>04. Event</Filter>
+    </ClCompile>
+    <ClCompile Include="LayoutElement.cpp">
+      <Filter>06. Renderer\Resource\VertexLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11VertexBuffer.cpp">
+      <Filter>06. Renderer\Resource\Geometry\VertexBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11Shader.cpp">
+      <Filter>06. Renderer\Resource\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="IShader.cpp">
+      <Filter>06. Renderer\Resource\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11IndexBuffer.cpp">
+      <Filter>06. Renderer\Resource\Geometry\IndexBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>06. Renderer\Resource\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuiRenderer.cpp">
+      <Filter>12. ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="IImGuiAPI.cpp">
+      <Filter>12. ImGui\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11ImGuiAPI.cpp">
+      <Filter>12. ImGui\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="IRenderState.cpp">
+      <Filter>06. Renderer\Resource\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11RenderState.cpp">
+      <Filter>06. Renderer\Resource\RenderState</Filter>
+    </ClCompile>
+    <ClCompile Include="IConstantBuffer.cpp">
+      <Filter>06. Renderer\Resource\ConstantBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11ConstantBuffer.cpp">
+      <Filter>06. Renderer\Resource\ConstantBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantBufferStruct.cpp">
+      <Filter>06. Renderer\Resource\ConstantBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor.cpp">
+      <Filter>13. Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="ImWindow.cpp">
+      <Filter>12. ImGui\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="CrabColor.cpp">
+      <Filter>99. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ImStyle.cpp">
+      <Filter>12. ImGui\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="ImImage.cpp">
+      <Filter>12. ImGui\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="ImOp.cpp">
+      <Filter>12. ImGui\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>08. Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewportPanel.cpp">
+      <Filter>13. Editor\Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="ImHelper.cpp">
+      <Filter>12. ImGui\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonSerializer.cpp">
+      <Filter>97. JsonSerializer</Filter>
+    </ClCompile>
+    <ClCompile Include="SerializerHelper.cpp">
+      <Filter>97. JsonSerializer</Filter>
+    </ClCompile>
+    <ClCompile Include="Components.cpp">
+      <Filter>10. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets.cpp">
+      <Filter>08. Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexType.cpp">
+      <Filter>06. Renderer\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryFactory.cpp">
+      <Filter>06. Renderer\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetContainer.cpp">
+      <Filter>08. Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetID.cpp">
+      <Filter>08. Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem.cpp">
+      <Filter>11. System</Filter>
+    </ClCompile>
+    <ClCompile Include="PanelDrawHelper.cpp">
+      <Filter>13. Editor\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneHierarchyPanel.cpp">
+      <Filter>13. Editor\Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityInspectorPanel.cpp">
+      <Filter>13. Editor\Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetSerializer.cpp">
+      <Filter>08. Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetPayload.cpp">
+      <Filter>13. Editor\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSerializer.cpp">
+      <Filter>07. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentSerializerManager.cpp">
+      <Filter>10. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentSerializer.cpp">
+      <Filter>10. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Physic2D.cpp">
+      <Filter>14. Plugin\Physics2D</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicComponents.cpp">
+      <Filter>10. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw2D.cpp">
+      <Filter>06. Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPipeline.cpp">
+      <Filter>06. Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="IDepthStencil.cpp">
+      <Filter>06. Renderer\Resource\RenderFrame\DepthStencil</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11DepthStencil.cpp">
+      <Filter>06. Renderer\Resource\RenderFrame\DepthStencil</Filter>
+    </ClCompile>
+    <ClCompile Include="IRenderFrame.cpp">
+      <Filter>06. Renderer\Resource\RenderFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11RenderFrame.cpp">
+      <Filter>06. Renderer\Resource\RenderFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="CrabEditorData.cpp">
+      <Filter>13. Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="IUnorderedAccessView.cpp">
+      <Filter>06. Renderer\Resource\RenderFrame\UnorderedAccessView</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11UnorderedAccessView.cpp">
+      <Filter>06. Renderer\Resource\RenderFrame\UnorderedAccessView</Filter>
+    </ClCompile>
+    <ClCompile Include="MonoScriptEngine.cpp">
+      <Filter>15. ScriptEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="MonoScriptBridge.cpp">
+      <Filter>15. ScriptEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="NativeScript.cpp">
+      <Filter>10. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="NativeScriptSystem.cpp">
+      <Filter>11. System</Filter>
+    </ClCompile>
+    <ClCompile Include="IPlugin.cpp">
+      <Filter>14. Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorEvent.cpp">
+      <Filter>04. Event</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineEvent.cpp">
+      <Filter>04. Event</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetBrowserPanel.cpp">
+      <Filter>13. Editor\Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteEditorPanel.cpp">
+      <Filter>13. Editor\Panel\AssetEditorPanel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Inc\cpp.hint">
+      <Filter>99. Base\NotUsing</Filter>
+    </None>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TestWindow.rc">
+      <Filter>99. Base\NotUsing</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

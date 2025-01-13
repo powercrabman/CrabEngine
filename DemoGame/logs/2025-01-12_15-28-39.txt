@@ -1,0 +1,93 @@
+[2025-01-12 15:28:39] [info] Log initialize done.
+[2025-01-12 15:28:39] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2025-01-12 15:28:39] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\Player_Crouch_Shot_Right.json
+[2025-01-12 15:28:39] [trace] image file load "Player_Crouch_Shot_Right"
+[2025-01-12 15:28:39] [info] image file load done "Player_Crouch_Shot_Right"
+[2025-01-12 15:28:39] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2025-01-12 15:28:39] [trace] image file load "Older_Walk"
+[2025-01-12 15:28:39] [info] image file load done "Older_Walk"
+[2025-01-12 15:28:39] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Mesh
+[2025-01-12 15:28:39] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\MonoScript
+[2025-01-12 15:28:39] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Sprite
+[2025-01-12 15:28:39] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Sprite\SampleSprite.json
+[2025-01-12 15:28:39] [trace] image file load "rio"
+[2025-01-12 15:28:39] [info] image file load done "rio"
+[2025-01-12 15:28:39] [trace] image file load "engine_icon"
+[2025-01-12 15:28:39] [info] image file load done "engine_icon"
+[2025-01-12 15:28:39] [trace] image file load "play_button"
+[2025-01-12 15:28:39] [info] image file load done "play_button"
+[2025-01-12 15:28:39] [trace] image file load "simul_button"
+[2025-01-12 15:28:39] [info] image file load done "simul_button"
+[2025-01-12 15:28:39] [trace] image file load "pause_button"
+[2025-01-12 15:28:39] [info] image file load done "pause_button"
+[2025-01-12 15:28:39] [trace] image file load "reset_button"
+[2025-01-12 15:28:39] [info] image file load done "reset_button"
+[2025-01-12 15:28:39] [trace] image file load "next_button"
+[2025-01-12 15:28:39] [info] image file load done "next_button"
+[2025-01-12 15:28:39] [trace] image file load "camera_icon"
+[2025-01-12 15:28:39] [info] image file load done "camera_icon"
+[2025-01-12 15:28:39] [trace] image file load "move_icon"
+[2025-01-12 15:28:39] [info] image file load done "move_icon"
+[2025-01-12 15:28:39] [trace] image file load "rotation_icon"
+[2025-01-12 15:28:39] [info] image file load done "rotation_icon"
+[2025-01-12 15:28:39] [trace] image file load "scaling_icon"
+[2025-01-12 15:28:39] [info] image file load done "scaling_icon"
+[2025-01-12 15:28:39] [trace] image file load "gear_icon"
+[2025-01-12 15:28:39] [info] image file load done "gear_icon"
+[2025-01-12 15:28:39] [trace] image file load "tag_icon"
+[2025-01-12 15:28:39] [info] image file load done "tag_icon"
+[2025-01-12 15:28:39] [trace] image file load "transform_icon"
+[2025-01-12 15:28:39] [info] image file load done "transform_icon"
+[2025-01-12 15:28:39] [trace] image file load "plus_icon"
+[2025-01-12 15:28:39] [info] image file load done "plus_icon"
+[2025-01-12 15:28:39] [trace] image file load "camera_icon"
+[2025-01-12 15:28:39] [info] image file load done "camera_icon"
+[2025-01-12 15:28:39] [trace] image file load "sprite_icon"
+[2025-01-12 15:28:39] [info] image file load done "sprite_icon"
+[2025-01-12 15:28:39] [trace] image file load "flipbook_icon"
+[2025-01-12 15:28:39] [info] image file load done "flipbook_icon"
+[2025-01-12 15:28:39] [trace] image file load "mesh_icon"
+[2025-01-12 15:28:39] [info] image file load done "mesh_icon"
+[2025-01-12 15:28:39] [trace] image file load "entity_icon"
+[2025-01-12 15:28:39] [info] image file load done "entity_icon"
+[2025-01-12 15:28:39] [trace] image file load "plus_icon"
+[2025-01-12 15:28:39] [info] image file load done "plus_icon"
+[2025-01-12 15:28:39] [trace] image file load "doc_icon"
+[2025-01-12 15:28:39] [info] image file load done "doc_icon"
+[2025-01-12 15:28:39] [trace] image file load "script_icon"
+[2025-01-12 15:28:39] [info] image file load done "script_icon"
+[2025-01-12 15:28:39] [trace] image file load "mesh_icon"
+[2025-01-12 15:28:39] [info] image file load done "mesh_icon"
+[2025-01-12 15:28:39] [trace] image file load "folder_icon"
+[2025-01-12 15:28:39] [info] image file load done "folder_icon"
+[2025-01-12 15:28:39] [trace] image file load "refresh_icon"
+[2025-01-12 15:28:39] [info] image file load done "refresh_icon"
+[2025-01-12 15:28:39] [trace] image file load "search_icon"
+[2025-01-12 15:28:39] [info] image file load done "search_icon"
+[2025-01-12 15:28:39] [info] Engine initialize done.
+[2025-01-12 15:28:39] [debug] Event Occured : WindowResize_Event : (2324, 1260)
+[2025-01-12 15:28:42] [info] Load Scene Data: DemoScene (path: C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Scenes\DemoScene.json)
+[2025-01-12 15:28:46] [debug] Event Occured : SetEditorState_EditorEvent : Runtime
+[2025-01-12 15:28:46] [info] Save Scene Data: DemoScene (path: C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Scenes\DemoScene.json)
+[2025-01-12 15:28:48] [debug] Event Occured : SetEditorState_EditorEvent : Edit
+[2025-01-12 15:28:48] [info] Load Scene Data: DemoScene (path: C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Scenes\DemoScene.json)
+[2025-01-12 15:28:50] [debug] Event Occured : SetEditorState_EditorEvent : Simulate Play
+[2025-01-12 15:28:50] [info] Save Scene Data: DemoScene (path: C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Scenes\DemoScene.json)
+[2025-01-12 15:28:51] [debug] Event Occured : SetEditorState_EditorEvent : Simulate Stop
+[2025-01-12 15:28:51] [debug] Event Occured : NextToFrame_EditorEvent
+[2025-01-12 15:28:51] [debug] Event Occured : NextToFrame_EditorEvent
+[2025-01-12 15:28:51] [debug] Event Occured : NextToFrame_EditorEvent
+[2025-01-12 15:28:51] [debug] Event Occured : NextToFrame_EditorEvent
+[2025-01-12 15:28:52] [debug] Event Occured : NextToFrame_EditorEvent
+[2025-01-12 15:28:52] [debug] Event Occured : NextToFrame_EditorEvent
+[2025-01-12 15:28:52] [debug] Event Occured : NextToFrame_EditorEvent
+[2025-01-12 15:28:53] [debug] Event Occured : NextToFrame_EditorEvent
+[2025-01-12 15:28:53] [debug] Event Occured : NextToFrame_EditorEvent
+[2025-01-12 15:28:53] [debug] Event Occured : NextToFrame_EditorEvent
+[2025-01-12 15:28:53] [debug] Event Occured : NextToFrame_EditorEvent
+[2025-01-12 15:28:54] [debug] Event Occured : NextToFrame_EditorEvent
+[2025-01-12 15:28:55] [debug] Event Occured : SetEditorState_EditorEvent : Simulate Play
+[2025-01-12 15:28:57] [debug] Event Occured : SetEditorState_EditorEvent : Simulate Stop
+[2025-01-12 15:28:59] [debug] Event Occured : AppClose_Event
+[2025-01-12 15:28:59] [debug] Event Occured : AppClose_Event
+[2025-01-12 15:28:59] [debug] Event Occured : AppShutdown_Event

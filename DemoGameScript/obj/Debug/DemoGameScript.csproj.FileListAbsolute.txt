@@ -1,0 +1,11 @@
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGameScript\bin\Debug\DemoGameScript.dll
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGameScript\bin\Debug\DemoGameScript.pdb
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGameScript\bin\Debug\CrabScriptCore.dll
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGameScript\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGameScript\bin\Debug\CrabScriptCore.pdb
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGameScript\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGameScript\obj\Debug\DemoGameScript.csproj.AssemblyReference.cache
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGameScript\obj\Debug\DemoGameScript.csproj.CoreCompileInputs.cache
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGameScript\obj\Debug\DemoGame.C4A1AEDC.Up2Date
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGameScript\obj\Debug\DemoGameScript.dll
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGameScript\obj\Debug\DemoGameScript.pdb

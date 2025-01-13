@@ -1,0 +1,942 @@
+[2024-12-29 14:35:24] [info] Log initialize done.
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:26] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:26] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:26] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2024-12-29 14:35:27] [trace] image file load "Older_Walk"
+[2024-12-29 14:35:27] [info] image file load done "Older_Walk"
+[2024-12-29 14:35:27] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Asse

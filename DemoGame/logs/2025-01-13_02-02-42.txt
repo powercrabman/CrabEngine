@@ -1,0 +1,92 @@
+[2025-01-13 02:02:42] [info] Log initialize done.
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Die_Bomb_Left.bmp
+[2025-01-13 02:02:42] [trace] image file load "SD_Die_Bomb_Left"
+[2025-01-13 02:02:42] [info] image file load done "SD_Die_Bomb_Left"
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Die_Bomb_Right.bmp
+[2025-01-13 02:02:42] [trace] image file load "SD_Die_Bomb_Right"
+[2025-01-13 02:02:42] [info] image file load done "SD_Die_Bomb_Right"
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Die_Fall_Left.bmp
+[2025-01-13 02:02:42] [trace] image file load "SD_Die_Fall_Left"
+[2025-01-13 02:02:42] [info] image file load done "SD_Die_Fall_Left"
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Die_Fall_Right.bmp
+[2025-01-13 02:02:42] [trace] image file load "SD_Die_Fall_Right"
+[2025-01-13 02:02:42] [info] image file load done "SD_Die_Fall_Right"
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Die_Jump_Left.bmp
+[2025-01-13 02:02:42] [trace] image file load "SD_Die_Jump_Left"
+[2025-01-13 02:02:42] [info] image file load done "SD_Die_Jump_Left"
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Die_Jump_Right.bmp
+[2025-01-13 02:02:42] [trace] image file load "SD_Die_Jump_Right"
+[2025-01-13 02:02:42] [info] image file load done "SD_Die_Jump_Right"
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Die_Land_Left.bmp
+[2025-01-13 02:02:42] [trace] image file load "SD_Die_Land_Left"
+[2025-01-13 02:02:42] [info] image file load done "SD_Die_Land_Left"
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Die_Land_Right.bmp
+[2025-01-13 02:02:42] [trace] image file load "SD_Die_Land_Right"
+[2025-01-13 02:02:42] [info] image file load done "SD_Die_Land_Right"
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Die_Slash_Left.bmp
+[2025-01-13 02:02:42] [trace] image file load "SD_Die_Slash_Left"
+[2025-01-13 02:02:42] [info] image file load done "SD_Die_Slash_Left"
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Die_Slash_Right.bmp
+[2025-01-13 02:02:42] [trace] image file load "SD_Die_Slash_Right"
+[2025-01-13 02:02:42] [info] image file load done "SD_Die_Slash_Right"
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Die_Stand_1_Left.bmp
+[2025-01-13 02:02:42] [trace] image file load "SD_Die_Stand_1_Left"
+[2025-01-13 02:02:42] [info] image file load done "SD_Die_Stand_1_Left"
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Die_Stand_1_Right.bmp
+[2025-01-13 02:02:42] [trace] image file load "SD_Die_Stand_1_Right"
+[2025-01-13 02:02:42] [info] image file load done "SD_Die_Stand_1_Right"
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Die_Stand_2_Left.bmp
+[2025-01-13 02:02:42] [trace] image file load "SD_Die_Stand_2_Left"
+[2025-01-13 02:02:42] [info] image file load done "SD_Die_Stand_2_Left"
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Die_Stand_2_Right.bmp
+[2025-01-13 02:02:42] [trace] image file load "SD_Die_Stand_2_Right"
+[2025-01-13 02:02:42] [info] image file load done "SD_Die_Stand_2_Right"
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Hang_Idle_Left.bmp
+[2025-01-13 02:02:42] [trace] image file load "SD_Hang_Idle_Left"
+[2025-01-13 02:02:42] [info] image file load done "SD_Hang_Idle_Left"
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Hang_Idle_Right.bmp
+[2025-01-13 02:02:42] [trace] image file load "SD_Hang_Idle_Right"
+[2025-01-13 02:02:42] [info] image file load done "SD_Hang_Idle_Right"
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Hang_Throw_Bomb_Left.bmp
+[2025-01-13 02:02:42] [trace] image file load "SD_Hang_Throw_Bomb_Left"
+[2025-01-13 02:02:42] [info] image file load done "SD_Hang_Throw_Bomb_Left"
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Hang_Throw_Bomb_Right.bmp
+[2025-01-13 02:02:42] [trace] image file load "SD_Hang_Throw_Bomb_Right"
+[2025-01-13 02:02:42] [info] image file load done "SD_Hang_Throw_Bomb_Right"
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Idle_Left.bmp
+[2025-01-13 02:02:42] [trace] image file load "SD_Idle_Left"
+[2025-01-13 02:02:42] [info] image file load done "SD_Idle_Left"
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Idle_Right.bmp
+[2025-01-13 02:02:42] [trace] image file load "SD_Idle_Right"
+[2025-01-13 02:02:42] [info] image file load done "SD_Idle_Right"
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Jump_Left.bmp
+[2025-01-13 02:02:42] [trace] image file load "SD_Jump_Left"
+[2025-01-13 02:02:42] [info] image file load done "SD_Jump_Left"
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Jump_Right.bmp
+[2025-01-13 02:02:42] [trace] image file load "SD_Jump_Right"
+[2025-01-13 02:02:42] [info] image file load done "SD_Jump_Right"
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Jump_Slash_Land_Left.bmp
+[2025-01-13 02:02:42] [trace] image file load "SD_Jump_Slash_Land_Left"
+[2025-01-13 02:02:42] [info] image file load done "SD_Jump_Slash_Land_Left"
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Jump_Slash_Land_Right.bmp
+[2025-01-13 02:02:42] [trace] image file load "SD_Jump_Slash_Land_Right"
+[2025-01-13 02:02:42] [info] image file load done "SD_Jump_Slash_Land_Right"
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Jump_Slash_Left.bmp
+[2025-01-13 02:02:42] [trace] image file load "SD_Jump_Slash_Left"
+[2025-01-13 02:02:42] [info] image file load done "SD_Jump_Slash_Left"
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Jump_Slash_Ready_Left.bmp
+[2025-01-13 02:02:42] [trace] image file load "SD_Jump_Slash_Ready_Left"
+[2025-01-13 02:02:42] [info] image file load done "SD_Jump_Slash_Ready_Left"
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Jump_Slash_Ready_Right.bmp
+[2025-01-13 02:02:42] [trace] image file load "SD_Jump_Slash_Ready_Right"
+[2025-01-13 02:02:42] [info] image file load done "SD_Jump_Slash_Ready_Right"
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Jump_Slash_Right.bmp
+[2025-01-13 02:02:42] [trace] image file load "SD_Jump_Slash_Right"
+[2025-01-13 02:02:42] [info] image file load done "SD_Jump_Slash_Right"
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Land_Left.bmp
+[2025-01-13 02:02:42] [trace] image file load "SD_Land_Left"
+[2025-01-13 02:02:42] [info] image file load done "SD_Land_Left"
+[2025-01-13 02:02:42] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Land_Right.bmp
+[2025-01-13 02:02:42] [trace] image fil

@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{821f72c3-7eec-4dd0-aca7-d79321d0d5d6}</ProjectGuid>
+    <RootNamespace>TestWindow</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>CrabEngine</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(SolutionDir)Vendor;$(SolutionDir)Inc;$(SolutionDir)Vendor\spdlog\include;$(SolutionDir);$(SolutionDir)Vendor\ImGui\imgui;$(SolutionDir)Vendor\box2d\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Vendor;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)Bin\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Inter</IntDir>
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(SolutionDir)Vendor;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Vendor;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)Bin\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)Inter</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Label="Vcpkg">
+    <VcpkgEnabled>false</VcpkgEnabled>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalOptions>/utf-8 /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>CrabEnginePch.h</PrecompiledHeaderFile>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <MaxFilesInUnityFile>
+      </MaxFilesInUnityFile>
+      <MinFilesInUnityFile>5</MinFilesInUnityFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PreLinkEvent />
+    <Lib>
+      <AdditionalDependencies>DirectXTK\Bin\Desktop_2022\x64\Debug\DirectXTK.lib;DirectXTex\DirectXTex\Bin\Desktop_2022\x64\Debug\DirectXTex.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>EnginePch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdclatest</LanguageStandard_C>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>spdlog\build\Debug\spdlog.lib;DirectXTK\Bin\Desktop_2022\x64\Debug\DirectXTK.lib;DirectXTex\DirectXTex\Bin\Desktop_2022\x64\Debug\DirectXTex.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AssetBrowserPanel.h" />
+    <ClInclude Include="AssetContainer.h" />
+    <ClInclude Include="AssetID.h" />
+    <ClInclude Include="AssetManager.h" />
+    <ClInclude Include="AssetSerializer.h" />
+    <ClInclude Include="ComponentSerializer.h" />
+    <ClInclude Include="ComponentSerializerManager.h" />
+    <ClInclude Include="DX11DepthStencil.h" />
+    <ClInclude Include="DX11RenderFrame.h" />
+    <ClInclude Include="DX11UnorderedAccessView.h" />
+    <ClInclude Include="CrabEditorData.h" />
+    <ClInclude Include="EditorEvent.h" />
+    <ClInclude Include="EngineEvent.h" />
+    <ClInclude Include="IDepthStencil.h" />
+    <ClInclude Include="IUnorderedAccessView.h" />
+    <ClInclude Include="MonoScriptBridge.h" />
+    <ClInclude Include="MonoScriptEngine.h" />
+    <ClInclude Include="NativeScript.h" />
+    <ClInclude Include="NativeScriptSystem.h" />
+    <ClInclude Include="PanelDrawHelper.h" />
+    <ClInclude Include="Components.h" />
+    <ClInclude Include="CrabColor.h" />
+    <ClInclude Include="ConstantBufferStruct.h" />
+    <ClInclude Include="DX11ConstantBuffer.h" />
+    <ClInclude Include="Editor.h" />
+    <ClInclude Include="EntityInspectorPanel.h" />
+    <ClInclude Include="IConstantBuffer.h" />
+    <ClInclude Include="DX11ImGuiAPI.h" />
+    <ClInclude Include="DX11IndexBuffer.h" />
+    <ClInclude Include="DX11RenderState.h" />
+    <ClInclude Include="DX11Shader.h" />
+    <ClInclude Include="DX11VertexBuffer.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="EventDispatcher.h" />
+    <ClInclude Include="Geometry.h" />
+    <ClInclude Include="IImGuiAPI.h" />
+    <ClInclude Include="ImGuiRenderer.h" />
+    <ClInclude Include="ImHelper.h" />
+    <ClInclude Include="ImImage.h" />
+    <ClInclude Include="ImOp.h" />
+    <ClInclude Include="ImStyle.h" />
+    <ClInclude Include="ImWindow.h" />
+    <ClInclude Include="Inc\Application.h" />
+    <ClInclude Include="Inc\CircularQueue.h" />
+    <ClInclude Include="Inc\DX11RenderAPI.h" />
+    <ClInclude Include="Inc\DX11RenderTarget.h" />
+    <ClInclude Include="Inc\DX11Texture.h" />
+    <ClInclude Include="Inc\CrabEngine.h" />
+    <ClInclude Include="Inc\EngineAssert.h" />
+    <ClInclude Include="Inc\CrabEnginePch.h" />
+    <ClInclude Include="Inc\Enums.h" />
+    <ClInclude Include="Inc\framework.h" />
+    <ClInclude Include="Inc\CrabWindow.h" />
+    <ClInclude Include="Inc\IIndexBuffer.h" />
+    <ClInclude Include="Inc\Input.h" />
+    <ClInclude Include="Inc\ITexture.h" />
+    <ClInclude Include="Inc\Log.h" />
+    <ClInclude Include="Inc\IRenderAPI.h" />
+    <ClInclude Include="Inc\CrabMath.h" />
+    <ClInclude Include="Inc\Renderer.h" />
+    <ClInclude Include="Inc\IRenderTarget.h" />
+    <ClInclude Include="Inc\Resource.h" />
+    <ClInclude Include="Inc\StringHelper.h" />
+    <ClInclude Include="Inc\targetver.h" />
+    <ClInclude Include="Inc\TestWindow.h" />
+    <ClInclude Include="Inc\Pointer.h" />
+    <ClInclude Include="Inc\Timer.h" />
+    <ClInclude Include="Inc\Types.h" />
+    <ClInclude Include="Inc\Singleton.h" />
+    <ClInclude Include="Inc\IVertexBuffer.h" />
+    <ClInclude Include="Inc\Macro.h" />
+    <ClInclude Include="Inc\TypeID.h" />
+    <ClInclude Include="IRenderState.h" />
+    <ClInclude Include="IShader.h" />
+    <ClInclude Include="JsonSerializer.h" />
+    <ClInclude Include="LayoutElement.h" />
+    <ClInclude Include="Assets.h" />
+    <ClInclude Include="GeometryFactory.h" />
+    <ClInclude Include="Physic2D.h" />
+    <ClInclude Include="PhysicComponents.h" />
+    <ClInclude Include="Draw2D.h" />
+    <ClInclude Include="IRenderFrame.h" />
+    <ClInclude Include="IPlugin.h" />
+    <ClInclude Include="RenderPipeline.h" />
+    <ClInclude Include="RenderSystem.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneHierarchyPanel.h" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="RendererSingleInclude.h" />
+    <ClInclude Include="ImGuiInclude.h" />
+    <ClInclude Include="SceneSerializer.h" />
+    <ClInclude Include="SerializerHelper.h" />
+    <ClInclude Include="SpriteEditorPanel.h" />
+    <ClInclude Include="VertexType.h" />
+    <ClInclude Include="ViewportPanel.h" />
+    <ClInclude Include="AssetSingleInclude.h" />
+    <ClInclude Include="AssetPayload.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssetBrowserPanel.cpp" />
+    <ClCompile Include="AssetContainer.cpp" />
+    <ClCompile Include="AssetID.cpp" />
+    <ClCompile Include="AssetManager.cpp" />
+    <ClCompile Include="AssetSerializer.cpp" />
+    <ClCompile Include="ComponentSerializer.cpp" />
+    <ClCompile Include="ComponentSerializerManager.cpp" />
+    <ClCompile Include="DX11DepthStencil.cpp" />
+    <ClCompile Include="DX11RenderFrame.cpp" />
+    <ClCompile Include="DX11UnorderedAccessView.cpp" />
+    <ClCompile Include="CrabEditorData.cpp" />
+    <ClCompile Include="EditorEvent.cpp" />
+    <ClCompile Include="EngineEvent.cpp" />
+    <ClCompile Include="IDepthStencil.cpp" />
+    <ClCompile Include="IUnorderedAccessView.cpp" />
+    <ClCompile Include="MonoScriptBridge.cpp" />
+    <ClCompile Include="MonoScriptEngine.cpp" />
+    <ClCompile Include="NativeScript.cpp" />
+    <ClCompile Include="NativeScriptSystem.cpp" />
+    <ClCompile Include="PanelDrawHelper.cpp" />
+    <ClCompile Include="Components.cpp" />
+    <ClCompile Include="CrabColor.cpp" />
+    <ClCompile Include="ConstantBufferStruct.cpp" />
+    <ClCompile Include="DX11ConstantBuffer.cpp" />
+    <ClCompile Include="Editor.cpp" />
+    <ClCompile Include="EntityInspectorPanel.cpp" />
+    <ClCompile Include="IConstantBuffer.cpp" />
+    <ClCompile Include="DX11ImGuiAPI.cpp" />
+    <ClCompile Include="DX11IndexBuffer.cpp" />
+    <ClCompile Include="DX11RenderState.cpp" />
+    <ClCompile Include="DX11Shader.cpp" />
+    <ClCompile Include="DX11VertexBuffer.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Event.cpp" />
+    <ClCompile Include="EventDispatcher.cpp" />
+    <ClCompile Include="Geometry.cpp" />
+    <ClCompile Include="IImGuiAPI.cpp" />
+    <ClCompile Include="ImGuiRenderer.cpp" />
+    <ClCompile Include="ImHelper.cpp" />
+    <ClCompile Include="ImImage.cpp" />
+    <ClCompile Include="ImOp.cpp" />
+    <ClCompile Include="ImStyle.cpp" />
+    <ClCompile Include="ImWindow.cpp" />
+    <ClCompile Include="IRenderState.cpp" />
+    <ClCompile Include="IShader.cpp" />
+    <ClCompile Include="JsonSerializer.cpp" />
+    <ClCompile Include="LayoutElement.cpp" />
+    <ClCompile Include="Assets.cpp" />
+    <ClCompile Include="GeometryFactory.cpp" />
+    <ClCompile Include="Physic2D.cpp" />
+    <ClCompile Include="PhysicComponents.cpp" />
+    <ClCompile Include="Draw2D.cpp" />
+    <ClCompile Include="IRenderFrame.cpp" />
+    <ClCompile Include="IPlugin.cpp" />
+    <ClCompile Include="RenderPipeline.cpp" />
+    <ClCompile Include="RenderSystem.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="SceneHierarchyPanel.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="SceneSerializer.cpp" />
+    <ClCompile Include="SerializerHelper.cpp" />
+    <ClCompile Include="SpriteEditorPanel.cpp" />
+    <ClCompile Include="Src\Application.cpp" />
+    <ClCompile Include="Src\CircularQueue.cpp" />
+    <ClCompile Include="Src\DX11RenderAPI.cpp" />
+    <ClCompile Include="Src\DX11RenderTarget.cpp" />
+    <ClCompile Include="Src\DX11Texture.cpp" />
+    <ClCompile Include="Src\CrabEngine.cpp" />
+    <ClCompile Include="Src\CrabEnginePch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Src\TypeID.cpp" />
+    <ClCompile Include="VertexType.cpp" />
+    <ClCompile Include="ViewportPanel.cpp" />
+    <ClCompile Include="AssetPayload.cpp" />
+    <ClInclude Include="Inc\EntryPoint.h" />
+    <ClCompile Include="Src\CrabWindow.cpp" />
+    <ClCompile Include="Src\IIndexBuffer.cpp" />
+    <ClCompile Include="Src\Input.cpp" />
+    <ClCompile Include="Src\ITexture.cpp" />
+    <ClCompile Include="Src\Log.cpp" />
+    <ClCompile Include="Src\IRenderAPI.cpp" />
+    <ClCompile Include="Src\CrabMath.cpp" />
+    <ClCompile Include="Src\Renderer.cpp" />
+    <ClCompile Include="Src\IRenderTarget.cpp" />
+    <ClCompile Include="Src\StringHelper.cpp" />
+    <ClCompile Include="Src\Timer.cpp" />
+    <ClCompile Include="Src\IVertexBuffer.cpp" />
+    <ClCompile Include="Src\Types.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TestWindow.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico" />
+    <Image Include="TestWindow.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+    <None Include="Inc\cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CrabScriptCore\CrabScriptCore.csproj">
+      <Project>{e172ebe5-81e0-488d-860f-d9582a91d6e0}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\DirectXTex\DirectXTex\DirectXTex_Desktop_2022.vcxproj">
+      <Project>{371b9fa9-4c90-4ac6-a123-aced756d6c77}</Project>
+    </ProjectReference>
+    <ProjectReference Include="Vendor\box2d\build\src\box2d.vcxproj">
+      <Project>{8cd4cec5-ca51-3af4-a6cd-3ac3875c3c20}</Project>
+    </ProjectReference>
+    <ProjectReference Include="Vendor\DirectXTK\DirectXTK_Desktop_2022.vcxproj">
+      <Project>{e0b52ae7-e160-4d32-bf3f-910b785e5a8e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="Vendor\ImGui\ImGui.vcxproj">
+      <Project>{99275168-766d-4302-8140-816e086a0664}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

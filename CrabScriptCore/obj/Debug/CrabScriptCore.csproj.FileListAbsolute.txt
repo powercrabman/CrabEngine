@@ -1,0 +1,9 @@
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabScriptCore\bin\Debug\CrabScriptCore.dll
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabScriptCore\bin\Debug\CrabScriptCore.pdb
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabScriptCore\obj\Debug\CrabScriptCore.csproj.AssemblyReference.cache
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabScriptCore\obj\Debug\CrabScriptCore.csproj.CoreCompileInputs.cache
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabScriptCore\obj\Debug\CrabScriptCore.dll
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabScriptCore\obj\Debug\CrabScriptCore.pdb
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabScriptCore\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabScriptCore\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabScriptCore\obj\Debug\CrabScri.00E537E7.Up2Date

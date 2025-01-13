@@ -1,0 +1,75 @@
+[2025-01-05 14:57:13] [info] Log initialize done.
+[2025-01-05 14:57:13] [error] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\DXBatchRenderer2D.hlsl(61,5-22): error X3017: cannot implicitly convert from 'float4' to 'struct PSOutput'
+
+[2025-01-05 14:57:13] [error] Shader Compile fail!
+[2025-01-05 14:57:16] [error] vertex shader creation fail
+[2025-01-05 14:57:16] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2025-01-05 14:57:16] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\Player_Crouch_Shot_Right.json
+[2025-01-05 14:57:16] [trace] image file load "Player_Crouch_Shot_Right"
+[2025-01-05 14:57:16] [info] image file load done "Player_Crouch_Shot_Right"
+[2025-01-05 14:57:16] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2025-01-05 14:57:16] [trace] image file load "Older_Walk"
+[2025-01-05 14:57:16] [info] image file load done "Older_Walk"
+[2025-01-05 14:57:16] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Mesh
+[2025-01-05 14:57:16] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Sprite
+[2025-01-05 14:57:16] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Sprite\SampleSprite.json
+[2025-01-05 14:57:16] [trace] image file load "rio"
+[2025-01-05 14:57:16] [info] image file load done "rio"
+[2025-01-05 14:57:16] [trace] image file load "engine_icon"
+[2025-01-05 14:57:16] [info] image file load done "engine_icon"
+[2025-01-05 14:57:16] [trace] image file load "play_button"
+[2025-01-05 14:57:16] [info] image file load done "play_button"
+[2025-01-05 14:57:16] [trace] image file load "simul_button"
+[2025-01-05 14:57:16] [info] image file load done "simul_button"
+[2025-01-05 14:57:16] [trace] image file load "pause_button"
+[2025-01-05 14:57:16] [info] image file load done "pause_button"
+[2025-01-05 14:57:16] [trace] image file load "reset_button"
+[2025-01-05 14:57:16] [info] image file load done "reset_button"
+[2025-01-05 14:57:16] [trace] image file load "next_button"
+[2025-01-05 14:57:16] [info] image file load done "next_button"
+[2025-01-05 14:57:16] [trace] image file load "camera_icon"
+[2025-01-05 14:57:16] [info] image file load done "camera_icon"
+[2025-01-05 14:57:16] [trace] image file load "move_icon"
+[2025-01-05 14:57:16] [info] image file load done "move_icon"
+[2025-01-05 14:57:16] [trace] image file load "rotation_icon"
+[2025-01-05 14:57:16] [info] image file load done "rotation_icon"
+[2025-01-05 14:57:16] [trace] image file load "scaling_icon"
+[2025-01-05 14:57:16] [info] image file load done "scaling_icon"
+[2025-01-05 14:57:16] [trace] image file load "gear_icon"
+[2025-01-05 14:57:16] [info] image file load done "gear_icon"
+[2025-01-05 14:57:16] [trace] image file load "tag_icon"
+[2025-01-05 14:57:16] [info] image file load done "tag_icon"
+[2025-01-05 14:57:16] [trace] image file load "transform_icon"
+[2025-01-05 14:57:16] [info] image file load done "transform_icon"
+[2025-01-05 14:57:16] [trace] image file load "plus_icon"
+[2025-01-05 14:57:16] [info] image file load done "plus_icon"
+[2025-01-05 14:57:16] [trace] image file load "camera_icon"
+[2025-01-05 14:57:16] [info] image file load done "camera_icon"
+[2025-01-05 14:57:16] [trace] image file load "sprite_icon"
+[2025-01-05 14:57:16] [info] image file load done "sprite_icon"
+[2025-01-05 14:57:16] [trace] image file load "flipbook_icon"
+[2025-01-05 14:57:16] [info] image file load done "flipbook_icon"
+[2025-01-05 14:57:16] [trace] image file load "mesh_icon"
+[2025-01-05 14:57:16] [info] image file load done "mesh_icon"
+[2025-01-05 14:57:16] [trace] image file load "entity_icon"
+[2025-01-05 14:57:16] [info] image file load done "entity_icon"
+[2025-01-05 14:57:16] [trace] image file load "plus_icon"
+[2025-01-05 14:57:16] [info] image file load done "plus_icon"
+[2025-01-05 14:57:16] [trace] image file load "doc_icon"
+[2025-01-05 14:57:16] [info] image file load done "doc_icon"
+[2025-01-05 14:57:16] [trace] image file load "script_icon"
+[2025-01-05 14:57:16] [info] image file load done "script_icon"
+[2025-01-05 14:57:16] [trace] image file load "mesh_icon"
+[2025-01-05 14:57:16] [info] image file load done "mesh_icon"
+[2025-01-05 14:57:16] [trace] image file load "folder_icon"
+[2025-01-05 14:57:16] [info] image file load done "folder_icon"
+[2025-01-05 14:57:16] [trace] image file load "refresh_icon"
+[2025-01-05 14:57:16] [info] image file load done "refresh_icon"
+[2025-01-05 14:57:16] [trace] image file load "search_icon"
+[2025-01-05 14:57:16] [info] image file load done "search_icon"
+[2025-01-05 14:57:16] [info] Engine initialize done.
+[2025-01-05 14:57:16] [info] Load Scene Data: DemoScene (path: C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Scenes\DemoScene.json)
+[2025-01-05 14:57:16] [debug] Event Occured => WindowResizeEvent : (2398, 1288)
+[2025-01-05 14:57:20] [debug] Event Occured => AppCloseEvent
+[2025-01-05 14:57:20] [debug] Event Occured => AppCloseEvent
+[2025-01-05 14:57:20] [debug] Event Occured => AppShutdownEvent

@@ -1,0 +1,151 @@
+[2025-01-13 13:36:24] [info] Log initialize done.
+[2025-01-13 13:36:24] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2025-01-13 13:36:24] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture
+[2025-01-13 13:36:24] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\icon_original.png
+[2025-01-13 13:36:24] [trace] image file load "icon_original"
+[2025-01-13 13:36:24] [info] image file load done "icon_original"
+[2025-01-13 13:36:24] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Die_Bomb_Left.bmp
+[2025-01-13 13:36:24] [trace] image file load "SD_Die_Bomb_Left"
+[2025-01-13 13:36:24] [info] image file load done "SD_Die_Bomb_Left"
+[2025-01-13 13:36:24] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Die_Bomb_Right.bmp
+[2025-01-13 13:36:24] [trace] image file load "SD_Die_Bomb_Right"
+[2025-01-13 13:36:24] [info] image file load done "SD_Die_Bomb_Right"
+[2025-01-13 13:36:24] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Die_Fall_Left.bmp
+[2025-01-13 13:36:24] [trace] image file load "SD_Die_Fall_Left"
+[2025-01-13 13:36:24] [info] image file load done "SD_Die_Fall_Left"
+[2025-01-13 13:36:24] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Die_Fall_Right.bmp
+[2025-01-13 13:36:24] [trace] image file load "SD_Die_Fall_Right"
+[2025-01-13 13:36:25] [info] image file load done "SD_Die_Fall_Right"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Die_Jump_Left.bmp
+[2025-01-13 13:36:25] [trace] image file load "SD_Die_Jump_Left"
+[2025-01-13 13:36:25] [info] image file load done "SD_Die_Jump_Left"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Die_Jump_Right.bmp
+[2025-01-13 13:36:25] [trace] image file load "SD_Die_Jump_Right"
+[2025-01-13 13:36:25] [info] image file load done "SD_Die_Jump_Right"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Die_Land_Left.bmp
+[2025-01-13 13:36:25] [trace] image file load "SD_Die_Land_Left"
+[2025-01-13 13:36:25] [info] image file load done "SD_Die_Land_Left"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Die_Land_Right.bmp
+[2025-01-13 13:36:25] [trace] image file load "SD_Die_Land_Right"
+[2025-01-13 13:36:25] [info] image file load done "SD_Die_Land_Right"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Die_Slash_Left.bmp
+[2025-01-13 13:36:25] [trace] image file load "SD_Die_Slash_Left"
+[2025-01-13 13:36:25] [info] image file load done "SD_Die_Slash_Left"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Die_Slash_Right.bmp
+[2025-01-13 13:36:25] [trace] image file load "SD_Die_Slash_Right"
+[2025-01-13 13:36:25] [info] image file load done "SD_Die_Slash_Right"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Die_Stand_1_Left.bmp
+[2025-01-13 13:36:25] [trace] image file load "SD_Die_Stand_1_Left"
+[2025-01-13 13:36:25] [info] image file load done "SD_Die_Stand_1_Left"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Die_Stand_1_Right.bmp
+[2025-01-13 13:36:25] [trace] image file load "SD_Die_Stand_1_Right"
+[2025-01-13 13:36:25] [info] image file load done "SD_Die_Stand_1_Right"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Die_Stand_2_Left.bmp
+[2025-01-13 13:36:25] [trace] image file load "SD_Die_Stand_2_Left"
+[2025-01-13 13:36:25] [info] image file load done "SD_Die_Stand_2_Left"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Die_Stand_2_Right.bmp
+[2025-01-13 13:36:25] [trace] image file load "SD_Die_Stand_2_Right"
+[2025-01-13 13:36:25] [info] image file load done "SD_Die_Stand_2_Right"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Hang_Idle_Left.bmp
+[2025-01-13 13:36:25] [trace] image file load "SD_Hang_Idle_Left"
+[2025-01-13 13:36:25] [info] image file load done "SD_Hang_Idle_Left"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Hang_Idle_Right.bmp
+[2025-01-13 13:36:25] [trace] image file load "SD_Hang_Idle_Right"
+[2025-01-13 13:36:25] [info] image file load done "SD_Hang_Idle_Right"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Hang_Throw_Bomb_Left.bmp
+[2025-01-13 13:36:25] [trace] image file load "SD_Hang_Throw_Bomb_Left"
+[2025-01-13 13:36:25] [info] image file load done "SD_Hang_Throw_Bomb_Left"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Hang_Throw_Bomb_Right.bmp
+[2025-01-13 13:36:25] [trace] image file load "SD_Hang_Throw_Bomb_Right"
+[2025-01-13 13:36:25] [info] image file load done "SD_Hang_Throw_Bomb_Right"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Idle_Left.bmp
+[2025-01-13 13:36:25] [trace] image file load "SD_Idle_Left"
+[2025-01-13 13:36:25] [info] image file load done "SD_Idle_Left"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Idle_Right.bmp
+[2025-01-13 13:36:25] [trace] image file load "SD_Idle_Right"
+[2025-01-13 13:36:25] [info] image file load done "SD_Idle_Right"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Jump_Left.bmp
+[2025-01-13 13:36:25] [trace] image file load "SD_Jump_Left"
+[2025-01-13 13:36:25] [info] image file load done "SD_Jump_Left"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Jump_Right.bmp
+[2025-01-13 13:36:25] [trace] image file load "SD_Jump_Right"
+[2025-01-13 13:36:25] [info] image file load done "SD_Jump_Right"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Jump_Slash_Land_Left.bmp
+[2025-01-13 13:36:25] [trace] image file load "SD_Jump_Slash_Land_Left"
+[2025-01-13 13:36:25] [info] image file load done "SD_Jump_Slash_Land_Left"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Jump_Slash_Land_Right.bmp
+[2025-01-13 13:36:25] [trace] image file load "SD_Jump_Slash_Land_Right"
+[2025-01-13 13:36:25] [info] image file load done "SD_Jump_Slash_Land_Right"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Jump_Slash_Left.bmp
+[2025-01-13 13:36:25] [trace] image file load "SD_Jump_Slash_Left"
+[2025-01-13 13:36:25] [info] image file load done "SD_Jump_Slash_Left"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Jump_Slash_Ready_Left.bmp
+[2025-01-13 13:36:25] [trace] image file load "SD_Jump_Slash_Ready_Left"
+[2025-01-13 13:36:25] [info] image file load done "SD_Jump_Slash_Ready_Left"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Jump_Slash_Ready_Right.bmp
+[2025-01-13 13:36:25] [trace] image file load "SD_Jump_Slash_Ready_Right"
+[2025-01-13 13:36:25] [info] image file load done "SD_Jump_Slash_Ready_Right"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Jump_Slash_Right.bmp
+[2025-01-13 13:36:25] [trace] image file load "SD_Jump_Slash_Right"
+[2025-01-13 13:36:25] [info] image file load done "SD_Jump_Slash_Right"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Land_Left.bmp
+[2025-01-13 13:36:25] [trace] image file load "SD_Land_Left"
+[2025-01-13 13:36:25] [info] image file load done "SD_Land_Left"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Land_Right.bmp
+[2025-01-13 13:36:25] [trace] image file load "SD_Land_Right"
+[2025-01-13 13:36:25] [info] image file load done "SD_Land_Right"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_MoveDown_Left.bmp
+[2025-01-13 13:36:25] [trace] image file load "SD_MoveDown_Left"
+[2025-01-13 13:36:25] [info] image file load done "SD_MoveDown_Left"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Move_Left.bmp
+[2025-01-13 13:36:25] [trace] image file load "SD_Move_Left"
+[2025-01-13 13:36:25] [info] image file load done "SD_Move_Left"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\GameTexture\SD_Move_Right.bmp
+[2025-01-13 13:36:25] [trace] image file load "SD_Move_Right"
+[2025-01-13 13:36:25] [info] image file load done "SD_Move_Right"
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Mesh
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\MonoScript
+[2025-01-13 13:36:25] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Sprite
+[2025-01-13 13:36:25] [trace] image file load "engine_icon"
+[2025-01-13 13:36:25] [info] image file load done "engine_icon"
+[2025-01-13 13:36:25] [trace] image file load "play_button"
+[2025-01-13 13:36:25] [info] image file load done "play_button"
+[2025-01-13 13:36:25] [trace] image file load "simul_button"
+[2025-01-13 13:36:25] [info] image file load done "simul_button"
+[2025-01-13 13:36:25] [trace] image file load "pause_button"
+[2025-01-13 13:36:25] [info] image file load done "pause_button"
+[2025-01-13 13:36:25] [trace] image file load "reset_button"
+[2025-01-13 13:36:25] [info] image file load done "reset_button"
+[2025-01-13 13:36:25] [trace] image file load "next_button"
+[2025-01-13 13:36:25] [info] image file load done "next_button"
+[2025-01-13 13:36:25] [trace] image file load "camera_icon"
+[2025-01-13 13:36:25] [info] image file load done "camera_icon"
+[2025-01-13 13:36:25] [trace] image file load "move_icon"
+[2025-01-13 13:36:25] [info] image file load done "move_icon"
+[2025-01-13 13:36:25] [trace] image file load "rotation_icon"
+[2025-01-13 13:36:25] [info] image file load done "rotation_icon"
+[2025-01-13 13:36:25] [trace] image file load "scaling_icon"
+[2025-01-13 13:36:25] [info] image file load done "scaling_icon"
+[2025-01-13 13:36:25] [trace] image file load "gear_icon"
+[2025-01-13 13:36:25] [info] image file load done "gear_icon"
+[2025-01-13 13:36:25] [trace] image file load "tag_icon"
+[2025-01-13 13:36:25] [info] image file load done "tag_icon"
+[2025-01-13 13:36:25] [trace] image file load "transform_icon"
+[2025-01-13 13:36:25] [info] image file load done "transform_icon"
+[2025-01-13 13:36:25] [trace] image file load "sprite_icon"
+[2025-01-13 13:36:25] [info] image file load done "sprite_icon"
+[2025-01-13 13:36:25] [trace] image file load "plus_icon"
+[2025-01-13 13:36:25] [info] image file load done "plus_icon"
+[2025-01-13 13:36:25] [trace] image file load "flipbook_icon"
+[2025-01-13 13:36:25] [info] image file load done "flipbook_icon"
+[2025-01-13 13:36:25] [trace] image file load "mesh_icon"
+[2025-01-13 13:36:25] [info] image file load done "mesh_icon"
+[2025-01-13 13:36:25] [trace] image file load "mono_script_icon"
+[2025-01-13 13:36:25] [info] image file load done "mono_script_icon"
+[2025-01-13 13:36:25] [trace] image file load "doc_icon"
+[2025-01-13 13:36:25] [info] image file load done "doc_icon"
+[2025-01-13 13:36:25] [trace] image file load "folder_icon"
+[2025-01-13 13:36:25] [info] image file load done "folder_icon"
+[2025-01-13 13:36:25] [trace] image file load "refresh_icon"
+[2025-01-13 13:36:25] [info] image file load done "refresh_icon"
+[2025-01-13 13:36:25] [trace] ima

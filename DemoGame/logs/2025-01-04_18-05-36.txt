@@ -1,0 +1,180 @@
+[2025-01-04 18:05:36] [info] Log initialize done.
+[2025-01-04 18:05:37] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2025-01-04 18:05:37] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\Player_Crouch_Shot_Right.json
+[2025-01-04 18:05:37] [trace] image file load "Player_Crouch_Shot_Right"
+[2025-01-04 18:05:37] [info] image file load done "Player_Crouch_Shot_Right"
+[2025-01-04 18:05:37] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2025-01-04 18:05:37] [trace] image file load "Older_Walk"
+[2025-01-04 18:05:37] [info] image file load done "Older_Walk"
+[2025-01-04 18:05:37] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Mesh
+[2025-01-04 18:05:37] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Sprite
+[2025-01-04 18:05:37] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Sprite\SampleSprite.json
+[2025-01-04 18:05:37] [trace] image file load "rio"
+[2025-01-04 18:05:37] [info] image file load done "rio"
+[2025-01-04 18:05:37] [trace] image file load "engine_icon"
+[2025-01-04 18:05:37] [info] image file load done "engine_icon"
+[2025-01-04 18:05:37] [trace] image file load "play_button"
+[2025-01-04 18:05:37] [info] image file load done "play_button"
+[2025-01-04 18:05:37] [trace] image file load "simul_button"
+[2025-01-04 18:05:37] [info] image file load done "simul_button"
+[2025-01-04 18:05:37] [trace] image file load "pause_button"
+[2025-01-04 18:05:37] [info] image file load done "pause_button"
+[2025-01-04 18:05:37] [trace] image file load "reset_button"
+[2025-01-04 18:05:37] [info] image file load done "reset_button"
+[2025-01-04 18:05:37] [trace] image file load "next_button"
+[2025-01-04 18:05:37] [info] image file load done "next_button"
+[2025-01-04 18:05:37] [trace] image file load "camera_icon"
+[2025-01-04 18:05:37] [info] image file load done "camera_icon"
+[2025-01-04 18:05:37] [trace] image file load "move_icon"
+[2025-01-04 18:05:37] [info] image file load done "move_icon"
+[2025-01-04 18:05:37] [trace] image file load "rotation_icon"
+[2025-01-04 18:05:37] [info] image file load done "rotation_icon"
+[2025-01-04 18:05:37] [trace] image file load "scaling_icon"
+[2025-01-04 18:05:37] [info] image file load done "scaling_icon"
+[2025-01-04 18:05:37] [trace] image file load "gear_icon"
+[2025-01-04 18:05:37] [info] image file load done "gear_icon"
+[2025-01-04 18:05:37] [trace] image file load "tag_icon"
+[2025-01-04 18:05:37] [info] image file load done "tag_icon"
+[2025-01-04 18:05:37] [trace] image file load "transform_icon"
+[2025-01-04 18:05:37] [info] image file load done "transform_icon"
+[2025-01-04 18:05:37] [trace] image file load "plus_icon"
+[2025-01-04 18:05:37] [info] image file load done "plus_icon"
+[2025-01-04 18:05:37] [trace] image file load "camera_icon"
+[2025-01-04 18:05:37] [info] image file load done "camera_icon"
+[2025-01-04 18:05:37] [trace] image file load "sprite_icon"
+[2025-01-04 18:05:37] [info] image file load done "sprite_icon"
+[2025-01-04 18:05:37] [trace] image file load "flipbook_icon"
+[2025-01-04 18:05:37] [info] image file load done "flipbook_icon"
+[2025-01-04 18:05:37] [trace] image file load "mesh_icon"
+[2025-01-04 18:05:37] [info] image file load done "mesh_icon"
+[2025-01-04 18:05:37] [trace] image file load "entity_icon"
+[2025-01-04 18:05:37] [info] image file load done "entity_icon"
+[2025-01-04 18:05:37] [trace] image file load "plus_icon"
+[2025-01-04 18:05:37] [info] image file load done "plus_icon"
+[2025-01-04 18:05:37] [trace] image file load "doc_icon"
+[2025-01-04 18:05:37] [info] image file load done "doc_icon"
+[2025-01-04 18:05:37] [trace] image file load "script_icon"
+[2025-01-04 18:05:37] [info] image file load done "script_icon"
+[2025-01-04 18:05:37] [trace] image file load "mesh_icon"
+[2025-01-04 18:05:37] [info] image file load done "mesh_icon"
+[2025-01-04 18:05:37] [trace] image file load "folder_icon"
+[2025-01-04 18:05:37] [info] image file load done "folder_icon"
+[2025-01-04 18:05:37] [trace] image file load "refresh_icon"
+[2025-01-04 18:05:37] [info] image file load done "refresh_icon"
+[2025-01-04 18:05:37] [trace] image file load "search_icon"
+[2025-01-04 18:05:37] [info] image file load done "search_icon"
+[2025-01-04 18:05:37] [info] Engine initialize done.
+[2025-01-04 18:05:37] [info] Load Scene Data: DemoScene (path: C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Scenes\DemoScene.json)
+[2025-01-04 18:05:37] [debug] Event Occured => WindowResizeEvent : (2398, 1288)
+[2025-01-04 18:05:50] [info] Save Scene Data: DemoScene (path: C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Scenes\DemoScene.json)
+[2025-01-04 18:07:39] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:07:40] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:07:43] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:07:45] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:07:47] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:07:48] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:07:50] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:07:52] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:07:59] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:08:02] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:08:04] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:08:05] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:08:08] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:08:18] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:08:24] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:08:26] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:08:28] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:08:29] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:08:33] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:08:34] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:08:38] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:08:40] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:08:43] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:08:45] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:08:47] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:08:52] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:08:53] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:08:55] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:08:57] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:09:03] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:09:04] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:09:06] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:09:08] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:09:11] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:09:13] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:09:15] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:09:17] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:09:18] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:09:19] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:09:23] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:09:27] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:09:30] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:09:35] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:09:37] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:09:39] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:09:40] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:10:08] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:10:09] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:10:11] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:10:13] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:10:20] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:10:22] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:10:31] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:10:39] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:10:41] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:10:43] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:10:45] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:10:50] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:10:52] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:10:54] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:10:57] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:11:01] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:11:09] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:11:13] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:11:17] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:11:21] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:11:24] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:11:28] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:11:31] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:11:36] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:11:39] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:11:42] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:12:02] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:12:06] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:12:36] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:12:38] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:12:40] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:12:47] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:12:49] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:13:01] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:13:01] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:13:04] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:13:23] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:13:25] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:13:26] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:13:27] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:13:27] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:13:28] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:13:29] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:13:30] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:14:12] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:14:13] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:14:22] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:14:23] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:14:25] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:14:32] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:15:12] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:15:14] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:15:57] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:15:58] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:16:01] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:16:03] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:16:08] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:16:10] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:16:31] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:16:33] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:16:42] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-04 18:16:44] [debug] Event Occured => SetRunTypeEvent : Edit
+[2025-01-04 18:16:47] [debug] Event Occured => AppCloseEvent
+[2025-01-04 18:16:47] [debug] Event Occured => AppCloseEvent
+[2025-01-04 18:16:47] [debug] Event Occured => AppShutdownEvent

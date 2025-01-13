@@ -1,0 +1,137 @@
+[2025-01-10 16:30:09] [info] Log initialize done.
+[2025-01-10 16:30:10] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook
+[2025-01-10 16:30:10] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\Player_Crouch_Shot_Right.json
+[2025-01-10 16:30:10] [trace] image file load "Player_Crouch_Shot_Right"
+[2025-01-10 16:30:10] [info] image file load done "Player_Crouch_Shot_Right"
+[2025-01-10 16:30:10] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Flipbook\SampleFlipbook.json
+[2025-01-10 16:30:10] [trace] image file load "Older_Walk"
+[2025-01-10 16:30:10] [info] image file load done "Older_Walk"
+[2025-01-10 16:30:10] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Mesh
+[2025-01-10 16:30:10] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\MonoScript
+[2025-01-10 16:30:10] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Sprite
+[2025-01-10 16:30:10] [debug] C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame\Assets\Sprite\SampleSprite.json
+[2025-01-10 16:30:10] [trace] image file load "rio"
+[2025-01-10 16:30:10] [info] image file load done "rio"
+[2025-01-10 16:30:10] [trace] image file load "engine_icon"
+[2025-01-10 16:30:11] [info] image file load done "engine_icon"
+[2025-01-10 16:30:11] [trace] image file load "play_button"
+[2025-01-10 16:30:11] [info] image file load done "play_button"
+[2025-01-10 16:30:11] [trace] image file load "simul_button"
+[2025-01-10 16:30:11] [info] image file load done "simul_button"
+[2025-01-10 16:30:11] [trace] image file load "pause_button"
+[2025-01-10 16:30:11] [info] image file load done "pause_button"
+[2025-01-10 16:30:11] [trace] image file load "reset_button"
+[2025-01-10 16:30:11] [info] image file load done "reset_button"
+[2025-01-10 16:30:11] [trace] image file load "next_button"
+[2025-01-10 16:30:11] [info] image file load done "next_button"
+[2025-01-10 16:30:11] [trace] image file load "camera_icon"
+[2025-01-10 16:30:11] [info] image file load done "camera_icon"
+[2025-01-10 16:30:11] [trace] image file load "move_icon"
+[2025-01-10 16:30:11] [info] image file load done "move_icon"
+[2025-01-10 16:30:11] [trace] image file load "rotation_icon"
+[2025-01-10 16:30:11] [info] image file load done "rotation_icon"
+[2025-01-10 16:30:11] [trace] image file load "scaling_icon"
+[2025-01-10 16:30:11] [info] image file load done "scaling_icon"
+[2025-01-10 16:30:11] [trace] image file load "gear_icon"
+[2025-01-10 16:30:11] [info] image file load done "gear_icon"
+[2025-01-10 16:30:11] [trace] image file load "tag_icon"
+[2025-01-10 16:30:11] [info] image file load done "tag_icon"
+[2025-01-10 16:30:11] [trace] image file load "transform_icon"
+[2025-01-10 16:30:11] [info] image file load done "transform_icon"
+[2025-01-10 16:30:11] [trace] image file load "plus_icon"
+[2025-01-10 16:30:11] [info] image file load done "plus_icon"
+[2025-01-10 16:30:11] [trace] image file load "camera_icon"
+[2025-01-10 16:30:11] [info] image file load done "camera_icon"
+[2025-01-10 16:30:11] [trace] image file load "sprite_icon"
+[2025-01-10 16:30:11] [info] image file load done "sprite_icon"
+[2025-01-10 16:30:11] [trace] image file load "flipbook_icon"
+[2025-01-10 16:30:11] [info] image file load done "flipbook_icon"
+[2025-01-10 16:30:11] [trace] image file load "mesh_icon"
+[2025-01-10 16:30:11] [info] image file load done "mesh_icon"
+[2025-01-10 16:30:11] [trace] image file load "entity_icon"
+[2025-01-10 16:30:11] [info] image file load done "entity_icon"
+[2025-01-10 16:30:11] [trace] image file load "plus_icon"
+[2025-01-10 16:30:11] [info] image file load done "plus_icon"
+[2025-01-10 16:30:11] [trace] image file load "doc_icon"
+[2025-01-10 16:30:11] [info] image file load done "doc_icon"
+[2025-01-10 16:30:11] [trace] image file load "script_icon"
+[2025-01-10 16:30:11] [info] image file load done "script_icon"
+[2025-01-10 16:30:11] [trace] image file load "mesh_icon"
+[2025-01-10 16:30:11] [info] image file load done "mesh_icon"
+[2025-01-10 16:30:11] [trace] image file load "folder_icon"
+[2025-01-10 16:30:11] [info] image file load done "folder_icon"
+[2025-01-10 16:30:11] [trace] image file load "refresh_icon"
+[2025-01-10 16:30:11] [info] image file load done "refresh_icon"
+[2025-01-10 16:30:11] [trace] image file load "search_icon"
+[2025-01-10 16:30:11] [info] image file load done "search_icon"
+[2025-01-10 16:30:11] [info] Engine initialize done.
+[2025-01-10 16:30:12] [debug] Create!
+[2025-01-10 16:30:14] [debug] Event Occured => WindowResizeEvent : (1919, 1165)
+[2025-01-10 16:30:17] [debug] Event Occured => SetRunTypeEvent : Runtime
+[2025-01-10 16:30:17] [debug] Create!
+[2025-01-10 16:30:18] [debug] delta time: 0.0042994sec
+[2025-01-10 16:30:18] [debug] X: 0  Y: 0  Z: 0
+[2025-01-10 16:30:18] [debug] 0
+[2025-01-10 16:30:18] [debug] delta time: 0.003775sec
+[2025-01-10 16:30:18] [debug] X: 0  Y: 0  Z: 0
+[2025-01-10 16:30:18] [debug] 0
+[2025-01-10 16:30:21] [debug] delta time: 0.0044325sec
+[2025-01-10 16:30:21] [debug] X: 0  Y: 0  Z: 0
+[2025-01-10 16:30:21] [debug] 0
+[2025-01-10 16:30:22] [debug] delta time: 0.0036615sec
+[2025-01-10 16:30:22] [debug] X: 0  Y: 0  Z: 0
+[2025-01-10 16:30:22] [debug] 0
+[2025-01-10 16:30:22] [debug] delta time: 0.0040761sec
+[2025-01-10 16:30:22] [debug] X: 0  Y: 0  Z: 0
+[2025-01-10 16:30:22] [debug] 0
+[2025-01-10 16:30:22] [debug] delta time: 0.0037931sec
+[2025-01-10 16:30:22] [debug] X: 0  Y: 0  Z: 0
+[2025-01-10 16:30:22] [debug] 0
+[2025-01-10 16:30:22] [debug] delta time: 0.0046231sec
+[2025-01-10 16:30:22] [debug] X: 0  Y: 0  Z: 0
+[2025-01-10 16:30:22] [debug] 0
+[2025-01-10 16:30:23] [debug] delta time: 0.0038702sec
+[2025-01-10 16:30:23] [debug] X: 0  Y: 0  Z: 0
+[2025-01-10 16:30:23] [debug] 0
+[2025-01-10 16:30:23] [debug] delta time: 0.0041384sec
+[2025-01-10 16:30:23] [debug] X: 0  Y: 0  Z: 0
+[2025-01-10 16:30:23] [debug] 0
+[2025-01-10 16:30:23] [debug] delta time: 0.0040148sec
+[2025-01-10 16:30:23] [debug] X: 0  Y: 0  Z: 0
+[2025-01-10 16:30:23] [debug] 0
+[2025-01-10 16:30:23] [debug] delta time: 0.0042999sec
+[2025-01-10 16:30:23] [debug] X: 0  Y: 0  Z: 0
+[2025-01-10 16:30:23] [debug] 0
+[2025-01-10 16:30:23] [debug] delta time: 0.0039925sec
+[2025-01-10 16:30:23] [debug] X: 0  Y: 0  Z: 0
+[2025-01-10 16:30:23] [debug] 0
+[2025-01-10 16:30:23] [debug] delta time: 0.0036752sec
+[2025-01-10 16:30:23] [debug] X: 0  Y: 0  Z: 0
+[2025-01-10 16:30:23] [debug] 0
+[2025-01-10 16:30:24] [debug] delta time: 0.0035651sec
+[2025-01-10 16:30:24] [debug] X: 0.3377535  Y: 0  Z: 0
+[2025-01-10 16:30:24] [debug] 0
+[2025-01-10 16:30:25] [debug] delta time: 0.003871sec
+[2025-01-10 16:30:25] [debug] X: 0.3377535  Y: 0  Z: 0
+[2025-01-10 16:30:25] [debug] 0
+[2025-01-10 16:30:25] [debug] delta time: 0.0045278sec
+[2025-01-10 16:30:25] [debug] X: 0.3377535  Y: 0  Z: 0
+[2025-01-10 16:30:25] [debug] 0
+[2025-01-10 16:30:25] [debug] delta time: 0.0034964sec
+[2025-01-10 16:30:25] [debug] X: 0.3377535  Y: 0  Z: 0
+[2025-01-10 16:30:25] [debug] 0
+[2025-01-10 16:30:25] [debug] delta time: 0.0044568sec
+[2025-01-10 16:30:25] [debug] X: 0.3377535  Y: 0  Z: 0
+[2025-01-10 16:30:25] [debug] 0
+[2025-01-10 16:30:26] [debug] delta time: 0.0030387sec
+[2025-01-10 16:30:26] [debug] X: 0.6744373  Y: 0  Z: 0
+[2025-01-10 16:30:26] [debug] 0
+[2025-01-10 16:30:30] [debug] delta time: 0.004356sec
+[2025-01-10 16:30:30] [debug] X: 1.105921  Y: 0  Z: 0
+[2025-01-10 16:30:30] [debug] 0
+[2025-01-10 16:30:31] [debug] delta time: 0.0040243sec
+[2025-01-10 16:30:31] [debug] X: 1.105921  Y: 0  Z: 0
+[2025-01-10 16:30:31] [debug] 0
+[2025-01-10 16:30:32] [debug] Event Occured => AppCloseEvent
+[2025-01-10 16:30:32] [debug] Event Occured => AppCloseEvent
+[2025-01-10 16:30:32] [debug] Event Occured => AppShutdownEvent

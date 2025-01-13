@@ -1,0 +1,101 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2175,5): warning MSB9008: The referenced project '..\DirectXTex\DirectXTex\DirectXTex_Desktop_2022.vcxproj' does not exist.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(516,5): warning MSB8004: Intermediate 디렉터리가 슬래시로 끝나지 않습니다. Intermediate 디렉터리의 적절한 평가를 허용하는 데 필요하므로 이 빌드 인스턴스에서 슬래시를 추가합니다.
+  unity_TFQL7Y8EG1OK89RU.cpp
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\PanelDrawHelper.h(10,58): warning C4244: '초기화 중': 'float'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_TFQL7Y8EG1OK89RU.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\PanelDrawHelper.h(10,27): warning C4244: '초기화 중': 'float'에서 'const uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_TFQL7Y8EG1OK89RU.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\PanelDrawHelper.h(11,58): warning C4244: '초기화 중': 'float'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_TFQL7Y8EG1OK89RU.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\PanelDrawHelper.h(11,27): warning C4244: '초기화 중': 'float'에서 'const uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_TFQL7Y8EG1OK89RU.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\PanelDrawHelper.h(19,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  (소스 파일 'Inter/unity_TFQL7Y8EG1OK89RU.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\PanelDrawHelper.h(25,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  (소스 파일 'Inter/unity_TFQL7Y8EG1OK89RU.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\DX11RenderFrame.h(15,76): warning C4267: 'return': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_TFQL7Y8EG1OK89RU.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\DX11RenderFrame.cpp(28,17): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_TFQL7Y8EG1OK89RU.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\DX11RenderFrame.cpp(27,17): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_TFQL7Y8EG1OK89RU.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\DX11RenderFrame.cpp(24,17): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_TFQL7Y8EG1OK89RU.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\DX11RenderFrame.cpp(36,17): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_TFQL7Y8EG1OK89RU.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\DX11RenderFrame.cpp(42,44): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_TFQL7Y8EG1OK89RU.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Editor.h(12,25): warning C4244: '초기화 중': 'float'에서 'int32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_TFQL7Y8EG1OK89RU.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Editor.h(13,25): warning C4244: '초기화 중': 'float'에서 'int32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_TFQL7Y8EG1OK89RU.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\DX11Shader.cpp(56,3): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_TFQL7Y8EG1OK89RU.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Assets.cpp(86,32): warning C4244: '=': 'float'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_TFQL7Y8EG1OK89RU.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Assets.cpp(87,33): warning C4244: '=': 'float'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_TFQL7Y8EG1OK89RU.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Draw2D.cpp(331,40): warning C4267: '인수': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_TFQL7Y8EG1OK89RU.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Draw2D.cpp(355,37): warning C4267: '인수': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_TFQL7Y8EG1OK89RU.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\SceneHierarchyPanel.cpp(118,28): warning C4244: '인수': 'unsigned __int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_TFQL7Y8EG1OK89RU.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\DX11RenderTarget.cpp(82,27): warning C4244: '=': 'const int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_TFQL7Y8EG1OK89RU.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\DX11RenderTarget.cpp(83,28): warning C4244: '=': 'const int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_TFQL7Y8EG1OK89RU.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\ViewportPanel.cpp(308,35): warning C4244: '초기화 중': 'float'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_TFQL7Y8EG1OK89RU.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\ViewportPanel.cpp(309,35): warning C4244: '초기화 중': 'float'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_TFQL7Y8EG1OK89RU.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\IIndexBuffer.cpp(20,47): warning C4267: '인수': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_TFQL7Y8EG1OK89RU.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\AssetBrowserPanel.h(71,21): warning C4244: '초기화 중': 'uint64'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_TFQL7Y8EG1OK89RU.cpp'을(를) 컴파일하는 중)
+      C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\AssetBrowserPanel.h(71,21):
+      템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+          C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\AssetBrowserPanel.cpp(181,3):
+          컴파일되는 함수 템플릿 인스턴스화 'void crab::AssetBrowserPanel::_draw_asset_viewer_<crab::GameTexture>(void)'에 대한 참조를 확인하세요.
+  
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\AssetContainer.h(52,23): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_TFQL7Y8EG1OK89RU.cpp'을(를) 컴파일하는 중)
+      C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\AssetContainer.h(52,23):
+      템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+          C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\AssetManager.h(79,30):
+          컴파일되는 클래스 템플릿 인스턴스화 'crab::AssetContainer<crab::MonoScript>'에 대한 참조를 확인하세요.
+          C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\AssetContainer.h(34,22):
+          클래스 템플릿 멤버 함수 'crab::AssetID<crab::MonoScript> crab::AssetContainer<crab::MonoScript>::Insert(std::unique_ptr<AssetType,std::default_delete<AssetType>> &&)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              AssetType=crab::MonoScript
+          ]
+              C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\AssetManager.h(16,4):
+              'crab::AssetManager::EmplaceAsset'에서 'crab::AssetContainer<crab::MonoScript>::Insert'에 대한 첫 번째 참조를 확인하세요.
+  
+  TestWindow.vcxproj -> C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Bin\Debug\CrabEngine.lib
