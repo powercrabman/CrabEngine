@@ -10,7 +10,7 @@ namespace crab
 		{
 			if (mode == eProjection::Orthographic)
 			{
-				float z = transform.position.z == 0 ? math::SMALL_NUM : transform.position.z;
+				float z = transform.position.z >= -math::SMALL_NUM ? -math::SMALL_NUM : transform.position.z;
 				return DirectX::XMMatrixOrthographicLH(-z * in_aspect, -z, 0.01f, 100.f);
 			}
 			else
@@ -35,6 +35,10 @@ namespace crab
 		float fov           = math::DegToRad(45.f);
 	};
 
+	//===================================================
+	//             Crab Shared Editor Data
+	//===================================================
+
 	struct CrabEditorData
 	{
 		Ref<IRenderFrame>	editRenderFrame;
@@ -44,7 +48,6 @@ namespace crab
 		eEditorState		editorState         = eEditorState::Edit;
 		ImGuizmo::OPERATION	guizmoOp            = ImGuizmo::OPERATION::TRANSLATE;
 
-		ImFont*				editorSmallFont;
 		ImFont*				editorFont;
 		ImFont*				editorBoldFont;
 
@@ -73,12 +76,24 @@ namespace crab
 		Ref<ITexture>		searchIcon;
 		Ref<ITexture>		pencilIcon;
 		Ref<ITexture>		checkerBoard;
-
+		Ref<ITexture>		infoIcon;
+		Ref<ITexture>		warnIcon;
+		Ref<ITexture>		errorIcon;
+		Ref<ITexture>		trashIcon;
+		Ref<ITexture>		saveIcon;
 	};
+
+	inline void SendVisualLog(eVisualLogLevel in_level, std::string_view in_message)
+	{
+		SendVisualLog_EditorEvent e;
+		e.m_level = in_level;
+		e.m_logMessage = in_message;
+		GetEngine().DispatchEvent(e);
+	}
 
 	inline CrabEditorData& GetCrabEditorData()
 	{
-		assert(GetCrabEngine().IsEnableEditor());
+		assert(GetEngine().IsEnableEditor());
 		static CrabEditorData g_CrabEditorData;
 		return g_CrabEditorData;
 	}

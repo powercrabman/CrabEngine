@@ -27,7 +27,8 @@ namespace crab
 		// Viewport Buttons
 		{
 			ImGui::SetCursorScreenPos(ImGui::GetCursorScreenPos() - style.FramePadding);
-			ImChildWindow child{ "child" , { ImGui::GetWindowWidth() + style.FramePadding.x, 40.f } , NULL, ImGuiWindowFlags_NoScrollbar | ImGuiWindowFlags_NoScrollWithMouse };
+			ImGuiChildFlags flag = ImGuiWindowFlags_NoScrollbar | ImGuiWindowFlags_NoScrollWithMouse;
+			ImChildWindow child{ "child" , { ImGui::GetWindowWidth() + style.FramePadding.x, 40.f } , NULL, flag};
 
 			ImColorStyle c0{ ImGuiCol_Button, ImVec4{0.f,0.f,0.f,0.f} };
 			ImColorStyle c1{ ImGuiCol_ButtonHovered, ImVec4{1.f,1.f,1.f,0.3f} };
@@ -55,7 +56,7 @@ namespace crab
 					if (scene)
 					{
 						gData.tempSceneData.ToJson(scene);
-						GetSceneManager().RestartScene();
+						GetSceneManager().RestartCurrentScene();
 					}
 				}
 
@@ -159,7 +160,7 @@ namespace crab
 							{
 								SetEditorState_EditorEvent e;
 								e.m_editorState = in_editorState;
-								GetCrabEngine().DispatchEvent(e);
+								GetEngine().DispatchEvent(e);
 							}
 						};
 
@@ -296,6 +297,29 @@ namespace crab
 			{
 				gData.editorCamera.transform.position += SCROLL_SCALE * dtScroll * gData.editorCamera.transform.ForwardVector();
 			}
+
+			// Guizmo operator
+			if (Input::IsKeyDown(eKey::Q))
+			{
+				SetGuizmoType_EditorEvent e;
+				e.m_type = eGuizmoType::Translation;
+				GetEngine().DispatchEvent(e);
+			}
+
+			if (Input::IsKeyDown(eKey::W))
+			{
+				SetGuizmoType_EditorEvent e;
+				e.m_type = eGuizmoType::Rotation;
+				GetEngine().DispatchEvent(e);
+			}
+
+			if (Input::IsKeyDown(eKey::E))
+			{
+				SetGuizmoType_EditorEvent e;
+				e.m_type = eGuizmoType::Scaling;
+				GetEngine().DispatchEvent(e);
+			}
+
 		}
 
 		// entity picking
@@ -328,7 +352,7 @@ namespace crab
 		{
 			SetEditorState_EditorEvent e;
 			e.m_editorState = eEditorState::Runtime;
-			GetCrabEngine().DispatchEvent(e);
+			GetEngine().DispatchEvent(e);
 		}
 
 		ImGuiEx::ItemTooltip("Running the game in runtime mode.");
@@ -341,7 +365,7 @@ namespace crab
 		{
 			SetEditorState_EditorEvent e;
 			e.m_editorState = eEditorState::SimulatePlay;
-			GetCrabEngine().DispatchEvent(e);
+			GetEngine().DispatchEvent(e);
 			return true;
 		}
 
@@ -356,7 +380,7 @@ namespace crab
 		{
 			SetEditorState_EditorEvent e;
 			e.m_editorState = eEditorState::SimulateStop;
-			GetCrabEngine().DispatchEvent(e);
+			GetEngine().DispatchEvent(e);
 		}
 
 		ImGuiEx::ItemTooltip("Pause frame.");
@@ -369,7 +393,7 @@ namespace crab
 		{
 			SetEditorState_EditorEvent e;
 			e.m_editorState = eEditorState::Edit;
-			GetCrabEngine().DispatchEvent(e);
+			GetEngine().DispatchEvent(e);
 		}
 
 		ImGuiEx::ItemTooltip("Back to edit mode.");
@@ -382,7 +406,7 @@ namespace crab
 		{
 			NextFrame_EditorEvent e;
 			e.m_timeStamp = in_ts;
-			GetCrabEngine().DispatchEvent(e);
+			GetEngine().DispatchEvent(e);
 		}
 
 		ImGuiEx::ItemTooltip("Play to next frame.");

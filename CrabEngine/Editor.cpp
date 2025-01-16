@@ -11,15 +11,11 @@
 #include "IDepthStencil.h"
 #include "IUnorderedAccessView.h"
 #include "SceneSerializer.h"
+#include "VisualLogPanel.h"
 #include "ImGuizmo/ImGuizmo.h"
-#include "ImGuizmo/ImCurveEdit.h"
-#include "ImGuizmo/ImGradient.h"
-#include "ImGuizmo/ImSequencer.h"
-#include "imguizmo/ImZoomSlider.h"
 
 namespace crab
 {
-
 	Editor::Editor()
 	{
 		// 설정파일
@@ -30,17 +26,18 @@ namespace crab
 		{
 			JsonSerializer<EditorConfig> json;
 			json.LoadJsonFromFile(m_configPath);
-			m_config = json.FromJson();
+			m_config = json.LoadFromJson();
 		}
 
-		GetCrabEngine().GetWindow().ResizeWindow(m_config.editorAppWidth, m_config.editorAppHeight);
-		GetCrabEngine().GetWindow().MoveWindow(m_config.editorAppPosX, m_config.editorAppPosY);
+		GameWindow& window = GetEngine().GetWindow();
+		window.ResizeWindow(m_config.editorAppWidth, m_config.editorAppHeight);
+		window.MoveWindow(m_config.editorAppPosX, m_config.editorAppPosY);
 	}
 
 	Editor::~Editor()
 	{
 		JsonSerializer<EditorConfig> json;
-		json.ToJson(m_config);
+		json.SaveToJson(m_config);
 		json.SaveJsonToFile(m_configPath);
 	}
 
@@ -75,9 +72,8 @@ namespace crab
 
 		// Load Font
 		ImGuiIO& io = ImGui::GetIO();
-		gData.editorSmallFont = io.Fonts->AddFontFromFileTTF(GetAssetManager().GetEngineDirectory("Fonts\\GodoM.ttf").string().c_str(), 16.f, nullptr, io.Fonts->GetGlyphRangesKorean());
-		gData.editorFont = io.Fonts->AddFontFromFileTTF(GetAssetManager().GetEngineDirectory("Fonts\\GodoM.ttf").string().c_str(), 20.f, nullptr, io.Fonts->GetGlyphRangesKorean());
-		gData.editorBoldFont = io.Fonts->AddFontFromFileTTF(GetAssetManager().GetEngineDirectory("Fonts\\GodoB.ttf").string().c_str(), 20.f, nullptr, io.Fonts->GetGlyphRangesKorean());
+		gData.editorFont = io.Fonts->AddFontFromFileTTF(GetAssetManager().GetEngineDirectory("Fonts\\GodoM.ttf").string().c_str(), 18.f, nullptr, io.Fonts->GetGlyphRangesKorean());
+		gData.editorBoldFont = io.Fonts->AddFontFromFileTTF(GetAssetManager().GetEngineDirectory("Fonts\\GodoB.ttf").string().c_str(), 18.f, nullptr, io.Fonts->GetGlyphRangesKorean());
 
 		// Load Texture
 		gData.brandIcon = ITexture::Create(GetAssetManager().GetEngineDirectory("Icons\\engine_icon.png"));
@@ -104,17 +100,28 @@ namespace crab
 		gData.searchIcon = ITexture::Create(GetAssetManager().GetEngineDirectory("Icons\\search_icon.png"));
 		gData.pencilIcon = ITexture::Create(GetAssetManager().GetEngineDirectory("Icons\\pencil_icon.png"));
 		gData.checkerBoard = ITexture::Create(GetAssetManager().GetEngineDirectory("Icons\\Checkerboard.png"));
+		gData.errorIcon = ITexture::Create(GetAssetManager().GetEngineDirectory("Icons\\error_icon.png"));
+		gData.warnIcon = ITexture::Create(GetAssetManager().GetEngineDirectory("Icons\\warn_icon.png"));
+		gData.infoIcon = ITexture::Create(GetAssetManager().GetEngineDirectory("Icons\\info_icon.png"));
+		gData.trashIcon = ITexture::Create(GetAssetManager().GetEngineDirectory("Icons\\trash_icon.png"));
+		gData.saveIcon = ITexture::Create(GetAssetManager().GetEngineDirectory("Icons\\save_icon.png"));
 
 		// Load Panel
 		m_viewportPanel = MakeScope<ViewportPanel>();
 		m_entityInspector = MakeScope<EntityInspectorPanel>();
 		m_sceneHierarchy = MakeScope<SceneHierarchyPanel>();
 		m_assetBrowser = MakeScope<AssetBrowserPanel>();
+		m_visualLog = MakeScope<VisualLogPanel>();
 
-		_load_imgui_style_();
+		// Load edit scene
+		Scene* sc = GetSceneManager().TryFindSceneByName(m_config.editSceneName);
+		if (sc) { GetSceneManager().ChangeScene(sc); }
+
+		// Load editor style
+		load_imgui_style();
 	}
 
-	void Editor::_default_editor_imgui_style_()
+	void Editor::default_editor_imgui_style()
 	{
 		ImVec4* colors = ImGui::GetStyle().Colors;
 		colors[ImGuiCol_Text] = ImVec4(1.00f, 1.00f, 1.00f, 1.00f);
@@ -234,18 +241,17 @@ namespace crab
 		json.SaveJsonToFile(m_config.stylePath);
 	}
 
-	void Editor::_handle_input_(TimeStamp& in_ts) const
+	void Editor::handle_input(TimeStamp& in_ts) const
 	{
 		CrabEditorData& gData = GetCrabEditorData();
 		if (gData.editorState == eEditorState::Edit)
 		{
-
 			// delete
 			if (Input::IsKeyDown(eKey::Delete))
 			{
 				DeleteEntity_EditorEvent e;
 				e.m_entityID = gData.selectedEntity.GetID();
-				GetCrabEngine().DispatchEvent(e);
+				GetEngine().DispatchEvent(e);
 			}
 
 			// duplicate
@@ -253,36 +259,14 @@ namespace crab
 			{
 				DuplicateEntity_EditorEvent e;
 				e.m_entityID = gData.selectedEntity.GetID();
-				GetCrabEngine().DispatchEvent(e);
-			}
-
-			// Guizmo operator
-			if (Input::IsKeyDown(eKey::Q))
-			{
-				SetGuizmoType_EditorEvent e;
-				e.m_type = eGuizmoType::Translation;
-				GetCrabEngine().DispatchEvent(e);
-			}
-
-			if (Input::IsKeyDown(eKey::W))
-			{
-				SetGuizmoType_EditorEvent e;
-				e.m_type = eGuizmoType::Rotation;
-				GetCrabEngine().DispatchEvent(e);
-			}
-
-			if (Input::IsKeyDown(eKey::E))
-			{
-				SetGuizmoType_EditorEvent e;
-				e.m_type = eGuizmoType::Scaling;
-				GetCrabEngine().DispatchEvent(e);
+				GetEngine().DispatchEvent(e);
 			}
 
 			// Scene
 			if (Input::IsKeyDown(eKey::LeftCtrl) && Input::IsKeyPress(eKey::S))
 			{
-				SaveScene_EditorEvent e;
-				GetCrabEngine().DispatchEvent(e);
+				SaveProject_EditorEvent e;
+				GetEngine().DispatchEvent(e);
 			}
 		}
 
@@ -292,14 +276,14 @@ namespace crab
 			{
 				SetEditorState_EditorEvent e;
 				e.m_editorState = eEditorState::SimulateStop;
-				GetCrabEngine().DispatchEvent(e);
+				GetEngine().DispatchEvent(e);
 			}
 
 			if (Input::IsKeyPress(eKey::Escape))
 			{
 				SetEditorState_EditorEvent e;
 				e.m_editorState = eEditorState::Edit;
-				GetCrabEngine().DispatchEvent(e);
+				GetEngine().DispatchEvent(e);
 			}
 		}
 
@@ -309,14 +293,14 @@ namespace crab
 			{
 				NextFrame_EditorEvent e;
 				e.m_timeStamp = in_ts;
-				GetCrabEngine().DispatchEvent(e);
+				GetEngine().DispatchEvent(e);
 			}
 
 			if (Input::IsKeyPress(eKey::Escape))
 			{
 				SetEditorState_EditorEvent e;
 				e.m_editorState = eEditorState::Edit;
-				GetCrabEngine().DispatchEvent(e);
+				GetEngine().DispatchEvent(e);
 			}
 		}
 
@@ -326,22 +310,28 @@ namespace crab
 			{
 				SetEditorState_EditorEvent e;
 				e.m_editorState = eEditorState::Edit;
-				GetCrabEngine().DispatchEvent(e);
+				GetEngine().DispatchEvent(e);
 			}
 		}
 	}
 
-	void Editor::_load_imgui_style_()
+	void Editor::load_imgui_style()
 	{
 		if (std::filesystem::exists(m_config.stylePath))
 		{
 			JsonSerializer<ImGuiStyle> json;
-			json.LoadJsonFromFile(m_config.stylePath);
-			ImGui::GetStyle() = json.FromJson();
+			if (json.LoadJsonFromFile(m_config.stylePath))
+			{
+				ImGui::GetStyle() = json.LoadFromJson();
+			}
+			else
+			{
+				default_editor_imgui_style();
+			}
 		}
 		else
 		{
-			_default_editor_imgui_style_();
+			default_editor_imgui_style();
 		}
 	}
 
@@ -357,6 +347,7 @@ namespace crab
 		case crab::eEditorState::SimulatePlay:
 			SceneManager::Get().OnUpdate(in_ts);
 			[[fallthrough]];
+
 		case crab::eEditorState::SimulateStop:
 		case crab::eEditorState::Edit:
 		{
@@ -377,6 +368,7 @@ namespace crab
 		Renderer::BindRenderFrame(gData.editRenderFrame);
 		Renderer::ClearRenderFrame();
 
+		// main rendering 
 		Draw2D::BeginBatch();
 		SceneManager::Get().OnRender(in_ts);
 		Draw2D::EndBatch();
@@ -399,7 +391,7 @@ namespace crab
 		CrabEditorData& gData = GetCrabEditorData();
 		ImFontStyle font{ gData.editorFont };
 
-		_handle_input_(in_ts);
+		handle_input(in_ts);
 
 #pragma region DockSpace
 		// DockSpace
@@ -407,13 +399,13 @@ namespace crab
 			ImDisable disable{ gData.editorState != eEditorState::Edit };
 
 			// Menu bar
-			ImGuiWindowFlags window_flags = ImGuiWindowFlags_NoDocking | 
-											ImGuiWindowFlags_NoTitleBar | 
-											ImGuiWindowFlags_NoCollapse |
-											ImGuiWindowFlags_NoResize | 
-											ImGuiWindowFlags_NoMove | 
-											ImGuiWindowFlags_NoBringToFrontOnFocus |
-											ImGuiWindowFlags_NoNavFocus;
+			ImGuiWindowFlags window_flags = ImGuiWindowFlags_NoDocking |
+				ImGuiWindowFlags_NoTitleBar |
+				ImGuiWindowFlags_NoCollapse |
+				ImGuiWindowFlags_NoResize |
+				ImGuiWindowFlags_NoMove |
+				ImGuiWindowFlags_NoBringToFrontOnFocus |
+				ImGuiWindowFlags_NoNavFocus;
 
 			const ImGuiViewport* viewport = ImGui::GetMainViewport();
 			ImGui::SetNextWindowPos(viewport->WorkPos);
@@ -447,9 +439,9 @@ namespace crab
 			{
 				ImFontStyle font{ gData.editorBoldFont };
 				ImVec2 p0 = {};
-				p0.x = ImGui::GetWindowPos().x + viewport->WorkSize.x - ImGui::CalcTextSize(GetCrabEngine().GetApplicationName()).x - 20.f;
+				p0.x = ImGui::GetWindowPos().x + viewport->WorkSize.x - ImGui::CalcTextSize(GetEngine().GetApplicationName()).x - 20.f;
 				p0.y = ImGui::GetWindowPos().y + (MENUBAR_HEIGHT - c->FontSize) * 0.5f;
-				draw->AddText(p0, ImGui::GetColorU32(ImGuiCol_Text), GetCrabEngine().GetApplicationName());
+				draw->AddText(p0, ImGui::GetColorU32(ImGuiCol_Text), GetEngine().GetApplicationName());
 			}
 
 			// Menu Item
@@ -467,11 +459,35 @@ namespace crab
 				ImGui::Button("File");
 				if (ImPopupItem item{})
 				{
-					ImGui::MenuItem("New Project");
-					ImGui::MenuItem("Open Project");
+					if (ImGui::MenuItem("Save Project", "Ctrl+S"))
+					{
+						SaveProject_EditorEvent e;
+						GetEngine().DispatchEvent(e);
+					}
 
 					ImGui::Separator();
-					if (ImGui::MenuItem("Exit")) { AppClose_Event e; GetCrabEngine().DispatchEvent(e); }
+
+					if (ImGui::MenuItem("Save Current Scene"))
+					{
+						if (Scene* sc = GetSceneManager().TryGetCurrentScene())
+						{
+							SaveScene_EditorEvent e;
+							e.m_scene = sc;
+							GetEngine().DispatchEvent(e);
+						}
+					}
+
+					if (ImGui::MenuItem("Restart Current Scene"))
+					{
+						if (Scene* sc = GetSceneManager().TryGetCurrentScene())
+						{
+							RestartScene_EditorEvent e;
+							GetEngine().DispatchEvent(e);
+						}
+					}
+
+					ImGui::Separator();
+					if (ImGui::MenuItem("Exit")) { AppClose_Event e; GetEngine().DispatchEvent(e); }
 				}
 
 				ImGui::SameLine();
@@ -532,6 +548,7 @@ namespace crab
 		m_entityInspector->OnImGuiRender(in_ts);
 		m_sceneHierarchy->OnImGuiRender(in_ts);
 		m_assetBrowser->OnImGuiRender(in_ts);
+		m_visualLog->OnImGuiRender(in_ts);
 #pragma endregion Panels
 
 #pragma region Performence Checker
@@ -571,19 +588,24 @@ namespace crab
 	{
 		EventDispatcher dispatcher{ in_event };
 
-		dispatcher.Dispatch<WindowResize_Event>([&](WindowResize_Event& in_event)
+		CRAB_REGISTER_EVENT_HANDLER(WindowResize_Event,
+			[&](WindowResize_Event& in_event)
 			{
 				m_config.editorAppWidth = in_event.m_width;
 				m_config.editorAppHeight = in_event.m_height;
-			});
+			}
+		);
 
-		dispatcher.Dispatch<WindowMove_Event>([&](WindowMove_Event& in_event)
+		CRAB_REGISTER_EVENT_HANDLER(WindowMove_Event,
+			[&](WindowMove_Event& in_event)
 			{
 				m_config.editorAppPosX = in_event.m_x;
 				m_config.editorAppPosY = in_event.m_y;
-			});
+			}
+		);
 
-		dispatcher.Dispatch<SetEditorState_EditorEvent>([&](SetEditorState_EditorEvent& in_event)
+		CRAB_REGISTER_EVENT_HANDLER(SetEditorState_EditorEvent,
+			[&](SetEditorState_EditorEvent& in_event)
 			{
 				CrabEditorData& gData = GetCrabEditorData();
 				gData.editorState = in_event.m_editorState;
@@ -596,7 +618,7 @@ namespace crab
 					if (scene)
 					{
 						gData.tempSceneData.ToJson(scene);
-						GetSceneManager().RestartScene();
+						GetSceneManager().RestartCurrentScene();
 					}
 				}
 				break;
@@ -607,7 +629,7 @@ namespace crab
 					if (scene)
 					{
 						gData.tempSceneData.LoadSceneDataFromJson(scene);
-						GetSceneManager().RestartScene();
+						GetSceneManager().RestartCurrentScene();
 					}
 				}
 				break;
@@ -619,52 +641,108 @@ namespace crab
 				default:
 					assert(false);
 				}
-			});
+			}
+		);
 
-		dispatcher.Dispatch<NextFrame_EditorEvent>([](NextFrame_EditorEvent& in_event)
+		CRAB_REGISTER_EVENT_HANDLER(NextFrame_EditorEvent,
+			[&](NextFrame_EditorEvent& in_event)
 			{
 				constexpr float FPS_INV = 1 / 60.f;
 				in_event.m_timeStamp.deltaTime = FPS_INV;
 				SceneManager::Get().OnUpdate(in_event.m_timeStamp);
-			});
+			}
+		);
 
-		dispatcher.Dispatch<DeleteEntity_EditorEvent>([](DeleteEntity_EditorEvent& in_e)
-			{
-				Scene* sc = GetSceneManager().TryGetCurrentScene();
-				Entity e = sc->TryFindByID(in_e.m_entityID);
-				if (sc && e.IsValid())
-				{
-					sc->DeleteEntity(e);
-				}
-			});
-
-		dispatcher.Dispatch<DuplicateEntity_EditorEvent>([](DuplicateEntity_EditorEvent& in_e)
-			{
-				Scene* sc = GetSceneManager().TryGetCurrentScene();
-				Entity e = sc->TryFindByID(in_e.m_entityID);
-				if (sc && e.IsValid())
-				{
-					sc->DuplicateEntity(e);
-				}
-			});
-
-		dispatcher.Dispatch<SaveScene_EditorEvent>([](SaveScene_EditorEvent& in_e)
+		CRAB_REGISTER_EVENT_HANDLER(DeleteEntity_EditorEvent,
+			[&](DeleteEntity_EditorEvent& in_e)
 			{
 				Scene* sc = GetSceneManager().TryGetCurrentScene();
 				if (sc)
 				{
+					Entity e = sc->TryFindByID(in_e.m_entityID);
+					if (e.IsValid())
+					{
+						sc->DeleteEntity(e);
+					}
+				}
+			}
+		);
+
+		CRAB_REGISTER_EVENT_HANDLER(DuplicateEntity_EditorEvent,
+			[&](DuplicateEntity_EditorEvent& in_e)
+			{
+				Scene* sc = GetSceneManager().TryGetCurrentScene();
+				if (sc)
+				{
+					Entity e = sc->TryFindByID(in_e.m_entityID);
+					if (e.IsValid())
+					{
+						sc->DuplicateEntity(e);
+					}
+				}
+			}
+		);
+
+		CRAB_REGISTER_EVENT_HANDLER(SaveScene_EditorEvent,
+			[&](SaveScene_EditorEvent& in_e)
+			{
+				if (in_e.m_scene)
+				{
+					SendVisualLog(eVisualLogLevel::Info, "Scene Save Done.");
+					SceneSerializer serializer;
+					serializer.ToJson(in_e.m_scene);
+					serializer.SaveJsonToFile(in_e.m_scene->GetSceneDataPath());
+				}
+				else
+				{
+					ASSERT(false, "Do not setting scene to save.");
+				}
+			}
+		);
+
+		CRAB_REGISTER_EVENT_HANDLER(SaveAssets_EditorEvent,
+			[&](SaveAssets_EditorEvent& in_e)
+			{
+				SendVisualLog(eVisualLogLevel::Info, "Assets Save Done.");
+				AssetManager::Get().SaveClientAssetsToFile();
+			}
+		);
+
+		CRAB_REGISTER_EVENT_HANDLER(SaveProject_EditorEvent,
+			[&](SaveProject_EditorEvent& in_e)
+			{
+				Scene* sc = GetSceneManager().TryGetCurrentScene();
+				if (sc)
+				{
+					SendVisualLog(eVisualLogLevel::Info, "Project Save Done.");
+
 					SceneSerializer serializer;
 					serializer.ToJson(sc);
 					serializer.SaveJsonToFile(sc->GetSceneDataPath());
 				}
-			});
 
-		dispatcher.Dispatch<ReloadScene_EditorEvent>([](ReloadScene_EditorEvent& in_e)
+				AssetManager::Get().SaveClientAssetsToFile();
+			}
+		);
+
+		CRAB_REGISTER_EVENT_HANDLER(RestartScene_EditorEvent,
+			[&](RestartScene_EditorEvent& in_e)
 			{
-				GetSceneManager().RestartScene();
-			});
+				SendVisualLog(eVisualLogLevel::Info, "Scene Reload Done.");
+				Scene* sc = GetSceneManager().TryGetCurrentScene();
 
-		dispatcher.Dispatch<SetGuizmoType_EditorEvent>([&](SetGuizmoType_EditorEvent& in_e)
+				if (sc)
+				{
+					SceneSerializer serializer;
+					serializer.LoadJsonFromFile(sc->GetSceneDataPath());
+					serializer.LoadSceneDataFromJson(sc);
+					GetSceneManager().RestartCurrentScene();
+				}
+			}
+		);
+
+		CRAB_REGISTER_EVENT_HANDLER(SetGuizmoType_EditorEvent,
+			[&](SetGuizmoType_EditorEvent& in_e)
 			{
 				CrabEditorData& gData = GetCrabEditorData();
 				switch (in_e.m_type)
@@ -684,6 +762,25 @@ namespace crab
 				default:
 					assert(false);
 				}
-			});
+			}
+		);
+
+		CRAB_REGISTER_EVENT_HANDLER(SendVisualLog_EditorEvent,
+			[&](SendVisualLog_EditorEvent& in_e)
+			{
+				m_visualLog->PushLog(in_e.m_level, in_e.m_logMessage);
+			}
+		);
+
+		CRAB_REGISTER_EVENT_HANDLER(ChangeScene_EngineEvent,
+			[&](ChangeScene_EngineEvent& in_e)
+			{
+				Scene* sc = GetSceneManager().TryGetCurrentScene();
+				if (sc)
+				{
+					m_config.editSceneName = sc->GetName();
+				}
+			}
+		);
 	}
 }

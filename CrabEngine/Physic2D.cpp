@@ -20,7 +20,7 @@ namespace crab
 		DestroyWorld();
 	}
 
-	void Physic2D::Shutdown()
+	void Physic2D::OnDetach()
 	{
 		DestroyWorld();
 	}

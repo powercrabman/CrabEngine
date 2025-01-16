@@ -20,7 +20,7 @@ namespace crab
 		ImWindow window{ "Asset Browser" };
 		auto& gData = GetCrabEditorData();
 
-		_handle_input_();
+		handle_input();
 
 		{
 			ImChildWindow child{ "DirView", {0.2f * ImGui::GetContentRegionAvail().x, 0.f} };
@@ -63,29 +63,42 @@ namespace crab
 			ImGuiEx::QuestionTooltip(R"(Zoom in/out with "Ctrl + Mouse scroll")");
 
 			ImGui::SameLine();
-			ImGuiEx::IconTextButton(ToImTextureID(gData.refreshIcon), "Refresh");
+			if (ImGuiEx::IconTextButton(ToImTextureID(gData.refreshIcon), "Refresh"))
+			{
+				SendVisualLog(eVisualLogLevel::Info, "Assets refresh done.");
+				GetAssetManager().LoadClientAssets();
+			}
+
+			ImGui::SameLine();
+			ImGui::BeginDisabled(!GetAssetManager().GetDirtyBit());
+			if (ImGuiEx::IconTextButton(ToImTextureID(gData.saveIcon), "Save"))
+			{
+				SendVisualLog(eVisualLogLevel::Info, "Assets save done.");
+				GetAssetManager().SaveClientAssetsToFile();
+			}
+			ImGui::EndDisabled();
 
 			// 에셋 뷰어 출력
 			switch (m_focusAssetType)
 			{
 			case eAssetType::Mesh:
-				_draw_mesh_browser_();
+				draw_mesh_browser();
 				break;
 
 			case eAssetType::Flipbook:
-				_draw_flipbook_browser_();
+				draw_flipbook_browser();
 				break;
 
 			case eAssetType::Sprite:
-				_draw_sprite_browser_();
+				draw_sprite_browser();
 				break;
 
 			case eAssetType::MonoScript:
-				_draw_mono_script_browser_();
+				draw_mono_script_browser();
 				break;
 
 			case eAssetType::GameTexture:
-				_draw_game_texture_browser_();
+				draw_game_texture_browser();
 				break;
 
 			default: assert(false);
@@ -93,10 +106,11 @@ namespace crab
 		}
 		ImGui::EndGroup();
 
-		if (m_enableSpriteEditor) m_spriteEditorPanel.Draw(&m_enableSpriteEditor);
+		if (m_spriteEditorPanel.IsVisible()) m_spriteEditorPanel.Draw();
+		if (m_flipbookEditorPanel.IsVisible()) m_flipbookEditorPanel.Draw(in_ts);
 	}
 
-	bool AssetBrowserPanel::_draw_asset_button_(
+	bool AssetBrowserPanel::draw_asset_button(
 		std::string_view in_assetName,
 		ImTextureID in_thumbnail,
 		bool in_isSelected,
@@ -106,7 +120,7 @@ namespace crab
 	) const
 	{
 		ImGuiStyle& style = ImGui::GetStyle();
-		ImVec2 finalButtonSize = _get_button_size();
+		ImVec2 finalButtonSize = get_button_size();
 		bool result = false;
 		float iconLen = { finalButtonSize.x - style.FramePadding.x * 2 };
 
@@ -171,37 +185,80 @@ namespace crab
 		return result;
 	}
 
-	void AssetBrowserPanel::_draw_mesh_browser_()
+	void AssetBrowserPanel::draw_mesh_browser()
 	{
 	}
 
-	void AssetBrowserPanel::_draw_game_texture_browser_()
+	void AssetBrowserPanel::draw_game_texture_browser()
 	{
 		ImChildWindow cWin{ "AssetViewer" ,{0.f,0.f}, ImGuiChildFlags_Border };
-		_draw_asset_viewer_<GameTexture>();
+		draw_asset_viewer<GameTexture>();
 	}
 
-	void AssetBrowserPanel::_draw_flipbook_browser_()
-	{
-	}
-
-
-	void AssetBrowserPanel::_draw_mono_script_browser_()
-	{
-	}
-
-	void AssetBrowserPanel::_draw_sprite_browser_()
+	void AssetBrowserPanel::draw_flipbook_browser()
 	{
 		auto& gData = GetCrabEditorData();
 
 		ImGui::SameLine();
 		if (ImGuiEx::IconTextButton(ToImTextureID(gData.plusIcon), "Create"))
 		{
-			Sprite editData;
-			editData.textureID = NullAsset<GameTexture>;
-			editData.desc = {};
-			m_spriteEditorPanel.SetEditData(editData);
-			m_enableSpriteEditor = true;
+			m_flipbookEditorPanel.OpenPanel(nullptr, FlipbookEditorPanel::eMode::Create);
+		}
+
+		ImGui::SameLine();
+		ImGui::BeginDisabled(!m_focusAssetID.IsValid());
+		if (ImGuiEx::IconTextButton(ToImTextureID(gData.pencilIcon), "Edit"))
+		{
+			AssetID<Flipbook> id{ m_focusAssetID.index, m_focusAssetID.token };
+			const Flipbook* flipbook = TryGetAsset(id);
+			if (flipbook)
+			{
+				m_flipbookEditorPanel.OpenPanel(flipbook, FlipbookEditorPanel::eMode::Edit);
+			}
+			else
+			{
+				assert(false);
+			}
+		}
+
+		ImGui::SameLine();
+		if (ImGuiEx::IconTextButton(ToImTextureID(gData.trashIcon), "Delete"))
+		{
+			AssetID<Flipbook> id{ m_focusAssetID.index, m_focusAssetID.token };
+			const Flipbook* flipbook = TryGetAsset(id);
+			if (flipbook)
+			{
+				if (GetAssetManager().RemoveAsset(id))
+				{
+					SendVisualLog(
+						eVisualLogLevel::Info,
+						"Flipbook delete success"
+					);
+				}
+			}
+			else
+			{
+				assert(false);
+			}
+		}
+		ImGui::EndDisabled();
+
+		ImChildWindow cWin{ "AssetViewer" ,{0.f,0.f}, ImGuiChildFlags_Border };
+		draw_asset_viewer<Flipbook>();
+	}
+
+	void AssetBrowserPanel::draw_mono_script_browser()
+	{
+	}
+
+	void AssetBrowserPanel::draw_sprite_browser()
+	{
+		auto& gData = GetCrabEditorData();
+
+		ImGui::SameLine();
+		if (ImGuiEx::IconTextButton(ToImTextureID(gData.plusIcon), "Create"))
+		{
+			m_spriteEditorPanel.OpenPanel(nullptr, SpriteEditorPanel::eMode::Create);
 		}
 
 		ImGui::SameLine();
@@ -212,11 +269,28 @@ namespace crab
 			const Sprite* sprite = TryGetAsset(id);
 			if (sprite)
 			{
-				Sprite edtData;
-				edtData.textureID = sprite->textureID;
-				edtData.desc = sprite->desc;
-				m_spriteEditorPanel.SetEditData(edtData);
-				m_enableSpriteEditor = true;
+				m_spriteEditorPanel.OpenPanel(sprite, SpriteEditorPanel::eMode::Edit);
+			}
+			else
+			{
+				assert(false);
+			}
+		}
+
+		ImGui::SameLine();
+		if (ImGuiEx::IconTextButton(ToImTextureID(gData.trashIcon), "Delete"))
+		{
+			AssetID<Sprite> id{ m_focusAssetID.index, m_focusAssetID.token };
+			const Sprite* sprite = TryGetAsset(id);
+			if (sprite)
+			{
+				if (GetAssetManager().RemoveAsset(id))
+				{
+					SendVisualLog(
+						eVisualLogLevel::Info,
+						"Sprite delete success."
+						);
+				}
 			}
 			else
 			{
@@ -226,10 +300,10 @@ namespace crab
 		ImGui::EndDisabled();
 
 		ImChildWindow cWin{ "AssetViewer" ,{0.f,0.f}, ImGuiChildFlags_Border };
-		_draw_asset_viewer_<Sprite>();
+		draw_asset_viewer<Sprite>();
 	}
 
-	void AssetBrowserPanel::_handle_input_()
+	void AssetBrowserPanel::handle_input()
 	{
 		if (!ImGui::IsWindowHovered(ImGuiFocusedFlags_ChildWindows)) return;
 
@@ -246,7 +320,7 @@ namespace crab
 		}
 	}
 
-	ImVec2 AssetBrowserPanel::_get_button_size() const
+	ImVec2 AssetBrowserPanel::get_button_size() const
 	{
 		constexpr ImVec2 BUTTON_DEFAULT_SIZE = { 176, 176 };
 		return BUTTON_DEFAULT_SIZE * m_browserZoomRatio;

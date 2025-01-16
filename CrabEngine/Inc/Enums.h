@@ -34,30 +34,30 @@ namespace crab
 		NonPremultiplied,
 
 		Count,
-		Unknown
+		None,			// 기존 설정을 유지
 	};
 
 	enum class eDepthStencilState
 	{
-		DepthNone,
-		DepthDefault,
-		DepthRead,
+		NoDepthTest,
+		DepthTest,
+		DepthOnlyRead,
 		DepthReverseZ,
-		DepthReadReverseZ,
+		DepthOnlyReadReverseZ,
 
 		Count,
-		Unknown
+		None,			// 기존 설정을 유지
 	};
 
 	enum class eRasterizerState
 	{
-		CullNone,
+		NoCull,
 		CullClockwise,
 		CullCounterClockwise,
 		Wireframe,
 
 		Count,
-		Unknown
+		None,			// 기존 설정을 유지
 	};
 
 	enum class eSamplerState
@@ -70,7 +70,7 @@ namespace crab
 		AnisotropicClamp,
 
 		Count,
-		Unknown
+		None,			// 기존 설정을 유지
 	};
 
 	using eShaderFlags = unsigned int;
@@ -102,6 +102,22 @@ namespace crab
 		Scaling
 	};
 
+	enum class eVisualLogLevel
+	{
+		Info, Warn, Error, Count
+	};
+
+	inline const char* ToString(eVisualLogLevel e)
+	{
+		switch (e)
+		{
+		case eVisualLogLevel::Info: return "Info";
+		case eVisualLogLevel::Warn: return "Warn";
+		case eVisualLogLevel::Error: return "Error";
+		default: assert(false); return "unknown";
+		}
+	}
+
 	//===================================================
 	//			           Assets
 	//===================================================
@@ -113,7 +129,8 @@ namespace crab
 		Flipbook,
 		Sprite,
 		MonoScript,
-		Count
+		Count,
+		Unknown
 	};
 
 	enum { eAssetTypeCount = static_cast<uint32_t>(eAssetType::Count) };

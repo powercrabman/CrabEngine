@@ -5,11 +5,11 @@ namespace crab
 {
 	void SceneSerializer::LoadSceneDataFromJson(Scene* in_scene)
 	{
-		Log::Info("Load Scene Data: {} (path: {})", in_scene->ToString(), in_scene->GetSceneDataPath().string());
+		Log::Info("Load Scene Data: {} (path: {})", in_scene->GetName(), in_scene->GetSceneDataPath().string());
 
 		in_scene->ClearScene();
 		entt::registry& regi = in_scene->GetRegistry();
-		assert(in_scene->ToString() == m_json["scene name"]);
+		assert(in_scene->GetName() == m_json["scene name"]);
 
 		for (const auto& item : m_json.items())
 		{
@@ -35,10 +35,10 @@ namespace crab
 
 	void SceneSerializer::ToJson(Scene* in_scene)
 	{
-		Log::Info("Save Scene Data: {} (path: {})", in_scene->ToString(), in_scene->GetSceneDataPath().string());
+		Log::Info("Save Scene Data: {} (path: {})", in_scene->GetName(), in_scene->GetSceneDataPath().string());
 
 		entt::registry& regi = in_scene->GetRegistry();
-		m_json["scene name"] = in_scene->ToString();
+		m_json["scene name"] = in_scene->GetName();
 
 		auto storage = regi.storage();
 		for (auto [id, set] : storage)

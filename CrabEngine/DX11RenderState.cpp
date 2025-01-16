@@ -76,21 +76,21 @@ namespace crab
 
 			switch ((eDepthStencilState)i)
 			{
-			case crab::eDepthStencilState::DepthNone:
+			case crab::eDepthStencilState::NoDepthTest:
 				desc.DepthEnable    = FALSE;
 				desc.DepthWriteMask = D3D11_DEPTH_WRITE_MASK_ZERO;
 				desc.DepthFunc      = D3D11_COMPARISON_ALWAYS;
 				desc.StencilEnable  = FALSE;
 				break;
 
-			case crab::eDepthStencilState::DepthDefault:
+			case crab::eDepthStencilState::DepthTest:
 				desc.DepthEnable    = TRUE;
 				desc.DepthWriteMask = D3D11_DEPTH_WRITE_MASK_ALL;
 				desc.DepthFunc      = D3D11_COMPARISON_LESS; 
 				desc.StencilEnable  = FALSE;
 				break;
 
-			case crab::eDepthStencilState::DepthRead:
+			case crab::eDepthStencilState::DepthOnlyRead:
 				desc.DepthEnable    = TRUE;
 				desc.DepthWriteMask = D3D11_DEPTH_WRITE_MASK_ZERO;
 				desc.DepthFunc      = D3D11_COMPARISON_LESS;
@@ -104,7 +104,7 @@ namespace crab
 				desc.StencilEnable  = FALSE; 
 				break;
 
-			case crab::eDepthStencilState::DepthReadReverseZ:
+			case crab::eDepthStencilState::DepthOnlyReadReverseZ:
 				desc.DepthEnable    = TRUE;
 				desc.DepthWriteMask = D3D11_DEPTH_WRITE_MASK_ZERO; 
 				desc.DepthFunc      = D3D11_COMPARISON_GREATER; 
@@ -133,7 +133,7 @@ namespace crab
 
 			switch ((eRasterizerState)i)
 			{
-			case crab::eRasterizerState::CullNone:
+			case crab::eRasterizerState::NoCull:
 				desc.CullMode = D3D11_CULL_NONE;
 				break;
 

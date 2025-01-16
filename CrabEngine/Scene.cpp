@@ -61,7 +61,7 @@ namespace crab
 
 	std::filesystem::path Scene::GetSceneDataPath() const
 	{
-		return std::filesystem::current_path() / "Scenes" / fmt::format("{}.json", ToString()).c_str();
+		return std::filesystem::current_path() / "Scenes" / fmt::format("{}.json", GetName()).c_str();
 	}
 
 	Entity Scene::CreateEntity()

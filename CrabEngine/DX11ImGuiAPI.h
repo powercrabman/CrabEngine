@@ -1,5 +1,6 @@
 #pragma once
 #include "IImGuiAPI.h"
+#include <ImGui/imgui/backends/imgui_impl_dx11.h>
 
 namespace crab
 {
@@ -22,6 +23,8 @@ namespace crab
 		{
 			ImGui_ImplDX11_RenderDrawData(ImGui::GetDrawData());
 		}
+
+		void SetCurrentWindowDrawlistRenderState(eBlendState in_blendState, eSamplerState in_samplerState, eDepthStencilState in_depthStencilState, eRasterizerState in_rasterizerState) override;
 	};
 }
 

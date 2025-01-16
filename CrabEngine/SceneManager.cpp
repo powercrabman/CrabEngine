@@ -10,7 +10,7 @@ namespace crab
 	{
 		for (const auto& plugin : m_plugins)
 		{
-			plugin->Shutdown();
+			plugin->OnDetach();
 		}
 
 		SceneManager::Destroy();
@@ -18,19 +18,42 @@ namespace crab
 
 	Scene* SceneManager::TryFindSceneByName(const std::string_view in_name)
 	{
-		auto iter = std::find_if(m_sceneRepo.begin(), m_sceneRepo.end(), [&](const auto& in_data) 
+		if (in_name.empty()) return nullptr;
+
+		auto iter = std::find_if(m_sceneRepo.begin(), m_sceneRepo.end(), [&](const auto& in_data)
 			{
-				return in_data.second->ToString() == in_name;
+				return in_data.second->GetName() == in_name;
 			}
 		);
 
-		assert(iter != m_sceneRepo.end());
 		return iter->second.get();
 	}
 
 	crab::Scene* SceneManager::TryGetCurrentScene() const
 	{
 		return m_currentScene;
+	}
+
+	void SceneManager::ChangeScene(Scene* in_scene) 
+	{
+		if (in_scene) 
+		{
+			ChangeScene_EngineEvent event;
+			event.m_scene = in_scene;
+			GetEngine().DispatchDelayedEvent(event);
+		} 
+		else
+		{
+			assert(false);
+		}
+	}
+
+	void SceneManager::RestartCurrentScene()
+	{
+		if (m_currentScene)
+		{
+			ChangeScene(m_currentScene);
+		}
 	}
 
 	void SceneManager::OnUpdate(TimeStamp& in_ts) const
@@ -61,25 +84,40 @@ namespace crab
 		}
 	}
 
-	void SceneManager::OnEvent(IEvent& in_event) const
+	void SceneManager::OnEvent(IEvent& in_event)
 	{
 		EventDispatcher dispatcher{ in_event };
 
-		if (dispatcher.Dispatch<AppShutdown_Event>([&](AppShutdown_Event& in_event) { Shutdown(); }))
-		{
-			return;
-		}
+		CRAB_REGISTER_EVENT_HANDLER(AppShutdown_Event,
+			[&](AppShutdown_Event& in_event)
+			{
+				Shutdown();
+			}
+		);
 
-		if (m_currentScene)
-		{
-			m_currentScene->OnEventSuper(in_event);
-		}
+		CRAB_REGISTER_EVENT_HANDLER(ChangeScene_EngineEvent,
+			[&](ChangeScene_EngineEvent& in_event)
+			{
+				if (in_event.m_scene)
+				{
+					change_scene(in_event.m_scene);
+				}
+				else
+				{
+					Log::Error("Can not Find Scene : {}", in_event.m_scene->GetName());
+				}
+			}
+		);
+
+		if (m_currentScene) { m_currentScene->OnEventSuper(in_event); }
 	}
 
-	void SceneManager::_change_scene_(Scene* in_scene)
+	void SceneManager::change_scene(Scene* in_scene)
 	{
 		if (in_scene)
 		{
+			Log::Info("Change scene to {}", in_scene->GetName());
+
 			if (m_currentScene)
 			{
 				for (const auto& plugin : m_plugins) plugin->OnExitScene();

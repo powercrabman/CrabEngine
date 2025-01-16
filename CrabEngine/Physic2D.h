@@ -90,8 +90,7 @@ namespace crab
 		explicit			 Physic2D(const Physic2DProp& in_prop = Physic2DProp::s_defaultProp);
 							~Physic2D() override;
 
-		void				Init() override {}
-		void				Shutdown() override;
+		void				OnDetach() override;
 
 		void				OnEnterScene() override;
 		void				OnExitScene() override;
@@ -112,4 +111,3 @@ namespace crab
 		Physic2DProp	m_prop = {};
 	};
 }
-

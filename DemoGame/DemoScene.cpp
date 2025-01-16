@@ -13,7 +13,7 @@ void DemoScene::OnEnterScene()
 {
 	using namespace crab;
 
-	Renderer::BindDepthStencilState(eDepthStencilState::DepthDefault);
+	Renderer::BindDepthStencilState(eDepthStencilState::DepthTest);
 	Renderer::BindSamplerState(eSamplerState::PointWrap, 0);
 }
 

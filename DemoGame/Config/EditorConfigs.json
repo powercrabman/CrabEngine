@@ -1,7 +1,8 @@
 {
-    "editorAppHeight": 1334,
-    "editorAppPosX": 0,
-    "editorAppPosY": 34,
-    "editorAppWidth": 2560,
-    "stylePath": "C:\\Users\\Ahnjiwoo\\Desktop\\Projects\\CrabEngine\\CrabEngine\\Configs\\EditorStyle.json"
+    "edit scene name": "DemoScene",
+    "editor app height": 1334,
+    "editor app posX": 0,
+    "editor app posY": 34,
+    "editor app width": 2560,
+    "style path": "C:\\Users\\Ahnjiwoo\\Desktop\\Projects\\CrabEngine\\CrabEngine\\Configs\\EditorStyle.json"
 }

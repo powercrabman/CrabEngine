@@ -170,6 +170,7 @@
     <ClInclude Include="AssetID.h" />
     <ClInclude Include="AssetManager.h" />
     <ClInclude Include="AssetSerializer.h" />
+    <ClInclude Include="BatchEventProcessor.h" />
     <ClInclude Include="ComponentSerializer.h" />
     <ClInclude Include="ComponentSerializerManager.h" />
     <ClInclude Include="DX11DepthStencil.h" />
@@ -178,6 +179,7 @@
     <ClInclude Include="CrabEditorData.h" />
     <ClInclude Include="EditorEvent.h" />
     <ClInclude Include="EngineEvent.h" />
+    <ClInclude Include="FlipbookEditorPanel.h" />
     <ClInclude Include="IDepthStencil.h" />
     <ClInclude Include="IUnorderedAccessView.h" />
     <ClInclude Include="MonoScriptBridge.h" />
@@ -198,12 +200,11 @@
     <ClInclude Include="DX11Shader.h" />
     <ClInclude Include="DX11VertexBuffer.h" />
     <ClInclude Include="Entity.h" />
-    <ClInclude Include="Event.h" />
+    <ClInclude Include="IEvent.h" />
     <ClInclude Include="EventDispatcher.h" />
     <ClInclude Include="Geometry.h" />
     <ClInclude Include="IImGuiAPI.h" />
     <ClInclude Include="ImGuiRenderer.h" />
-    <ClInclude Include="ImHelper.h" />
     <ClInclude Include="ImImage.h" />
     <ClInclude Include="ImOp.h" />
     <ClInclude Include="ImStyle.h" />
@@ -218,7 +219,7 @@
     <ClInclude Include="Inc\CrabEnginePch.h" />
     <ClInclude Include="Inc\Enums.h" />
     <ClInclude Include="Inc\framework.h" />
-    <ClInclude Include="Inc\CrabWindow.h" />
+    <ClInclude Include="Inc\GameWindow.h" />
     <ClInclude Include="Inc\IIndexBuffer.h" />
     <ClInclude Include="Inc\Input.h" />
     <ClInclude Include="Inc\ITexture.h" />
@@ -263,6 +264,8 @@
     <ClInclude Include="ViewportPanel.h" />
     <ClInclude Include="AssetSingleInclude.h" />
     <ClInclude Include="AssetPayload.h" />
+    <ClInclude Include="VisualLogPanel.h" />
+    <ClInclude Include="CrabEvent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssetBrowserPanel.cpp" />
@@ -270,6 +273,7 @@
     <ClCompile Include="AssetID.cpp" />
     <ClCompile Include="AssetManager.cpp" />
     <ClCompile Include="AssetSerializer.cpp" />
+    <ClCompile Include="BatchEventProcessor.cpp" />
     <ClCompile Include="ComponentSerializer.cpp" />
     <ClCompile Include="ComponentSerializerManager.cpp" />
     <ClCompile Include="DX11DepthStencil.cpp" />
@@ -278,6 +282,7 @@
     <ClCompile Include="CrabEditorData.cpp" />
     <ClCompile Include="EditorEvent.cpp" />
     <ClCompile Include="EngineEvent.cpp" />
+    <ClCompile Include="FlipbookEditorPanel.cpp" />
     <ClCompile Include="IDepthStencil.cpp" />
     <ClCompile Include="IUnorderedAccessView.cpp" />
     <ClCompile Include="MonoScriptBridge.cpp" />
@@ -298,12 +303,11 @@
     <ClCompile Include="DX11Shader.cpp" />
     <ClCompile Include="DX11VertexBuffer.cpp" />
     <ClCompile Include="Entity.cpp" />
-    <ClCompile Include="Event.cpp" />
+    <ClCompile Include="IEvent.cpp" />
     <ClCompile Include="EventDispatcher.cpp" />
     <ClCompile Include="Geometry.cpp" />
     <ClCompile Include="IImGuiAPI.cpp" />
     <ClCompile Include="ImGuiRenderer.cpp" />
-    <ClCompile Include="ImHelper.cpp" />
     <ClCompile Include="ImImage.cpp" />
     <ClCompile Include="ImOp.cpp" />
     <ClCompile Include="ImStyle.cpp" />
@@ -341,8 +345,9 @@
     <ClCompile Include="VertexType.cpp" />
     <ClCompile Include="ViewportPanel.cpp" />
     <ClCompile Include="AssetPayload.cpp" />
+    <ClCompile Include="VisualLogPanel.cpp" />
     <ClInclude Include="Inc\EntryPoint.h" />
-    <ClCompile Include="Src\CrabWindow.cpp" />
+    <ClCompile Include="Src\GameWindow.cpp" />
     <ClCompile Include="Src\IIndexBuffer.cpp" />
     <ClCompile Include="Src\Input.cpp" />
     <ClCompile Include="Src\ITexture.cpp" />

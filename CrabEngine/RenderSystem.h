@@ -75,7 +75,7 @@ namespace crab
 						in_fbRender.timeAcc = std::fmodf(in_fbRender.timeAcc, duration);
 						++in_fbRender.currentFrame;
 
-						if (in_fbRender.currentFrame >= desc.totalFrame - 1)
+						if (in_fbRender.currentFrame >= desc.totalFrame)
 						{
 							if (desc.loop)
 							{
@@ -83,6 +83,7 @@ namespace crab
 							}
 							else
 							{
+								in_fbRender.currentFrame = desc.totalFrame - 1;
 								in_fbRender.isFinish = true;
 							}
 						}

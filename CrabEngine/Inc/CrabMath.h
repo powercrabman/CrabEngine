@@ -6,7 +6,7 @@ namespace crab::math
 	constexpr float PI2       = PI*2.f;
 	constexpr float PI_DIV2   = PI * 0.5f;
 	constexpr float PI_DIV4   = PI * 0.25f;
-	constexpr float SMALL_NUM = 1e-6;
+	constexpr float SMALL_NUM = 1e-4;
 
 	constexpr FORCE_INLINE NODISCARD float DegToRad(float in_degree)
 	{

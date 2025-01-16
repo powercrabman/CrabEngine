@@ -3,21 +3,24 @@
 #include "CrabEditorData.h"
 #include "PanelDrawHelper.h"
 #include "SpriteEditorPanel.h"
+#include "FlipbookEditorPanel.h"
 
 namespace crab
 {
 	class AssetBrowserPanel
 	{
 	public:
-		AssetBrowserPanel();
+		 AssetBrowserPanel();
 		~AssetBrowserPanel() = default;
 
 		void OnImGuiRender(TimeStamp& in_ts);
 
 	private:
+		void	handle_input();
+
 		template <typename AssetType>
-		void _draw_asset_viewer_();
-		bool _draw_asset_button_(
+		void	draw_asset_viewer();
+		bool	draw_asset_button(
 			std::string_view in_assetName,
 			ImTextureID in_thumbnail = (ImTextureID)0,
 			bool in_isSelected = false,
@@ -25,14 +28,12 @@ namespace crab
 			const ImVec2& in_uv0 = { 0.f, 0.f }, const ImVec2& in_uv1 = { 1.f, 1.f }
 		) const;
 
-		void	_draw_mesh_browser_();
-		void	_draw_game_texture_browser_();
-		void	_draw_flipbook_browser_();
-		void	_draw_sprite_browser_();
-		void	_draw_mono_script_browser_();
-
-		void	_handle_input_();
-		ImVec2	_get_button_size() const;
+		void	draw_mesh_browser();
+		void	draw_game_texture_browser();
+		void	draw_flipbook_browser();
+		void	draw_sprite_browser();
+		void	draw_mono_script_browser();
+		ImVec2	get_button_size() const;
 
 		std::array<Ref<ITexture>, eAssetTypeCount> m_iconList;
 		float		m_browserZoomRatio = 1.f;
@@ -40,16 +41,14 @@ namespace crab
 		AnyAssetID	m_focusAssetID = { UINT32_LIMIT, UINT32_LIMIT };
 
 		SpriteEditorPanel	m_spriteEditorPanel;
-		bool				m_enableSpriteEditor = false;
+		FlipbookEditorPanel m_flipbookEditorPanel;
 	};
 
 	///////////////////////////////////////////////////////////////////////////////////////////
 
 	template <typename AssetType>
-	void crab::AssetBrowserPanel::_draw_asset_viewer_()
+	void crab::AssetBrowserPanel::draw_asset_viewer()
 	{
-		ImFontStyle font{ GetCrabEditorData().editorSmallFont };
-
 		ImGuiContext* c = ImGui::GetCurrentContext();
 		ImTextureID texID = NULL;
 		auto begin = GetAssetManager().GetBeginIterator<AssetType>();
@@ -63,7 +62,7 @@ namespace crab
 		}
 
 		float availableWidth = ImGui::GetContentRegionAvail().x;
-		float buttonWidth = _get_button_size().x;
+		float buttonWidth = get_button_size().x;
 		uint32 buttonPerRow = static_cast<uint32>(availableWidth / buttonWidth);
 		buttonPerRow = (buttonPerRow == 0) ? 1 : buttonPerRow;
 		float buttonSpacing = buttonPerRow == 1 ? 0.f : (availableWidth - buttonPerRow * buttonWidth) / (buttonPerRow - 1);
@@ -71,7 +70,7 @@ namespace crab
 		uint32 assetCount = GetAssetManager().GetAssetContainerSize<AssetType>();
 		uint32 rowCount = (assetCount + buttonPerRow - 1) / buttonPerRow;
 
-		float rowHeight = _get_button_size().y + c->Style.ItemInnerSpacing.y + c->FontSize;
+		float rowHeight = get_button_size().y + c->Style.ItemInnerSpacing.y + c->FontSize;
 
 		ImGuiListClipper clipper;
 		clipper.Begin(rowCount, rowHeight);
@@ -117,7 +116,7 @@ namespace crab
 									  m_focusAssetID.IsSame(id.index, id.token) :
 									  false;
 
-					if (_draw_asset_button_(asset->name, texID, isSelected, aspect, uv0, uv1))
+					if (draw_asset_button(asset->name, texID, isSelected, aspect, uv0, uv1))
 						m_focusAssetID = AnyAssetID{ id.index, id.token };
 
 					if (col < buttonPerRow - 1)

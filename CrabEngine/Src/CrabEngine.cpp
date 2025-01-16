@@ -11,7 +11,7 @@ namespace crab
 	CrabEngine::CrabEngine() {}
 	CrabEngine::~CrabEngine() { SDL_Quit(); }
 
-	bool CrabEngine::_init_(const ApplicationSetting& in_setting)
+	bool CrabEngine::init_engine(const ApplicationSetting& in_setting)
 	{
 		// CrabWindow 생성
 		if (!m_crabWindow.Init(in_setting))
@@ -35,6 +35,17 @@ namespace crab
 		// Assets Load
 		GetAssetManager().LoadClientAssets();
 
+		// Event Processor
+		m_batchEventProcessor.SetProcessorCallback([&](IEvent& in_event) { DispatchEvent(in_event); });
+
+		// value setting
+		m_appName = in_setting.applicationName;
+
+		return true;
+	}
+
+	void CrabEngine::late_init_engine(const ApplicationSetting& in_setting)
+	{
 		// Editor
 		if (in_setting.enableEditor)
 		{
@@ -42,28 +53,22 @@ namespace crab
 			m_editor->Init(in_setting);
 		}
 
-		// Run Engine
-		Log::Info("Engine initialize done.");
-
+		// Initialize Done
 		m_isRunning = true;
-		m_appName = in_setting.applicationName;
-
-		return true;
+		Log::Info("Engine initialize done.");
 	}
 
-	int CrabEngine::_run_() const
+	int CrabEngine::run_engine()
 	{
 		SDL_Event event = {};
-
 		const SceneManager& scMgr = GetSceneManager();
-
 		Timer timer = {};
 		TimeStamp timeStamp = {};
 
 		while (m_isRunning)
 		{
 			// Application Event
-			while (SDL_PollEvent(&event)) { m_crabWindow.TranslateEvent(event); }
+			while (SDL_PollEvent(&event)) { m_crabWindow.ProcessEvent(event); }
 
 			// Time Check
 			timer.CalcTimeStamp(timeStamp);
@@ -79,26 +84,34 @@ namespace crab
 				// Loop in application
 				scMgr.OnUpdate(timeStamp);
 
+				// rendering begin
 				Renderer::BeginRender();
-				{
-					Renderer::ResetRenderFrame();
-					Renderer::ClearRenderFrame();
+				Renderer::ResetRenderFrame();
+				Renderer::ClearRenderFrame();
 
-					scMgr.OnRender(timeStamp);
+				// main game rendering
+				Draw2D::BeginBatch();
+				scMgr.OnRender(timeStamp);
+				Draw2D::EndBatch();
+				
+				// gui rendering
+				ImGuiRenderer::BeginRender();
+				scMgr.OnImGuiRender(timeStamp);
+				ImGuiRenderer::EndRender();
 
-					ImGuiRenderer::BeginRender();
-					scMgr.OnImGuiRender(timeStamp);
-					ImGuiRenderer::EndRender();
-				}
+				// rendering end
 				Renderer::EndRender();
 				Renderer::Present();
 			}
+
+			// Delay Event Process
+			m_batchEventProcessor.ProcessEvent();
 		}
 
 		return 0;
 	}
 
-	void CrabEngine::_shutdown_(AppShutdown_Event& in_event) const
+	void CrabEngine::shutdown_engine(AppShutdown_Event& in_event) const
 	{
 		ASSERT(!m_isRunning, "use have to dispatch AppClose_Event to close application. do not use this event.");
 		if (m_isRunning)
@@ -119,17 +132,28 @@ namespace crab
 	{
 		Log::Debug("Event Occured : {}", in_event.ToString());
 
-		_on_event_(in_event);
+		on_event(in_event);
 		Renderer::OnEvent(in_event);
 		GetSceneManager().OnEvent(in_event);
 		if (m_editor) { m_editor->OnEvent(in_event); }
 	}
 
-	void CrabEngine::_on_event_(IEvent& in_event)
+	void CrabEngine::on_event(IEvent& in_event)
 	{
 		EventDispatcher dispatcher{ in_event };
 
-		dispatcher.Dispatch<AppClose_Event>([&](AppClose_Event& in_event) { m_isRunning = false; });
-		dispatcher.Dispatch<AppShutdown_Event>([&](AppShutdown_Event& in_event) { CrabEngine::_shutdown_(in_event); });
+		CRAB_REGISTER_EVENT_HANDLER(AppClose_Event,
+			[&](AppClose_Event& in_event)
+			{
+				m_isRunning = false;
+			}
+		);
+
+		CRAB_REGISTER_EVENT_HANDLER(AppShutdown_Event,
+			[&](AppShutdown_Event& in_event)
+			{
+				CrabEngine::shutdown_engine(in_event);
+			}
+		);
 	}
 }

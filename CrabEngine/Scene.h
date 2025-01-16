@@ -5,7 +5,7 @@ namespace crab
 {
 
 #define REGISTER_SCENE(scene)\
-	const char* ToString() const override {return #scene; };\
+	const char* GetName() const override {return #scene; };\
 	inline static bool _regist_scene_ = []() { crab::SceneManager::Get().EmplaceScene<scene>(); return true; }();\
 	inline static const char* s_staticNamt = #scene
 
@@ -29,7 +29,7 @@ namespace crab
 		void			ClearScene() { m_registry.clear(); }
 
 		virtual std::filesystem::path	GetSceneDataPath() const;
-		virtual const char*				ToString() const	= 0;
+		virtual const char*				GetName() const	= 0;
 
 		// About ECS
 		Entity			CreateEntity();

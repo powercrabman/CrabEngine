@@ -13,6 +13,6 @@ namespace crab
 
 		virtual void RenderBegin() = 0;
 		virtual void RenderEnd() = 0;
-
+		virtual void SetCurrentWindowDrawlistRenderState(eBlendState in_blendState, eSamplerState in_samplerState, eDepthStencilState in_depthStencilState, eRasterizerState in_rasterizerState) = 0;
 	};
 }

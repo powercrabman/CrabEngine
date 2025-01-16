@@ -11,7 +11,7 @@ namespace crab
 		// load Scenes' names
 		for (const auto& sc : GetSceneManager())
 		{
-			std::string name = sc.second->ToString();
+			std::string name = sc.second->GetName();
 			m_sceneNames.emplace_back(name);
 		}
 	}
@@ -38,12 +38,12 @@ namespace crab
 
 			// SceneSelector
 			Scene* curScene = GetSceneManager().TryGetCurrentScene();
-			if (curScene && m_sceneNames[m_sceneNameIndex] != curScene->ToString())
+			if (curScene && m_sceneNames[m_sceneNameIndex] != curScene->GetName())
 			{
 				uint32 newIndex = 0;
 				for (std::string_view sceneName : m_sceneNames)
 				{
-					if (sceneName == curScene->ToString())
+					if (sceneName == curScene->GetName())
 					{
 						m_sceneNameIndex = newIndex;
 						break;
@@ -58,11 +58,11 @@ namespace crab
 				// TODO Clipping 필요
 				for (uint32 idx = 0; idx < m_sceneNames.size(); ++idx)
 				{
-					const bool enableBit = !std::strcmp(GetSceneManager().TryGetCurrentScene()->ToString(), m_sceneNames[idx].c_str());
+					const bool enableBit = !std::strcmp(GetSceneManager().TryGetCurrentScene()->GetName(), m_sceneNames[idx].c_str());
 					if (ImGui::Selectable(m_sceneNames[idx].c_str(), enableBit))
 					{
 						Scene* nextScene = GetSceneManager().TryFindSceneByName(m_sceneNames[idx]);
-						GetSceneManager().ChangeSceneByName(nextScene->ToString());
+						GetSceneManager().ChangeSceneByName(nextScene->GetName());
 						m_sceneNameIndex = idx;
 
 						gData.editorCamera = EditorCamera{};
@@ -88,13 +88,15 @@ namespace crab
 				eImPopupResult result = modal.DrawButton2("Yes", "No");
 				if (result == eImPopupResult::Button1)
 				{
-					Scene* sc = GetSceneManager().TryGetCurrentScene();
-
-					SceneSerializer serializer;
-					serializer.LoadJsonFromFile(sc->GetSceneDataPath());
-					serializer.LoadSceneDataFromJson(sc);
-					GetSceneManager().RestartScene();
-
+					if (Scene* sc = GetSceneManager().TryGetCurrentScene())
+					{
+						RestartScene_EditorEvent e;
+						GetEngine().DispatchEvent(e);
+					}
+					else
+					{
+						ASSERT(false, "scene is null.");
+					}
 					ImGui::CloseCurrentPopup();
 				}
 				else if (result == eImPopupResult::Button2)
@@ -169,18 +171,17 @@ namespace crab
 
 	void SceneHierarchyPanel::_draw_scene_menu_()
 	{
-		if (ImGui::MenuItem("Save Scene Data"))
+		if (ImGui::MenuItem("Save Scene"))
 		{
-			Scene* sc = GetSceneManager().TryGetCurrentScene();
-			if (sc)
+			if (Scene* sc = GetSceneManager().TryGetCurrentScene())
 			{
-				SceneSerializer serializer;
-				serializer.ToJson(sc);
-				serializer.SaveJsonToFile(sc->GetSceneDataPath());
+				SaveScene_EditorEvent e;
+				e.m_scene = sc;
+				GetEngine().DispatchEvent(e);
 			}
 		}
 
-		if (ImGui::MenuItem("Reload Scene Data"))
+		if (ImGui::MenuItem("Reload Scene"))
 		{
 			Scene* sc = GetSceneManager().TryGetCurrentScene();
 			if (sc)

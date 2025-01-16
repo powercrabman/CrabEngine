@@ -29,4 +29,3 @@
 #include "ImWindow.h"
 #include "ImStyle.h"
 #include "ImImage.h"
-#include "ImHelper.h"

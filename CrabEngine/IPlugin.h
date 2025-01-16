@@ -12,12 +12,13 @@ namespace crab
 				 IPlugin() = default;
 		virtual ~IPlugin() = default;
 
-		virtual void	Init()                          = 0;
-		virtual void	Shutdown()                      = 0;
-		virtual void	OnEnterScene()                  = 0;
-		virtual void	OnExitScene()                   = 0;
-		virtual void	OnUpdateScene(TimeStamp& in_ts) = 0;
-		virtual void	OnRenderScene(TimeStamp& in_ts) = 0;
+		virtual void OnAttach()                      {}
+		virtual void OnDetach()                      {}
+		virtual void OnEnterScene()                  {}
+		virtual void OnExitScene()                   {}
+		virtual void OnUpdateScene(TimeStamp& in_ts) {}
+		virtual void OnRenderScene(TimeStamp& in_ts) {}
+		virtual void OnImGuiRender(TimeStamp& in_ts) {}
 
 		virtual TypeID	GetTypeID() = 0;
 	};

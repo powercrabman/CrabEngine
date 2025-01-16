@@ -17,7 +17,7 @@ namespace crab
 		AssetContainer(const AssetContainer&) = delete;
 		AssetContainer& operator=(const AssetContainer&) = delete;
 
-		AssetID<AssetType> ReplaceOrInsert(Scope<AssetType>&& in_asset)
+		AssetID<AssetType> ReplaceOrCreate(Scope<AssetType>&& in_asset)
 		{
 			AssetID<AssetType> id = TryFindByName(in_asset->name);
 
@@ -123,6 +123,33 @@ namespace crab
 			return NullAsset<AssetType>;
 		}
 
+		bool TryRenameAsset(AssetID<AssetType> in_id, std::string_view in_newName)
+		{
+			AssetType* asset = TryGetAssetRef(in_id);
+
+			if (asset->name == in_newName)
+			{
+				return true;
+			}
+
+			if (!asset)
+			{
+				assert(false);
+				return false;
+			}
+
+			if (m_nameMap.contains(in_newName.data()))
+			{
+				assert(false);
+				return false;
+			}
+
+			m_nameMap.erase(asset->name);
+			asset->name = in_newName;
+			auto[_, retval] = m_nameMap.emplace(in_newName, in_id);
+			assert(retval);
+			return retval;
+		}
 
 		bool IsContain(std::string_view in_name) const { return m_nameMap.count(in_name.data()); }
 		void Clear();
@@ -149,10 +176,10 @@ namespace crab
 	template <typename AssetType>
 	void crab::AssetContainer<AssetType>::Clear()
 	{
-		m_slots.reserve(DEFAULT_CAPACITY);
-		m_freeSlots.reserve(DEFAULT_CAPACITY);
-		m_nameMap.reserve(DEFAULT_CAPACITY);
-		m_assetList.reserve(DEFAULT_CAPACITY);
+		m_slots.clear();
+		m_freeSlots.clear();
+		m_nameMap.clear();
+		m_assetList.clear();
 	}
 
 	template <typename AssetType>

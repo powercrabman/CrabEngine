@@ -1,9 +1,10 @@
 #pragma once
 #include "Enums.h"
-#include "Event.h"
+#include "IEvent.h"
 
 namespace crab
 {
+
 	constexpr const char* ToString(eEditorState in_mode)
 	{
 		switch (in_mode)
@@ -21,7 +22,7 @@ namespace crab
 	public:
 		std::string ToString() override
 		{
-			return fmt::format("{} : {}", EventString, crab::ToString(m_editorState));
+			return fmt::format("{} : {}", s_staticName, crab::ToString(m_editorState));
 		}
 
 		EVENT_IMPLEMENT(SetEditorState_EditorEvent);
@@ -34,7 +35,7 @@ namespace crab
 	public:
 		std::string ToString() override
 		{
-			return EventString;
+			return s_staticName;
 		}
 
 		TimeStamp m_timeStamp;
@@ -46,7 +47,7 @@ namespace crab
 	public:
 		std::string ToString() override
 		{
-			return EventString;
+			return s_staticName;
 		}
 
 		uint32 m_entityID;
@@ -59,7 +60,7 @@ namespace crab
 	public:
 		std::string ToString() override
 		{
-			return EventString;
+			return s_staticName;
 		}
 
 		uint32 m_entityID;
@@ -67,26 +68,50 @@ namespace crab
 		EVENT_IMPLEMENT(DuplicateEntity_EditorEvent);
 	};
 
+	class Scene;
 	class SaveScene_EditorEvent : public IEvent
 	{
 	public:
 		std::string ToString() override
 		{
-			return EventString;
+			return s_staticName;
 		}
 
+		Scene* m_scene = nullptr;
 		EVENT_IMPLEMENT(SaveScene_EditorEvent);
 	};
 
-	class ReloadScene_EditorEvent : public IEvent
+	class SaveProject_EditorEvent : public IEvent
 	{
 	public:
 		std::string ToString() override
 		{
-			return EventString;
+			return s_staticName;
 		}
 
-		EVENT_IMPLEMENT(ReloadScene_EditorEvent);
+		EVENT_IMPLEMENT(SaveProject_EditorEvent);
+	};
+
+	class SaveAssets_EditorEvent : public IEvent
+	{
+	public:
+		std::string ToString() override
+		{
+			return s_staticName;
+		}
+
+		EVENT_IMPLEMENT(SaveAssets_EditorEvent);
+	};
+
+	class RestartScene_EditorEvent : public IEvent
+	{
+	public:
+		std::string ToString() override
+		{
+			return s_staticName;
+		}
+
+		EVENT_IMPLEMENT(RestartScene_EditorEvent);
 	};
 
 	class SetGuizmoType_EditorEvent : public IEvent
@@ -94,11 +119,25 @@ namespace crab
 	public:
 		std::string ToString() override
 		{
-			return EventString;
+			return s_staticName;
 		}
 
 		eGuizmoType m_type;
 
 		EVENT_IMPLEMENT(SetGuizmoType_EditorEvent);
+	};
+
+	class SendVisualLog_EditorEvent : public IEvent
+	{
+	public:
+		std::string ToString() override
+		{
+			return s_staticName;
+		}
+
+		eVisualLogLevel		m_level;
+		std::string_view	m_logMessage;
+
+		EVENT_IMPLEMENT(SendVisualLog_EditorEvent);
 	};
 }

@@ -14,6 +14,7 @@ namespace crab
 			Scope<GameTexture> gameTex = MakeScope<GameTexture>();
 			gameTex->name = in_name;
 			gameTex->texture = in_texture;
+			gameTex->type = eAssetType::GameTexture;
 
 			return gameTex;
 		}
@@ -51,6 +52,7 @@ namespace crab
 			flipbook->name = in_name;
 			flipbook->desc = in_desc;
 			flipbook->textureID = in_texID;
+			flipbook->type = eAssetType::Flipbook;
 			return flipbook;
 		}
 	}
@@ -77,6 +79,7 @@ namespace crab
 			sprite->name = in_name;
 			sprite->textureID = in_texID;
 			sprite->desc = in_desc;
+			sprite->type = eAssetType::Sprite;
 
 			// Create uvArray
 			const GameTexture* gameTex = TryGetAsset(in_texID);
@@ -111,6 +114,8 @@ namespace crab
 			Scope<Mesh> mesh = MakeScope<Mesh>();
 			mesh->name = in_name;
 			mesh->geometry = in_geometry;
+			mesh->type = eAssetType::Mesh;
+
 			return mesh;
 		}
 	}
@@ -137,6 +142,7 @@ namespace crab
 			script->name = in_name;
 			script->namespaceName = in_namespace;
 			script->className = in_className;
+			script->type = eAssetType::MonoScript;
 
 			return script;
 		}

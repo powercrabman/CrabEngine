@@ -25,6 +25,7 @@ namespace crab
 
 	bool JsonSerializerBase::SaveJsonToFile(std::filesystem::path in_path)
 	{
+		assert(!m_json.is_null());
 		if (!_handle_error_(in_path))
 		{
 			return false;

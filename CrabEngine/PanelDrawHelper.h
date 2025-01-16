@@ -321,7 +321,7 @@ namespace crab::ImGuiEx
 			ImGuiEx::GuiWithLabel("Width", [&]() { ImGui::Text("%d", fb->desc.width); });
 			ImGuiEx::GuiWithLabel("Height", [&]() { ImGui::Text("%d", fb->desc.height); });
 			ImGuiEx::GuiWithLabel("Total Frame", [&]() { ImGui::Text("%d", fb->desc.totalFrame); });
-			ImGuiEx::GuiWithLabel("Flip Duration", [&]() { ImGui::Text("%.2f sec", fb->desc.duration); });
+			ImGuiEx::GuiWithLabel("Frame Duration", [&]() { ImGui::Text("%.2f sec", fb->desc.duration); });
 			ImGuiEx::GuiWithLabel("Loop", [&]() { ImGui::TextUnformatted(fb->desc.loop ? "On" : "Off"); });
 
 			ImGui::SeparatorText("Flipbook Render Inspector");

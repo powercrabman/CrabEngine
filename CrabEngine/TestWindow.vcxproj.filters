@@ -144,7 +144,7 @@
     <ClInclude Include="Inc\Application.h">
       <Filter>01. Application</Filter>
     </ClInclude>
-    <ClInclude Include="Inc\CrabWindow.h">
+    <ClInclude Include="Inc\GameWindow.h">
       <Filter>03. GameWindow</Filter>
     </ClInclude>
     <ClInclude Include="Inc\CrabEngine.h">
@@ -225,7 +225,7 @@
     <ClInclude Include="Inc\Input.h">
       <Filter>05. Input &amp; Timer</Filter>
     </ClInclude>
-    <ClInclude Include="Event.h">
+    <ClInclude Include="IEvent.h">
       <Filter>04. Event</Filter>
     </ClInclude>
     <ClInclude Include="SceneManager.h">
@@ -311,9 +311,6 @@
     </ClInclude>
     <ClInclude Include="ViewportPanel.h">
       <Filter>13. Editor\Panel</Filter>
-    </ClInclude>
-    <ClInclude Include="ImHelper.h">
-      <Filter>12. ImGui\Helper</Filter>
     </ClInclude>
     <ClInclude Include="JsonSerializer.h">
       <Filter>97. JsonSerializer</Filter>
@@ -429,6 +426,18 @@
     <ClInclude Include="SpriteEditorPanel.h">
       <Filter>13. Editor\Panel\AssetEditorPanel</Filter>
     </ClInclude>
+    <ClInclude Include="VisualLogPanel.h">
+      <Filter>13. Editor\Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="CrabEvent.h">
+      <Filter>04. Event</Filter>
+    </ClInclude>
+    <ClInclude Include="FlipbookEditorPanel.h">
+      <Filter>13. Editor\Panel\AssetEditorPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="BatchEventProcessor.h">
+      <Filter>04. Event</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="small.ico">
@@ -445,7 +454,7 @@
     <ClCompile Include="Src\Application.cpp">
       <Filter>01. Application</Filter>
     </ClCompile>
-    <ClCompile Include="Src\CrabWindow.cpp">
+    <ClCompile Include="Src\GameWindow.cpp">
       <Filter>03. GameWindow</Filter>
     </ClCompile>
     <ClCompile Include="Src\CrabEngine.cpp">
@@ -502,7 +511,7 @@
     <ClCompile Include="Src\Input.cpp">
       <Filter>05. Input &amp; Timer</Filter>
     </ClCompile>
-    <ClCompile Include="Event.cpp">
+    <ClCompile Include="IEvent.cpp">
       <Filter>04. Event</Filter>
     </ClCompile>
     <ClCompile Include="SceneManager.cpp">
@@ -582,9 +591,6 @@
     </ClCompile>
     <ClCompile Include="ViewportPanel.cpp">
       <Filter>13. Editor\Panel</Filter>
-    </ClCompile>
-    <ClCompile Include="ImHelper.cpp">
-      <Filter>12. ImGui\Helper</Filter>
     </ClCompile>
     <ClCompile Include="JsonSerializer.cpp">
       <Filter>97. JsonSerializer</Filter>
@@ -696,6 +702,15 @@
     </ClCompile>
     <ClCompile Include="SpriteEditorPanel.cpp">
       <Filter>13. Editor\Panel\AssetEditorPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualLogPanel.cpp">
+      <Filter>13. Editor\Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="FlipbookEditorPanel.cpp">
+      <Filter>13. Editor\Panel\AssetEditorPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="BatchEventProcessor.cpp">
+      <Filter>04. Event</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

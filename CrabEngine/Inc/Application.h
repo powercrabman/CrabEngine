@@ -40,9 +40,9 @@ namespace crab
 		virtual void Shutdown()   = 0;
 
 	private:
-		void	_init_(const ApplicationSetting& in_setting = ApplicationSetting{});
-		void	_shutdown_();
-		int		_run_();
+		void	init_app(const ApplicationSetting& in_setting = ApplicationSetting{});
+		void	shutdown_app();
+		int		run_app();
 
 		virtual crab::ApplicationSetting	SetupApplication(const int in_argc, char* const* in_argv) = 0;
 	};

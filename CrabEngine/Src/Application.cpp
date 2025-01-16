@@ -14,32 +14,35 @@ namespace crab
 		Log::Shutdown();
 	}
 
-	void Application::_init_(const ApplicationSetting& in_setting)
+	void Application::init_app(const ApplicationSetting& in_setting)
 	{
 		// base initialize
-		GetCrabEngine()._init_(in_setting);
+		GetEngine().init_engine(in_setting);
 
 		// user initialize
 		Initialize();
+
+		// late initialize
+		GetEngine().late_init_engine(in_setting);
 	}
 
-	void Application::_shutdown_()
+	void Application::shutdown_app()
 	{
 		// user shutdown
 		Shutdown();
 
 		// Terminate Application
 		AppShutdown_Event e = {};
-		GetCrabEngine().DispatchEvent(e);
+		GetEngine().DispatchEvent(e);
 
 		// Destroy Engine
 		CrabEngine::Destroy();
 	}
 
-	int Application::_run_()
+	int Application::run_app()
 	{
-		int result = CrabEngine::Get()._run_();
-		_shutdown_();
+		int result = CrabEngine::Get().run_engine();
+		shutdown_app();
 
 		return result;
 	}

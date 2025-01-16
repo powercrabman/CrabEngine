@@ -13,29 +13,29 @@ namespace crab
 		void	Shutdown() const;
 
 		template <typename Ty>
-		Scene* EmplaceScene();
+		Scene*  EmplaceScene();
 
 		template <typename Ty>
-		Scene* TryFindScene();
-		Scene* TryFindSceneByName(const std::string_view in_name);
-		Scene* TryGetCurrentScene() const;
+		Scene*  TryFindScene();
+		Scene*  TryFindSceneByName(const std::string_view in_name);
+		Scene*  TryGetCurrentScene() const;
 
 		template <typename Ty>
 		void	DeleteScene();
 
 		template <typename Ty>
 		void	ChangeScene();
-		void	ChangeScene(Scene* in_scene) { if (in_scene) { _change_scene_(in_scene); } }
-		void	ChangeSceneByName(const std::string_view in_name) { _change_scene_(TryFindSceneByName(in_name)); }
+		void	ChangeScene(Scene* in_scene);
+		void	ChangeSceneByName(const std::string_view in_name) { ChangeScene(TryFindSceneByName(in_name)); }
 
-		void	RestartScene() { if (m_currentScene) { _change_scene_(m_currentScene); } }
+		void	RestartCurrentScene();
 
 		// Scene Loop
 		void	OnUpdate(TimeStamp& in_ts) const;
 		void	OnRender(TimeStamp& in_ts) const;
 		void	OnImGuiRender(TimeStamp& in_ts) const;
 
-		void	OnEvent(IEvent& in_event) const;
+		void	OnEvent(IEvent& in_event);
 
 		// IPlugin
 		template <class Ty, class ... Args>
@@ -51,7 +51,7 @@ namespace crab
 		std::unordered_map<TypeID, Scope<Scene>>::iterator end() { return m_sceneRepo.end(); }
 
 	private:
-		void _change_scene_(Scene* in_scene);
+		void change_scene(Scene* in_scene);
 
 		std::unordered_map<TypeID, Scope<Scene>>	m_sceneRepo;
 		Scene* m_currentScene = nullptr;
@@ -95,7 +95,14 @@ namespace crab
 	{
 		static_assert(std::is_base_of_v<Scene, Ty>);
 		Scene* scene = TryFindScene<Ty>();
-		_change_scene_(scene);
+		if (scene)
+		{
+			ChangeScene(scene);
+		}
+		else
+		{
+			assert(false);
+		}
 	}
 
 	template <typename Ty, typename...Args>
@@ -106,7 +113,7 @@ namespace crab
 		{
 			m_plugins.emplace_back(MakeScope<Ty>(std::forward<Args>(args)...));
 			retVal = m_plugins.back().get();
-			retVal->Init();
+			retVal->OnAttach();
 		}
 		return retVal;
 	}

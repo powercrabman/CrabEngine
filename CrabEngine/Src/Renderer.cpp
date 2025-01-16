@@ -28,14 +28,19 @@ namespace crab
 
 	void Renderer::OnEvent(IEvent& in_event)
 	{
-		EventDispatcher dispatch{ in_event };
+		EventDispatcher dispatcher{ in_event };
 
-		dispatch.Dispatch<AppShutdown_Event>([](IEvent& in_event) { Renderer::Shutdown(); });
-
-		dispatch.Dispatch<WindowResize_Event>([](IEvent& in_event)
+		CRAB_REGISTER_EVENT_HANDLER(AppShutdown_Event,
+			[](AppShutdown_Event& in_event)
 			{
-				WindowResize_Event& e = (WindowResize_Event&)in_event;
-				m_api->OnResize(e.m_width, e.m_height);
+				Renderer::Shutdown();
+			}
+		);
+
+		CRAB_REGISTER_EVENT_HANDLER(WindowResize_Event,
+			[](WindowResize_Event& in_event)
+			{
+				m_api->OnResize(in_event.m_width, in_event.m_height);
 			}
 		);
 	}

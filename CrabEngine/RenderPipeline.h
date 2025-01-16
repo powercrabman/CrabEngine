@@ -9,19 +9,19 @@ namespace crab
 			texture = nullptr;
 			shader  = nullptr;
 
-			blendState        = eBlendState::Unknown;
-			samplerState      = eSamplerState::Unknown;
-			depthStencilState = eDepthStencilState::Unknown;
-			rasterizerState   = eRasterizerState::Unknown;
+			blendState        = eBlendState::None;
+			samplerState      = eSamplerState::None;
+			depthStencilState = eDepthStencilState::None;
+			rasterizerState   = eRasterizerState::None;
 		}
 
 		Ref<ITexture>		texture = nullptr;
 		Ref<IShader>		shader  = nullptr;
 
-		eBlendState			blendState        = eBlendState::Unknown;
-		eSamplerState		samplerState      = eSamplerState::Unknown;
-		eDepthStencilState	depthStencilState = eDepthStencilState::Unknown;
-		eRasterizerState	rasterizerState   = eRasterizerState::Unknown;
+		eBlendState			blendState        = eBlendState::None;
+		eSamplerState		samplerState      = eSamplerState::None;
+		eDepthStencilState	depthStencilState = eDepthStencilState::None;
+		eRasterizerState	rasterizerState   = eRasterizerState::None;
 	};
 }
 

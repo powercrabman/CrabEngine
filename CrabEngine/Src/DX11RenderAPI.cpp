@@ -163,6 +163,8 @@ namespace crab
 
 	void DX11RenderAPI::BindBlendState(eBlendState in_state)
 	{
+		if (in_state == eBlendState::None) return;
+
 		if (in_state != m_pipeline.blendState)
 		{
 			m_pipeline.blendState = in_state;
@@ -172,6 +174,8 @@ namespace crab
 
 	void DX11RenderAPI::BindDepthStencilState(eDepthStencilState in_state)
 	{
+		if (in_state == eDepthStencilState::None) return;
+
 		if (in_state != m_pipeline.depthStencilState)
 		{
 			m_pipeline.depthStencilState = in_state;
@@ -181,15 +185,20 @@ namespace crab
 
 	void DX11RenderAPI::BindRasterizerState(eRasterizerState in_state)
 	{
+		if (in_state == eRasterizerState::None) return;
+
 		if (in_state != m_pipeline.rasterizerState)
 		{
 			m_pipeline.rasterizerState = in_state;
 			m_renderState->BindRasterizerState(in_state);
+
 		}
 	}
 
 	void DX11RenderAPI::BindSamplerState(eSamplerState in_state, uint32 in_slot)
 	{
+		if (in_state == eSamplerState::None) return;
+
 		if (in_state != m_pipeline.samplerState)
 		{
 			m_pipeline.samplerState = in_state;
@@ -249,6 +258,9 @@ namespace crab
 
 	void DX11RenderAPI::RenderBegin()
 	{
+		// Clear
+		m_pipeline.Clear();
+
 		// Primitive Topology
 		m_context->IASetPrimitiveTopology(D3D11_PRIMITIVE_TOPOLOGY_TRIANGLELIST);
 
