@@ -11,15 +11,16 @@ namespace crab
 		int windowPositionX = 0;
 		int windowPositionY = 0;
 
-		int windowWidth  = 800;
+		int windowWidth = 800;
 		int windowHeight = 600;
 
 		// Directory
+		std::string solutionDirectory;
 		std::string engineDirectory;
 		std::string projectDirectory;
-
-		std::string scriptEngineDLLPath;
-		std::string projectScriptDLLPath;
+	
+		std::string scriptEngineDirectory;
+		std::string	projectScriptDirectory;
 
 		// Rendering
 		eRenderAPI	renderingAPI = eRenderAPI::DirectX11;
@@ -33,11 +34,11 @@ namespace crab
 		friend int ::main(int argc, char* argv[]);
 
 	public:
-		 		 Application();
+		Application();
 		virtual ~Application();
 
 		virtual void Initialize() = 0;
-		virtual void Shutdown()   = 0;
+		virtual void Shutdown() = 0;
 
 	private:
 		void	init_app(const ApplicationSetting& in_setting = ApplicationSetting{});

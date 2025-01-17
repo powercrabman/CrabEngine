@@ -18,10 +18,10 @@ public:
 		setting.windowPositionY          = 50;
 		setting.enableEditor             = true;
 
-		setting.scriptEngineDLLPath = R"(C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabScriptCore\bin\Debug\CrabScriptCore.dll)";
-		setting.projectScriptDLLPath = R"(C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGameScript\bin\Debug\DemoGameScript.dll)";
-		setting.engineDirectory = R"(C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine)";
-		setting.projectDirectory = R"(C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame)";
+		setting.scriptEngineDirectory    = R"(C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabScriptCore)";
+		setting.projectScriptDirectory = R"(C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGameScript)";
+		setting.engineDirectory			 = R"(C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine)";
+		setting.projectDirectory		 = R"(C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\DemoGame)";
 
 		crab::GetSceneManager().EmplacePlugin<crab::Physic2D>();
 

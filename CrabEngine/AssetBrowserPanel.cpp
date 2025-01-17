@@ -108,6 +108,7 @@ namespace crab
 
 		if (m_spriteEditorPanel.IsVisible()) m_spriteEditorPanel.Draw();
 		if (m_flipbookEditorPanel.IsVisible()) m_flipbookEditorPanel.Draw(in_ts);
+		if (m_monoScriptEditor.IsVisible()) m_monoScriptEditor.Draw(in_ts);
 	}
 
 	bool AssetBrowserPanel::draw_asset_button(
@@ -234,6 +235,8 @@ namespace crab
 						eVisualLogLevel::Info,
 						"Flipbook delete success"
 					);
+
+					m_focusAssetID.Clear();
 				}
 			}
 			else
@@ -249,6 +252,56 @@ namespace crab
 
 	void AssetBrowserPanel::draw_mono_script_browser()
 	{
+		auto& gData = GetCrabEditorData();
+
+		ImGui::SameLine();
+		if (ImGuiEx::IconTextButton(ToImTextureID(gData.plusIcon), "Create"))
+		{
+			m_monoScriptEditor.OpenPanel(nullptr, MonoScriptEditor::eMode::Create);
+		}
+
+		ImGui::SameLine();
+		ImGui::BeginDisabled(!m_focusAssetID.IsValid());
+		if (ImGuiEx::IconTextButton(ToImTextureID(gData.pencilIcon), "Edit"))
+		{
+			AssetID<MonoScript> id{ m_focusAssetID.index, m_focusAssetID.token };
+			const MonoScript* mono = TryGetAsset(id);
+			if (mono)
+			{
+				m_monoScriptEditor.OpenPanel(nullptr, MonoScriptEditor::eMode::Edit);
+			}
+			else
+			{
+				assert(false);
+			}
+		}
+
+		ImGui::SameLine();
+		if (ImGuiEx::IconTextButton(ToImTextureID(gData.trashIcon), "Delete"))
+		{
+			AssetID<MonoScript> id{ m_focusAssetID.index, m_focusAssetID.token };
+			const MonoScript* mono = TryGetAsset(id);
+			if (mono)
+			{
+				if (GetAssetManager().RemoveAsset(id))
+				{
+					SendVisualLog(
+						eVisualLogLevel::Info,
+						"Mono script delete success."
+					);
+
+					m_focusAssetID.Clear();
+				}
+			}
+			else
+			{
+				assert(false);
+			}
+		}
+		ImGui::EndDisabled();
+
+		ImChildWindow cWin{ "AssetViewer" ,{0.f,0.f}, ImGuiChildFlags_Border };
+		draw_asset_viewer<MonoScript>();
 	}
 
 	void AssetBrowserPanel::draw_sprite_browser()
@@ -290,6 +343,8 @@ namespace crab
 						eVisualLogLevel::Info,
 						"Sprite delete success."
 						);
+
+					m_focusAssetID.Clear();
 				}
 			}
 			else

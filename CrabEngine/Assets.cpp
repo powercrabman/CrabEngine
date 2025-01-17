@@ -9,7 +9,7 @@ namespace crab
 
 	namespace
 	{
-		Scope<GameTexture> _create_game_texture_(const std::string_view in_name, const Ref<ITexture>& in_texture)
+		Scope<GameTexture> create_game_texture(const std::string_view in_name, const Ref<ITexture>& in_texture)
 		{
 			Scope<GameTexture> gameTex = MakeScope<GameTexture>();
 			gameTex->name = in_name;
@@ -27,7 +27,7 @@ namespace crab
 
 	AssetID<GameTexture> GameTexture::Create(const std::string_view in_name, const Ref<ITexture>& in_texture)
 	{
-		return GetAssetManager().EmplaceAsset(_create_game_texture_(in_name, in_texture));
+		return GetAssetManager().EmplaceAsset(create_game_texture(in_name, in_texture));
 	}
 
 	AssetID<GameTexture> GameTexture::ReplaceOrCreate(const std::string_view in_name, const std::filesystem::path& in_path)
@@ -37,7 +37,7 @@ namespace crab
 
 	AssetID<GameTexture> GameTexture::ReplaceOrCreate(const std::string_view in_name, const Ref<ITexture>& in_texture)
 	{
-		return GetAssetManager().ReplaceOrEmplaceAsset(_create_game_texture_(in_name, in_texture));
+		return GetAssetManager().ReplaceOrEmplaceAsset(create_game_texture(in_name, in_texture));
 	}
 
 	//===================================================
@@ -46,7 +46,7 @@ namespace crab
 
 	namespace
 	{
-		Scope<Flipbook> _create_flipbook_(const std::string_view in_name, AssetID<GameTexture> in_texID, const FlipbookDescription& in_desc)
+		Scope<Flipbook> create_flipbook(const std::string_view in_name, AssetID<GameTexture> in_texID, const FlipbookDescription& in_desc)
 		{
 			Scope<Flipbook> flipbook = MakeScope<Flipbook>();
 			flipbook->name = in_name;
@@ -59,12 +59,12 @@ namespace crab
 
 	AssetID<Flipbook> Flipbook::Create(const std::string_view in_name, AssetID<GameTexture> in_texID, const FlipbookDescription& in_desc)
 	{
-		return GetAssetManager().EmplaceAsset(_create_flipbook_(in_name, in_texID, in_desc));
+		return GetAssetManager().EmplaceAsset(create_flipbook(in_name, in_texID, in_desc));
 	}
 
 	AssetID<Flipbook> Flipbook::ReplaceOrCreate(const std::string_view in_name, AssetID<GameTexture> in_texID, const FlipbookDescription& in_desc)
 	{
-		return GetAssetManager().ReplaceOrEmplaceAsset(_create_flipbook_(in_name, in_texID, in_desc));
+		return GetAssetManager().ReplaceOrEmplaceAsset(create_flipbook(in_name, in_texID, in_desc));
 	}
 
 	//===================================================
@@ -73,7 +73,7 @@ namespace crab
 
 	namespace
 	{
-		Scope<Sprite> _create_sprite_(const std::string_view in_name, AssetID<GameTexture> in_texID, const SpriteDescription& in_desc)
+		Scope<Sprite> create_sprite(const std::string_view in_name, AssetID<GameTexture> in_texID, const SpriteDescription& in_desc)
 		{
 			Scope<Sprite> sprite = MakeScope<Sprite>();
 			sprite->name = in_name;
@@ -95,12 +95,12 @@ namespace crab
 
 	AssetID<Sprite> Sprite::Create(const std::string_view in_name, AssetID<GameTexture> in_texID, const SpriteDescription& in_prop)
 	{
-		return GetAssetManager().EmplaceAsset(_create_sprite_(in_name, in_texID, in_prop));
+		return GetAssetManager().EmplaceAsset(create_sprite(in_name, in_texID, in_prop));
 	}
 
 	AssetID<Sprite> Sprite::ReplaceOrCreate(const std::string_view in_name, AssetID<GameTexture> in_texID, const SpriteDescription& in_prop)
 	{
-		return GetAssetManager().ReplaceOrEmplaceAsset(_create_sprite_(in_name, in_texID, in_prop));
+		return GetAssetManager().ReplaceOrEmplaceAsset(create_sprite(in_name, in_texID, in_prop));
 	}
 
 	//===================================================
@@ -109,7 +109,7 @@ namespace crab
 
 	namespace
 	{
-		Scope<Mesh> _create_mesh_(const std::string_view in_name, const Ref<Geometry>& in_geometry)
+		Scope<Mesh> create_mesh(const std::string_view in_name, const Ref<Geometry>& in_geometry)
 		{
 			Scope<Mesh> mesh = MakeScope<Mesh>();
 			mesh->name = in_name;
@@ -122,12 +122,12 @@ namespace crab
 
 	AssetID<Mesh> Mesh::Create(const std::string_view in_name, const Ref<Geometry>& in_geometry)
 	{
-		return GetAssetManager().EmplaceAsset(_create_mesh_(in_name, in_geometry));
+		return GetAssetManager().EmplaceAsset(create_mesh(in_name, in_geometry));
 	}
 
 	crab::AssetID<crab::Mesh> Mesh::ReplaceOrCreate(const std::string_view in_name, const Ref<Geometry>& in_geometry)
 	{
-		return GetAssetManager().ReplaceOrEmplaceAsset(_create_mesh_(in_name, in_geometry));
+		return GetAssetManager().ReplaceOrEmplaceAsset(create_mesh(in_name, in_geometry));
 	}
 
 	//===================================================
@@ -136,10 +136,16 @@ namespace crab
 
 	namespace
 	{
-		Scope<MonoScript> _create_mono_script_(const std::string_view in_name, std::string_view in_namespace, const std::string_view in_className)
+		Scope<MonoScript> create_mono_script(
+			const std::string_view in_name, 
+			const std::filesystem::path& in_path,
+			std::string_view in_namespace, 
+			const std::string_view in_className
+		)
 		{
 			Scope<MonoScript> script = MakeScope<MonoScript>();
 			script->name = in_name;
+			script->scriptPath = in_path;
 			script->namespaceName = in_namespace;
 			script->className = in_className;
 			script->type = eAssetType::MonoScript;
@@ -148,14 +154,24 @@ namespace crab
 		}
 	}
 
-	AssetID<MonoScript> MonoScript::Create(const std::string_view in_name, std::string_view in_namespace, const std::string_view in_className)
+	AssetID<MonoScript> MonoScript::Create(
+		const std::string_view in_name, 
+		const std::filesystem::path& in_path,
+		std::string_view in_namespace,
+		const std::string_view in_className
+	)
 	{
-		return GetAssetManager().EmplaceAsset(_create_mono_script_(in_name, in_namespace, in_className));
+		return GetAssetManager().EmplaceAsset(create_mono_script(in_name, in_path, in_namespace, in_className));
 	}
 
-	AssetID<MonoScript> MonoScript::ReplaceOrCreate(const std::string_view in_name, std::string_view in_namespace, const std::string_view in_className)
+	AssetID<MonoScript> MonoScript::ReplaceOrCreate(
+		const std::string_view in_name, 
+		const std::filesystem::path& in_path,
+		std::string_view in_namespace,
+		const std::string_view in_className
+	)
 	{
-		return GetAssetManager().ReplaceOrEmplaceAsset(_create_mono_script_(in_name, in_namespace, in_className));
+		return GetAssetManager().ReplaceOrEmplaceAsset(create_mono_script(in_name, in_path, in_namespace, in_className));
 	}
 }
 

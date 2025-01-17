@@ -1,5 +1,16 @@
 {
     "0": {
+        "BoxCollider2D": {
+            "colliderData": {
+                "density": 1.0,
+                "friction": 0.597000002861023,
+                "restitution": 0.6079999804496765
+            },
+            "size": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
         "FlipbookRender": {
             "asset name": "soldier_moving",
             "color": {
@@ -10,13 +21,17 @@
             },
             "playbackSpeed": 1.0
         },
+        "RigidBody2D": {
+            "fixRotation": false,
+            "type": "Dynamic"
+        },
         "Tag": {
             "name": "soldier"
         },
         "Transform": {
             "position": {
-                "x": 0.28554126620292664,
-                "y": -0.33909207582473755,
+                "x": -0.0515965074300766,
+                "y": 0.5194189548492432,
                 "z": 0.0
             },
             "rotation": {
@@ -25,9 +40,58 @@
                 "z": -0.0
             },
             "scaling": {
-                "x": 2.0900001525878906,
-                "y": 2.0900001525878906,
-                "z": 2.0900001525878906
+                "x": 1.9203935861587524,
+                "y": 1.9203935861587524,
+                "z": 1.9203935861587524
+            }
+        }
+    },
+    "1048577": {
+        "BoxCollider2D": {
+            "colliderData": {
+                "density": 1.0,
+                "friction": 0.6000000238418579,
+                "restitution": 0.0
+            },
+            "size": {
+                "x": 0.5,
+                "y": 0.1379999965429306
+            }
+        },
+        "BoxRender": {
+            "color": {
+                "w": 1.0,
+                "x": 0.5199999809265137,
+                "y": 0.8502401113510132,
+                "z": 1.0
+            },
+            "size": {
+                "x": 1.0,
+                "y": 1.0
+            }
+        },
+        "MonoScriptRunner": {
+            "asset name": "Rocket"
+        },
+        "RigidBody2D": {
+            "fixRotation": true,
+            "type": "Static"
+        },
+        "Transform": {
+            "position": {
+                "x": 0.004084564745426178,
+                "y": -0.009530516341328621,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": -0.0,
+                "y": 0.0,
+                "z": -0.0
+            },
+            "scaling": {
+                "x": 1.5152082443237305,
+                "y": 0.10941078513860703,
+                "z": 1.0
             }
         }
     },

@@ -183,6 +183,7 @@
     <ClInclude Include="IDepthStencil.h" />
     <ClInclude Include="IUnorderedAccessView.h" />
     <ClInclude Include="MonoScriptBridge.h" />
+    <ClInclude Include="MonoScriptEditor.h" />
     <ClInclude Include="MonoScriptEngine.h" />
     <ClInclude Include="NativeScript.h" />
     <ClInclude Include="NativeScriptSystem.h" />
@@ -260,6 +261,7 @@
     <ClInclude Include="SceneSerializer.h" />
     <ClInclude Include="SerializerHelper.h" />
     <ClInclude Include="SpriteEditorPanel.h" />
+    <ClInclude Include="Vendor\libtinyfiledialogs\tinyfiledialogs.h" />
     <ClInclude Include="VertexType.h" />
     <ClInclude Include="ViewportPanel.h" />
     <ClInclude Include="AssetSingleInclude.h" />
@@ -286,6 +288,7 @@
     <ClCompile Include="IDepthStencil.cpp" />
     <ClCompile Include="IUnorderedAccessView.cpp" />
     <ClCompile Include="MonoScriptBridge.cpp" />
+    <ClCompile Include="MonoScriptEditor.cpp" />
     <ClCompile Include="MonoScriptEngine.cpp" />
     <ClCompile Include="NativeScript.cpp" />
     <ClCompile Include="NativeScriptSystem.cpp" />
@@ -342,6 +345,9 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="Src\TypeID.cpp" />
+    <ClCompile Include="Vendor\libtinyfiledialogs\tinyfiledialogs.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
     <ClCompile Include="VertexType.cpp" />
     <ClCompile Include="ViewportPanel.cpp" />
     <ClCompile Include="AssetPayload.cpp" />

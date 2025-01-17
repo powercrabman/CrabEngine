@@ -146,16 +146,16 @@ namespace crab
 
 		void CreateFromJson(const Json& in_json) override
 		{
-			std::string name, namespaceName, className;
-			load_flipbook(in_json, name, namespaceName, className);
-			MonoScript::Create(name, namespaceName, className);
+			std::string name, path, namespaceName, className;
+			load_mono_script(in_json, name, path, namespaceName, className);
+			MonoScript::Create(name, path, namespaceName, className);
 		}
 
 		void ReplaceFromJson(const Json& in_json) override
 		{
-			std::string name, namespaceName, className;
-			load_flipbook(in_json, name, namespaceName, className);
-			MonoScript::ReplaceOrCreate(name, namespaceName, className);
+			std::string name, path, namespaceName, className;
+			load_mono_script(in_json, name, path, namespaceName, className);
+			MonoScript::ReplaceOrCreate(name, path, namespaceName, className);
 		}
 
 		void SaveToJson(Json& in_out_json, const AssetBase* in_asset) override
@@ -165,13 +165,21 @@ namespace crab
 			in_out_json["name"] = mono->name;
 			in_out_json["namespace"] = mono->namespaceName;
 			in_out_json["class name"] = mono->className;
+			in_out_json["source path"] = mono->scriptPath;
 		}
 
 	private:
-		void load_flipbook(const Json& in_json, std::string& out_name, std::string& out_namespace, std::string& out_className)
+		void load_mono_script(
+			const Json& in_json, 
+			std::string& out_name,
+			std::string& out_path,
+			std::string& out_namespace, 
+			std::string& out_className
+		)
 		{
 			assert(!in_json.is_null());
 			out_name = in_json["name"];
+			out_path = in_json["source path"];
 			out_namespace = in_json["namespace"];
 			out_className = in_json["class name"];
 		}

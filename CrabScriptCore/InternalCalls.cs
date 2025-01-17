@@ -10,6 +10,7 @@ namespace crab
 {
 	internal static class InternalCalls
 	{
+
 		#region Log
 		[MethodImplAttribute(MethodImplOptions.InternalCall)]
 		extern public static void Log_Trace(String in_msg);
@@ -91,7 +92,6 @@ namespace crab
 
 		[MethodImplAttribute(MethodImplOptions.InternalCall)]
 		extern public static void Transform_GetRotation(UInt32 in_entityID, out Vector3 in_position);
-
 
 		[MethodImplAttribute(MethodImplOptions.InternalCall)]
 		extern public static void Transform_SetScale(UInt32 in_entityID, Vector3 in_position);

@@ -16,9 +16,6 @@
     <Filter Include="02. Engine">
       <UniqueIdentifier>{52730622-21ed-4a77-9c74-0d1e794f00fa}</UniqueIdentifier>
     </Filter>
-    <Filter Include="03. GameWindow">
-      <UniqueIdentifier>{7f69385b-9bb2-4479-9357-01312e7d6a9e}</UniqueIdentifier>
-    </Filter>
     <Filter Include="98. Log">
       <UniqueIdentifier>{60209df5-f19e-4c6c-b38b-eb84db1c47b2}</UniqueIdentifier>
     </Filter>
@@ -130,6 +127,12 @@
     <Filter Include="13. Editor\Panel\AssetEditorPanel">
       <UniqueIdentifier>{1838c510-72ad-475a-a35b-9183cf188041}</UniqueIdentifier>
     </Filter>
+    <Filter Include="03. GameWindow &amp; Platform">
+      <UniqueIdentifier>{7f69385b-9bb2-4479-9357-01312e7d6a9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. GameWindow &amp; Platform\Filedialog">
+      <UniqueIdentifier>{0755408b-5dd7-4214-895b-6b799f1ebb48}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Inc\Pointer.h">
@@ -145,7 +148,7 @@
       <Filter>01. Application</Filter>
     </ClInclude>
     <ClInclude Include="Inc\GameWindow.h">
-      <Filter>03. GameWindow</Filter>
+      <Filter>03. GameWindow &amp; Platform</Filter>
     </ClInclude>
     <ClInclude Include="Inc\CrabEngine.h">
       <Filter>02. Engine</Filter>
@@ -438,6 +441,12 @@
     <ClInclude Include="BatchEventProcessor.h">
       <Filter>04. Event</Filter>
     </ClInclude>
+    <ClInclude Include="MonoScriptEditor.h">
+      <Filter>13. Editor\Panel\AssetEditorPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\libtinyfiledialogs\tinyfiledialogs.h">
+      <Filter>03. GameWindow &amp; Platform\Filedialog</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="small.ico">
@@ -455,7 +464,7 @@
       <Filter>01. Application</Filter>
     </ClCompile>
     <ClCompile Include="Src\GameWindow.cpp">
-      <Filter>03. GameWindow</Filter>
+      <Filter>03. GameWindow &amp; Platform</Filter>
     </ClCompile>
     <ClCompile Include="Src\CrabEngine.cpp">
       <Filter>02. Engine</Filter>
@@ -711,6 +720,12 @@
     </ClCompile>
     <ClCompile Include="BatchEventProcessor.cpp">
       <Filter>04. Event</Filter>
+    </ClCompile>
+    <ClCompile Include="MonoScriptEditor.cpp">
+      <Filter>13. Editor\Panel\AssetEditorPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\libtinyfiledialogs\tinyfiledialogs.c">
+      <Filter>03. GameWindow &amp; Platform\Filedialog</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

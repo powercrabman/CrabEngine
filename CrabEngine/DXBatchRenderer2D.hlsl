@@ -45,6 +45,7 @@ Texture2D texDiffuse : register(t0);
 SamplerState samLinear : register(s0);
 RWTexture2D<uint> entityRWTexture2D : register(u1);
 
+[earlydepthstencil]
 float4 PSmain(VSOutput in_input) : SV_TARGET
 {
     float4 texColor = { 1.f, 1.f, 1.f, 1.f };

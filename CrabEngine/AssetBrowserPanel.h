@@ -4,6 +4,7 @@
 #include "PanelDrawHelper.h"
 #include "SpriteEditorPanel.h"
 #include "FlipbookEditorPanel.h"
+#include "MonoScriptEditor.h"
 
 namespace crab
 {
@@ -42,6 +43,7 @@ namespace crab
 
 		SpriteEditorPanel	m_spriteEditorPanel;
 		FlipbookEditorPanel m_flipbookEditorPanel;
+		MonoScriptEditor	m_monoScriptEditor;
 	};
 
 	///////////////////////////////////////////////////////////////////////////////////////////

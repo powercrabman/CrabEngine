@@ -20,7 +20,7 @@ namespace crab
 		default: assert(false);
 		}
 
-		ds->_create_(in_width, in_height);
+		ds->create_depthstencil(in_width, in_height);
 		return ds;
 	}
 }

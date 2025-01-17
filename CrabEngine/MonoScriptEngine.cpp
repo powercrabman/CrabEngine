@@ -12,16 +12,29 @@ namespace crab
 
 	void MonoScriptEngine::Init(const ApplicationSetting& in_setting)
 	{
-		m_userScriptDLLPath = in_setting.projectScriptDLLPath;
-		m_coreScriptDLLPath = in_setting.scriptEngineDLLPath;
+		m_userScriptDLLPath = in_setting.projectScriptDirectory;
+		m_coreScriptDLLPath = in_setting.scriptEngineDirectory;
 
+#if defined(DEBUG) || defined(_DEBUG)
+		m_coreScriptDLLPath /= R"(bin\Debug\CrabScriptCore.dll)";
+
+		m_userScriptDLLPath /= R"(bin\Debug)";
+		m_userScriptDLLPath /= fmt::format("{}Script.dll", in_setting.applicationName);
+#else
+		m_coreScriptDLLPath /= R"(bin\Release\CrabScriptCore.dll)";
+
+		m_userScriptDLLPath /= R"(bin\Release)";
+		m_userScriptDLLPath /= fmt::format("{}Script.dll", in_setting.applicationName);
+#endif
+		
 		m_coreDomain = mono_jit_init(in_setting.applicationName.c_str());
 		mono_config_parse(nullptr);
 
 		m_coreAssem = LoadAssembly(m_coreScriptDLLPath);
-		m_userAssem = LoadAssembly(m_userScriptDLLPath);
+		m_userCSProjPath = in_setting.projectScriptDirectory;
 
 		GetMonoScriptBridge().Init();
+		BuildGameScript();
 	}
 
 	void MonoScriptEngine::Shutdown()
@@ -41,6 +54,26 @@ namespace crab
 		ASSERT(assem.image, "Image Load Fail. [{}]", path);
 
 		return assem;
+	}
+
+	void MonoScriptEngine::BuildGameScript()
+	{
+		// 프로젝트의 C# 솔루션 빌드
+		std::string command = fmt::format("cd {} && dotnet build", m_userCSProjPath.string());
+		int result = system(command.c_str());
+		if (result == 0)
+		{
+			Log::Info("create C# .dll build done.");
+			m_isRunning = true;
+			m_userAssem = LoadAssembly(m_userScriptDLLPath);
+		}
+		else
+		{
+			assert(false);
+			Log::Error("create C# .dll build fail.");
+			m_isRunning = false;
+			return;
+		}
 	}
 
 	void MonoScriptEngine::OnEnterScene()
@@ -79,6 +112,9 @@ namespace crab
 
 	void MonoScriptEngine::OnUpdate(TimeStamp in_ts)
 	{
+		if (!m_isRunning)
+			return;
+
 		GetSceneManager().TryGetCurrentScene()->GetView<MonoScriptRunner>().each([&](MonoScriptRunner& in_sr)
 			{
 				MonoScript* script = TryGetAssetRef(in_sr.assetID);

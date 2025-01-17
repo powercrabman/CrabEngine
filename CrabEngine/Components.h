@@ -11,7 +11,11 @@ namespace crab
 
 #define COMPONENT_BODY(CompName)\
 		inline static const char* s_staticName = #CompName;\
-		inline static bool _regist_comp_serializer_ = []() {crab::ComponentSerializerManager::Get().RegisterSerializerCallback<CompName>(); return true; }()
+		inline static bool regist_comp_serializer = []() \
+		{ \
+			crab::ComponentSerializerManager::Get().RegisterSerializerCallback<CompName>();\
+			return true; \
+		}()
 
 	//===================================================
 	//						Tag
@@ -31,19 +35,20 @@ namespace crab
 	// LH Coordinate
 	struct Transform
 	{
-		__forceinline Vec3 ForwardVector() const { return Mat::CreateFromYawPitchRoll(rotation).Backward(); }
-		__forceinline Vec3 BackwardVector() const { return Mat::CreateFromYawPitchRoll(rotation).Forward(); }
-		__forceinline Vec3 LeftVector() const { return Mat::CreateFromYawPitchRoll(rotation).Left(); }
-		__forceinline Vec3 RightVector() const { return Mat::CreateFromYawPitchRoll(rotation).Right(); }
-		__forceinline Vec3 UpVector() const { return Mat::CreateFromYawPitchRoll(rotation).Up(); }
-		__forceinline Vec3 DownVector() const { return Mat::CreateFromYawPitchRoll(rotation).Down(); }
+		__forceinline Mat  GetUnitMat() const { return Mat::CreateFromYawPitchRoll(rotation.y, rotation.x, rotation.z); }
+		__forceinline Vec3 ForwardVector() const { return GetUnitMat().Backward(); }
+		__forceinline Vec3 BackwardVector() const { return GetUnitMat().Forward(); }
+		__forceinline Vec3 LeftVector() const { return GetUnitMat().Left(); }
+		__forceinline Vec3 RightVector() const { return GetUnitMat().Right(); }
+		__forceinline Vec3 UpVector() const { return GetUnitMat().Up(); }
+		__forceinline Vec3 DownVector() const { return GetUnitMat().Down(); }
 
 		__forceinline Mat GetWorld() const
 		{
 			return DirectX::XMMatrixAffineTransformation(
 				scaling,
 				Vec3::Zero,
-				DirectX::SimpleMath::Quaternion::CreateFromYawPitchRoll(rotation),
+				DirectX::SimpleMath::Quaternion::CreateFromYawPitchRoll(rotation.y, rotation.x, rotation.z),
 				position
 			);
 		}
@@ -56,6 +61,12 @@ namespace crab
 
 		COMPONENT_BODY(Transform);
 	};
+
+	inline std::string ToString(const Vec3& in_vec)
+	{
+		std::string str = fmt::format("(X: {:.2f}, Y: {:.2f}, Z: {:.2f})", in_vec.x, in_vec.y, in_vec.z);
+		return str;
+	}
 
 	//===================================================
 	//                    Camera

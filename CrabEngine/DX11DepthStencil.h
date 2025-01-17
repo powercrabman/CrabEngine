@@ -15,7 +15,7 @@ namespace crab
 		::ComPtr<ID3D11DepthStencilView> GetDepthStencilView() const { return m_dsv; }
 
 	private:
-		void	_create_(uint32 in_width, uint32 in_height) override;
+		void	create_depthstencil(uint32 in_width, uint32 in_height) override;
 
 		::ComPtr<ID3D11DepthStencilView>	m_dsv;
 	};

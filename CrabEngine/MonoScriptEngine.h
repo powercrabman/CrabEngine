@@ -108,6 +108,7 @@ namespace crab
 		static void Init(const ApplicationSetting& in_setting);
 		static void Shutdown();
 
+		static void BuildGameScript();
 		static void OnEnterScene();
 		static void OnUpdate(TimeStamp in_ts);
 
@@ -124,6 +125,9 @@ namespace crab
 
 		inline static std::filesystem::path m_coreScriptDLLPath;
 		inline static std::filesystem::path m_userScriptDLLPath;
+		inline static std::filesystem::path m_userCSProjPath;
+
+		inline static bool m_isRunning = false;
 	};
 }
 

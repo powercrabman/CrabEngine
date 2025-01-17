@@ -7,16 +7,21 @@ using System.Threading.Tasks;
 
 namespace DemoGameScript
 {
-	public class Sample : Entity
+	public class Rocket : Entity
 	{
+		private Transform m_transform;
+
 		public override void OnCreate()
 		{
-			throw new NotImplementedException();
+			m_transform = TryFindComponent<Transform>();
 		}
 
 		public override void OnUpdate(float in_detalTime)
 		{
-			throw new NotImplementedException();
+			if(Input.IsKeyDown(eKey.LeftArrow))
+			{
+
+			}
 		}
 	}
 }

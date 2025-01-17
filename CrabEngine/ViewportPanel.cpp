@@ -28,7 +28,7 @@ namespace crab
 		{
 			ImGui::SetCursorScreenPos(ImGui::GetCursorScreenPos() - style.FramePadding);
 			ImGuiChildFlags flag = ImGuiWindowFlags_NoScrollbar | ImGuiWindowFlags_NoScrollWithMouse;
-			ImChildWindow child{ "child" , { ImGui::GetWindowWidth() + style.FramePadding.x, 40.f } , NULL, flag};
+			ImChildWindow child{ "child" , { ImGui::GetWindowWidth() + style.FramePadding.x, 40.f } , NULL, flag };
 
 			ImColorStyle c0{ ImGuiCol_Button, ImVec4{0.f,0.f,0.f,0.f} };
 			ImColorStyle c1{ ImGuiCol_ButtonHovered, ImVec4{1.f,1.f,1.f,0.3f} };
@@ -320,29 +320,29 @@ namespace crab
 				GetEngine().DispatchEvent(e);
 			}
 
+			// entity picking
+			if (Input::IsMousePress(eMouse::Left) && !ImGuizmo::IsOver())
+			{
+				auto [x, y] = Input::GetMousePos();
+				Vec2 mousePosInViewport = { x - m_viewportScreenPos.x, y - m_viewportScreenPos.y };
+
+				auto [rtX, rtY] = m_pickingView->GetSize();
+				uint32 mousePosInRenderTargetX = rtX * (mousePosInViewport.x / m_viewportSize.x);
+				uint32 mousePosInRenderTargetY = rtY * (mousePosInViewport.y / m_viewportSize.y);
+				uint32 entity = UINT32_LIMIT;
+				m_pickingView->GetPixel(mousePosInRenderTargetX, mousePosInRenderTargetY, &entity);
+
+				if (entity == UINT32_LIMIT)
+				{
+					gData.selectedEntity = Entity::s_null;
+				}
+				else
+				{
+					gData.selectedEntity = GetSceneManager().TryGetCurrentScene()->TryFindByID(entity);
+				}
+			}
 		}
 
-		// entity picking
-		if (Input::IsMousePress(eMouse::Left) && !ImGuizmo::IsOver())
-		{
-			auto [x, y] = Input::GetMousePos();
-			Vec2 mousePosInViewport = { x - m_viewportScreenPos.x, y - m_viewportScreenPos.y };
-
-			auto [rtX, rtY] = m_pickingView->GetSize();
-			uint32 mousePosInRenderTargetX = rtX * (mousePosInViewport.x / m_viewportSize.x);
-			uint32 mousePosInRenderTargetY = rtY * (mousePosInViewport.y / m_viewportSize.y);
-			uint32 entity = UINT32_LIMIT;
-			m_pickingView->GetPixel(mousePosInRenderTargetX, mousePosInRenderTargetY, &entity);
-
-			if (entity == UINT32_LIMIT)
-			{
-				gData.selectedEntity = Entity::s_null;
-			}
-			else
-			{
-				gData.selectedEntity = GetSceneManager().TryGetCurrentScene()->TryFindByID(entity);
-			}
-		}
 	}
 
 	void ViewportPanel::_draw_play_button_() const

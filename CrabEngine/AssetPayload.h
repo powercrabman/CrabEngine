@@ -7,7 +7,7 @@ namespace crab
 	{
 		if (ImGui::BeginDragDropTarget())
 		{
-			const ImGuiPayload* payload = ImGui::AcceptDragDropPayload(fmt::format("{}Payload", ToString(AssetType::s_s_staticType)).c_str());
+			const ImGuiPayload* payload = ImGui::AcceptDragDropPayload(fmt::format("{}Payload", ToString(AssetType::s_staticType)).c_str());
 			if (payload)
 			{
 				in_out_ID = *static_cast<AssetID<AssetType>*>(payload->Data);
@@ -22,7 +22,7 @@ namespace crab
 	{
 		if (ImGui::BeginDragDropSource(ImGuiDragDropFlags_SourceAllowNullID))
 		{
-			ImGui::SetDragDropPayload(fmt::format("{}Payload", ToString(AssetType::s_s_staticType)).c_str(), &in_ID, sizeof(AssetID<AssetType>));
+			ImGui::SetDragDropPayload(fmt::format("{}Payload", ToString(AssetType::s_staticType)).c_str(), &in_ID, sizeof(AssetID<AssetType>));
 			ImGui::TextUnformatted(TryGetAsset(in_ID)->name.c_str());
 
 			ImGui::EndDragDropSource();

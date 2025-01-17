@@ -14,7 +14,7 @@ namespace crab
 		static Ref<IDepthStencil>	Create(uint32 in_width, uint32 in_height);
 
 	private:
-		virtual void _create_(uint32 in_width, uint32 in_height) = 0;
+		virtual void create_depthstencil(uint32 in_width, uint32 in_height) = 0;
 	};
 }
 

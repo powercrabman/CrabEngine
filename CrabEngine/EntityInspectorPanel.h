@@ -14,13 +14,13 @@ namespace crab
 
 	private:
 		template<typename ComponentType>
-		void _draw_add_component_menu_(const char* in_label, Entity& in_entity);
+		void draw_add_component_menu(const char* in_label, Entity& in_entity);
 
 		template<typename ComponentType>
-		void _draw_add_component_menu_(const char* in_label, Entity& in_entity, const std::function<void(Entity&)>& in_customCreation);
+		void draw_add_component_menu(const char* in_label, Entity& in_entity, const std::function<void(Entity&)>& in_customCreation);
 
 		template <class ComponentType>
-		void _draw_component_panel_(
+		void draw_component_panel(
 			const char* in_label,
 			Entity& in_entity,
 			const std::function<void(Entity&)>& in_func,
@@ -31,7 +31,7 @@ namespace crab
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	template<typename ComponentType>
-	void crab::EntityInspectorPanel::_draw_add_component_menu_(const char* in_label, Entity& in_entity)
+	void crab::EntityInspectorPanel::draw_add_component_menu(const char* in_label, Entity& in_entity)
 	{
 		if (ImGui::MenuItem(in_label, (const char*)0, in_entity.HasComponent<ComponentType>()))
 		{
@@ -40,7 +40,7 @@ namespace crab
 	}
 
 	template<typename ComponentType>
-	void crab::EntityInspectorPanel::_draw_add_component_menu_(const char* in_label, Entity& in_entity, const std::function<void(Entity&)>& in_customCreation)
+	void crab::EntityInspectorPanel::draw_add_component_menu(const char* in_label, Entity& in_entity, const std::function<void(Entity&)>& in_customCreation)
 	{
 		if (ImGui::MenuItem(in_label, (const char*)0, in_entity.HasComponent<ComponentType>()))
 		{
@@ -49,7 +49,7 @@ namespace crab
 	}
 
 	template <typename ComponentType>
-	void crab::EntityInspectorPanel::_draw_component_panel_(const char* in_label, Entity& in_entity, const std::function<void(Entity&)>& in_func, const Ref<ITexture>& in_image_or_null /*= nullptr */)
+	void crab::EntityInspectorPanel::draw_component_panel(const char* in_label, Entity& in_entity, const std::function<void(Entity&)>& in_func, const Ref<ITexture>& in_image_or_null /*= nullptr */)
 	{
 		if (!in_entity.HasComponent<ComponentType>()) return;
 

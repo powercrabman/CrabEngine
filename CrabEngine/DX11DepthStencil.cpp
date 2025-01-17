@@ -13,7 +13,7 @@ namespace crab
 		context->ClearDepthStencilView(m_dsv.Get(), clearFlag, 1.f, 0);
 	}
 
-	void DX11DepthStencil::_create_(uint32 in_width, uint32 in_height)
+	void DX11DepthStencil::create_depthstencil(uint32 in_width, uint32 in_height)
 	{
 		auto device = static_cast<DX11RenderAPI*>(Renderer::GetRenderAPI())->GetDevice();
 

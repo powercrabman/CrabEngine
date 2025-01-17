@@ -18,7 +18,7 @@ namespace crab
 		if (gData.selectedEntity.IsValid())
 		{
 			// Component Panel
-			_draw_component_panel_<Tag>("TAG", gData.selectedEntity, [](Entity& in_entity)
+			draw_component_panel<Tag>("TAG", gData.selectedEntity, [](Entity& in_entity)
 				{
 					Tag& tag = in_entity.FindComponent<Tag>();
 					ImGuiEx::GuiWithLabel("Name", [&]()
@@ -39,7 +39,7 @@ namespace crab
 				gData.tagIcon
 			);
 
-			_draw_component_panel_<Transform>("TRANSFORM", gData.selectedEntity, [](Entity& in_entity)
+			draw_component_panel<Transform>("TRANSFORM", gData.selectedEntity, [](Entity& in_entity)
 				{
 					Transform& trans = in_entity.FindComponent<Transform>();
 					ImGuiEx::TransformInspector("EntTrans", trans);
@@ -47,7 +47,7 @@ namespace crab
 				gData.transformIcon
 			);
 
-			_draw_component_panel_<MonoScriptRunner>("MONO SCRIPT RUNNER", gData.selectedEntity, [](Entity& in_entity)
+			draw_component_panel<MonoScriptRunner>("MONO SCRIPT RUNNER", gData.selectedEntity, [](Entity& in_entity)
 				{
 					MonoScriptRunner& script = in_entity.FindComponent<MonoScriptRunner>();
 					const MonoScript* sc = TryGetAsset(script.assetID);
@@ -72,7 +72,7 @@ namespace crab
 				gData.monoScriptIcon
 			);
 
-			_draw_component_panel_<Camera>("CAMERA", gData.selectedEntity, [](Entity& in_entity)
+			draw_component_panel<Camera>("CAMERA", gData.selectedEntity, [](Entity& in_entity)
 				{
 					Camera& cmr = in_entity.FindComponent<Camera>();
 					ImGuiEx::CameraInspector("EntCmr", cmr);
@@ -80,7 +80,7 @@ namespace crab
 				gData.cameraIcon
 			);
 
-			_draw_component_panel_<FlipbookRender>("FLIPBOOK RENDER", gData.selectedEntity, [](Entity& in_entity)
+			draw_component_panel<FlipbookRender>("FLIPBOOK RENDER", gData.selectedEntity, [](Entity& in_entity)
 				{
 					FlipbookRender& fbRender = in_entity.FindComponent<FlipbookRender>();
 					ImGuiEx::FlipbookInspector(fbRender);
@@ -88,7 +88,7 @@ namespace crab
 				gData.flipbookIcon
 			);
 
-			_draw_component_panel_<SpriteRender>("SPRITE RENDER", gData.selectedEntity, [](Entity& in_entity)
+			draw_component_panel<SpriteRender>("SPRITE RENDER", gData.selectedEntity, [](Entity& in_entity)
 				{
 					SpriteRender& spRender = in_entity.FindComponent<SpriteRender>();
 					ImGuiEx::SpriteInspector(spRender);
@@ -96,7 +96,7 @@ namespace crab
 				gData.spriteIcon
 			);
 
-			_draw_component_panel_<SphereRender>("SPHERE RENDER", gData.selectedEntity, [](Entity& in_entity)
+			draw_component_panel<SphereRender>("SPHERE RENDER", gData.selectedEntity, [](Entity& in_entity)
 				{
 					SphereRender& sphereRender = in_entity.FindComponent<SphereRender>();
 					ImGuiEx::GuiWithLabel("SprRadius", [&]()
@@ -113,7 +113,7 @@ namespace crab
 				gData.meshIcon
 			);
 
-			_draw_component_panel_<BoxRender>("BOX RENDER", gData.selectedEntity, [](Entity& in_entity)
+			draw_component_panel<BoxRender>("BOX RENDER", gData.selectedEntity, [](Entity& in_entity)
 				{
 					BoxRender& boxRender = in_entity.FindComponent<BoxRender>();
 					ImGuiEx::GuiWithLabel("Width/Height", [&]()
@@ -130,7 +130,7 @@ namespace crab
 				gData.meshIcon
 			);
 
-			_draw_component_panel_<RigidBody2D>("RIGID BODY 2D", gData.selectedEntity, [](Entity& in_entity)
+			draw_component_panel<RigidBody2D>("RIGID BODY 2D", gData.selectedEntity, [](Entity& in_entity)
 				{
 					RigidBody2D& rb = in_entity.FindComponent<RigidBody2D>();
 					ImGuiEx::GuiWithLabel("Type", [&]()
@@ -163,7 +163,7 @@ namespace crab
 				}
 			);
 
-			_draw_component_panel_<BoxCollider2D>("BOX COLLIDER 2D", gData.selectedEntity, [](Entity& in_entity)
+			draw_component_panel<BoxCollider2D>("BOX COLLIDER 2D", gData.selectedEntity, [](Entity& in_entity)
 				{
 					BoxCollider2D& box = in_entity.FindComponent<BoxCollider2D>();
 					ImGuiEx::GuiWithLabel("Width/Height", [&]()
@@ -194,7 +194,7 @@ namespace crab
 				}
 			);
 
-			_draw_component_panel_<SphereCollider2D>("SPHERE COLLIDER 2D", gData.selectedEntity, [](Entity& in_entity)
+			draw_component_panel<SphereCollider2D>("SPHERE COLLIDER 2D", gData.selectedEntity, [](Entity& in_entity)
 				{
 					SphereCollider2D& sphere = in_entity.FindComponent<SphereCollider2D>();
 					ImGuiEx::GuiWithLabel("Center", [&]()
@@ -230,7 +230,7 @@ namespace crab
 				}
 			);
 
-			_draw_component_panel_<CapsuleCollider2D>("CAPSULE COLLIDER 2D", gData.selectedEntity, [](Entity& in_entity)
+			draw_component_panel<CapsuleCollider2D>("CAPSULE COLLIDER 2D", gData.selectedEntity, [](Entity& in_entity)
 				{
 					CapsuleCollider2D& capsule = in_entity.FindComponent<CapsuleCollider2D>();
 					ImGuiEx::GuiWithLabel("Center1", [&]()
@@ -279,22 +279,22 @@ namespace crab
 
 				if (ImPopupItem popup{ "" , ImGuiPopupFlags_MouseButtonLeft })
 				{
-					_draw_add_component_menu_<Tag>("Tag", gData.selectedEntity);
-					_draw_add_component_menu_<Transform>("Transform", gData.selectedEntity);
-					_draw_add_component_menu_<Camera>("Camera", gData.selectedEntity);
-					_draw_add_component_menu_<FlipbookRender>("Flipbook Render", gData.selectedEntity);
-					_draw_add_component_menu_<SpriteRender>("Sprite Render", gData.selectedEntity);
-					_draw_add_component_menu_<BoxRender>("Box Render", gData.selectedEntity);
-					_draw_add_component_menu_<SphereRender>("Sphere Render", gData.selectedEntity);
-					_draw_add_component_menu_<MonoScriptRunner>("Mono Script Runner", gData.selectedEntity);
+					draw_add_component_menu<Tag>("Tag", gData.selectedEntity);
+					draw_add_component_menu<Transform>("Transform", gData.selectedEntity);
+					draw_add_component_menu<Camera>("Camera", gData.selectedEntity);
+					draw_add_component_menu<FlipbookRender>("Flipbook Render", gData.selectedEntity);
+					draw_add_component_menu<SpriteRender>("Sprite Render", gData.selectedEntity);
+					draw_add_component_menu<BoxRender>("Box Render", gData.selectedEntity);
+					draw_add_component_menu<SphereRender>("Sphere Render", gData.selectedEntity);
+					draw_add_component_menu<MonoScriptRunner>("Mono Script Runner", gData.selectedEntity);
 
 					if (ImMenu physic2DMenu{ "Physic2D" })
 					{
-						_draw_add_component_menu_<RigidBody2D>("RigidBody", gData.selectedEntity, [](Entity& in_entity)
+						draw_add_component_menu<RigidBody2D>("RigidBody", gData.selectedEntity, [](Entity& in_entity)
 							{
 								in_entity.CreateComponent<RigidBody2D>();
 							});
-						_draw_add_component_menu_<BoxCollider2D>("BoxCollider2D", gData.selectedEntity, [](Entity& in_entity)
+						draw_add_component_menu<BoxCollider2D>("BoxCollider2D", gData.selectedEntity, [](Entity& in_entity)
 							{
 								if (in_entity.HasComponent<RigidBody2D>())
 								{
@@ -305,7 +305,7 @@ namespace crab
 									Log::Error("entity has to have RigidBody2D component.");
 								}
 							});
-						_draw_add_component_menu_<SphereCollider2D>("SphereCollider2D", gData.selectedEntity, [](Entity& in_entity)
+						draw_add_component_menu<SphereCollider2D>("SphereCollider2D", gData.selectedEntity, [](Entity& in_entity)
 							{
 								if (in_entity.HasComponent<RigidBody2D>())
 								{
@@ -316,7 +316,7 @@ namespace crab
 									Log::Error("entity has to have RigidBody2D component.");
 								}
 							});
-						_draw_add_component_menu_<CapsuleCollider2D>("CapsuleCollider2D", gData.selectedEntity, [](Entity& in_entity)
+						draw_add_component_menu<CapsuleCollider2D>("CapsuleCollider2D", gData.selectedEntity, [](Entity& in_entity)
 							{
 								if (in_entity.HasComponent<RigidBody2D>())
 								{

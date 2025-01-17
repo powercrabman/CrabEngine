@@ -21,7 +21,7 @@ namespace crab
 
 		Mat GetView() const
 		{
-			Mat rMat = Mat::CreateFromYawPitchRoll(transform.rotation.x, transform.rotation.y, transform.rotation.z);
+			Mat rMat = Mat::CreateFromYawPitchRoll(transform.rotation.y, transform.rotation.x, transform.rotation.z);
 			return DirectX::XMMatrixLookToLH(transform.position, rMat.Backward(), rMat.Up());
 		}
 

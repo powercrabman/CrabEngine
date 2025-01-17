@@ -42,91 +42,91 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.3443
               _SizeTy=unsigned __int64
           ]
   
-  unity_A32P0HFCRZ234LE2.cpp
+  unity_01UXAW7OA5ITPARM.cpp
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\PanelDrawHelper.h(10,58): warning C4244: '초기화 중': 'float'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_A32P0HFCRZ234LE2.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_01UXAW7OA5ITPARM.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\PanelDrawHelper.h(10,27): warning C4244: '초기화 중': 'float'에서 'const uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_A32P0HFCRZ234LE2.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_01UXAW7OA5ITPARM.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\PanelDrawHelper.h(11,58): warning C4244: '초기화 중': 'float'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_A32P0HFCRZ234LE2.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_01UXAW7OA5ITPARM.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\PanelDrawHelper.h(11,27): warning C4244: '초기화 중': 'float'에서 'const uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_A32P0HFCRZ234LE2.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_01UXAW7OA5ITPARM.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\PanelDrawHelper.h(19,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-  (소스 파일 'Inter/unity_A32P0HFCRZ234LE2.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_01UXAW7OA5ITPARM.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\PanelDrawHelper.h(25,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-  (소스 파일 'Inter/unity_A32P0HFCRZ234LE2.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_01UXAW7OA5ITPARM.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\DX11RenderFrame.h(15,76): warning C4267: 'return': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_A32P0HFCRZ234LE2.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_01UXAW7OA5ITPARM.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\DX11RenderFrame.cpp(28,17): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_A32P0HFCRZ234LE2.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_01UXAW7OA5ITPARM.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\DX11RenderFrame.cpp(27,17): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_A32P0HFCRZ234LE2.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_01UXAW7OA5ITPARM.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\DX11RenderFrame.cpp(24,17): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_A32P0HFCRZ234LE2.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_01UXAW7OA5ITPARM.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\DX11RenderFrame.cpp(36,17): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_A32P0HFCRZ234LE2.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_01UXAW7OA5ITPARM.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\DX11RenderFrame.cpp(42,44): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_A32P0HFCRZ234LE2.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_01UXAW7OA5ITPARM.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Editor.h(14,25): warning C4244: '초기화 중': 'float'에서 'int32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_A32P0HFCRZ234LE2.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_01UXAW7OA5ITPARM.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Editor.h(15,25): warning C4244: '초기화 중': 'float'에서 'int32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_A32P0HFCRZ234LE2.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_01UXAW7OA5ITPARM.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\DX11Shader.cpp(56,3): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_A32P0HFCRZ234LE2.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_01UXAW7OA5ITPARM.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Assets.cpp(89,32): warning C4244: '=': 'float'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_A32P0HFCRZ234LE2.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_01UXAW7OA5ITPARM.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Assets.cpp(90,33): warning C4244: '=': 'float'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_A32P0HFCRZ234LE2.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_01UXAW7OA5ITPARM.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Draw2D.cpp(331,40): warning C4267: '인수': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_A32P0HFCRZ234LE2.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_01UXAW7OA5ITPARM.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Draw2D.cpp(355,37): warning C4267: '인수': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_A32P0HFCRZ234LE2.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_01UXAW7OA5ITPARM.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\SceneHierarchyPanel.cpp(120,28): warning C4244: '인수': 'unsigned __int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_A32P0HFCRZ234LE2.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_01UXAW7OA5ITPARM.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\DX11RenderTarget.cpp(82,27): warning C4244: '=': 'const int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_A32P0HFCRZ234LE2.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_01UXAW7OA5ITPARM.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\DX11RenderTarget.cpp(83,28): warning C4244: '=': 'const int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_A32P0HFCRZ234LE2.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_01UXAW7OA5ITPARM.cpp'을(를) 컴파일하는 중)
   
-C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\ViewportPanel.cpp(332,35): warning C4244: '초기화 중': 'float'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_A32P0HFCRZ234LE2.cpp'을(를) 컴파일하는 중)
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\ViewportPanel.cpp(330,36): warning C4244: '초기화 중': 'float'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_01UXAW7OA5ITPARM.cpp'을(를) 컴파일하는 중)
   
-C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\ViewportPanel.cpp(333,35): warning C4244: '초기화 중': 'float'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_A32P0HFCRZ234LE2.cpp'을(를) 컴파일하는 중)
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\ViewportPanel.cpp(331,36): warning C4244: '초기화 중': 'float'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_01UXAW7OA5ITPARM.cpp'을(를) 컴파일하는 중)
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\Src\IIndexBuffer.cpp(20,47): warning C4267: '인수': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_A32P0HFCRZ234LE2.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_01UXAW7OA5ITPARM.cpp'을(를) 컴파일하는 중)
   
-C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\AssetBrowserPanel.h(70,21): warning C4244: '초기화 중': 'uint64'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_A32P0HFCRZ234LE2.cpp'을(를) 컴파일하는 중)
-      C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\AssetBrowserPanel.h(70,21):
+C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\AssetBrowserPanel.h(72,21): warning C4244: '초기화 중': 'uint64'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'Inter/unity_01UXAW7OA5ITPARM.cpp'을(를) 컴파일하는 중)
+      C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\AssetBrowserPanel.h(72,21):
       템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
-          C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\AssetBrowserPanel.cpp(195,3):
+          C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\AssetBrowserPanel.cpp(196,3):
           컴파일되는 함수 템플릿 인스턴스화 'void crab::AssetBrowserPanel::draw_asset_viewer<crab::GameTexture>(void)'에 대한 참조를 확인하세요.
   
 C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\AssetContainer.h(52,23): warning C4267: '=': 'size_t'에서 'uint32_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 'Inter/unity_A32P0HFCRZ234LE2.cpp'을(를) 컴파일하는 중)
+  (소스 파일 'Inter/unity_01UXAW7OA5ITPARM.cpp'을(를) 컴파일하는 중)
       C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\AssetContainer.h(52,23):
       템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
           C:\Users\Ahnjiwoo\Desktop\Projects\CrabEngine\CrabEngine\AssetManager.h(106,30):
